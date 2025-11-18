@@ -8,10 +8,10 @@
 
 This unit includes:
 
-- **`unit-1.2-deck.md`**: Marp slide deck for classroom presentation
-- **`tutorial/unit-1.2-tutorial.md`**: Step-by-step guide to writing your first HTML file
-- **`workbook/unit-1.2-student-workbook.md`**: Student workbook with scaffolds and reflection prompts
-- **`workbook/unit-1.2-teacher-annotated.md`**: Teacher version with timing, answer keys, and differentiation strategies
+- [**unit-1.2-deck.md**](unit-1.2-deck.md): Marp slide deck for classroom presentation
+- [**tutorial/unit-1.2-tutorial.md**](tutorial/unit-1.2-tutorial.md): Step-by-step guide to writing your first HTML file
+- [**workbook/unit-1.2-student-workbook.md**](workbook/unit-1.2-student-workbook.md): Student workbook with scaffolds and reflection prompts
+- [**workbook/unit-1.2-teacher-annotated.md**](workbook/unit-1.2-teacher-annotated.md): Teacher version with timing, answer keys, and differentiation strategies
 
 ---
 
