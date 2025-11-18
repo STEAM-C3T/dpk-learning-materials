@@ -146,7 +146,7 @@ This repository is part of the Digital Proficiency Kit ecosystem:
 
 ### Module 02: HTML Foundations
 
-**Status:** ✅ Structure Complete
+**Status:** ✅ Complete
 
 - [Module Overview Deck](modules/02-html-foundations/module-deck/module-02-overview-deck.md)
 - [Unit 2.1: Building Content](modules/02-html-foundations/units/2.1-building-content/)
@@ -162,27 +162,35 @@ This repository is part of the Digital Proficiency Kit ecosystem:
 
 ### Module 03: CSS Styling & Layout
 
-**Status:** ✅ Structure Complete
+**Status:** ✅ Complete
 
 - [Module Overview Deck](modules/03-css-styling-layout/module-deck/module-03-overview-deck.md)
 - [Unit 3.1: CSS Fundamentals](modules/03-css-styling-layout/units/3.1-css-fundamentals/)
   - [Unit 3.1 Deck](modules/03-css-styling-layout/units/3.1-css-fundamentals/unit-3.1-deck.md)
-  - Tutorial and workbooks (structure in place)
+  - [Tutorial](modules/03-css-styling-layout/units/3.1-css-fundamentals/tutorial/unit-3.1-tutorial.md)
+  - [Student Workbook](modules/03-css-styling-layout/units/3.1-css-fundamentals/workbook/unit-3.1-student-workbook.md)
+  - [Teacher Annotated Workbook](modules/03-css-styling-layout/units/3.1-css-fundamentals/workbook/unit-3.1-teacher-annotated.md)
 - [Unit 3.2: Responsive Layouts](modules/03-css-styling-layout/units/3.2-responsive-layouts/)
   - [Unit 3.2 Deck](modules/03-css-styling-layout/units/3.2-responsive-layouts/unit-3.2-deck.md)
-  - Tutorial and workbooks (structure in place)
+  - [Tutorial](modules/03-css-styling-layout/units/3.2-responsive-layouts/tutorial/unit-3.2-tutorial.md)
+  - [Student Workbook](modules/03-css-styling-layout/units/3.2-responsive-layouts/workbook/unit-3.2-student-workbook.md)
+  - [Teacher Annotated Workbook](modules/03-css-styling-layout/units/3.2-responsive-layouts/workbook/unit-3.2-teacher-annotated.md)
 
 ### Module 04: JavaScript Essentials
 
-**Status:** ✅ Structure Complete
+**Status:** ✅ Complete
 
 - [Module Overview Deck](modules/04-javascript-essentials/module-deck/module-04-overview-deck.md)
 - [Unit 4.1: JavaScript Basics](modules/04-javascript-essentials/units/4.1-javascript-basics/)
   - [Unit 4.1 Deck](modules/04-javascript-essentials/units/4.1-javascript-basics/unit-4.1-deck.md)
-  - Tutorial and workbooks (structure in place)
+  - [Tutorial](modules/04-javascript-essentials/units/4.1-javascript-basics/tutorial/unit-4.1-tutorial.md)
+  - [Student Workbook](modules/04-javascript-essentials/units/4.1-javascript-basics/workbook/unit-4.1-student-workbook.md)
+  - [Teacher Annotated Workbook](modules/04-javascript-essentials/units/4.1-javascript-basics/workbook/unit-4.1-teacher-annotated.md)
 - [Unit 4.2: DOM Manipulation](modules/04-javascript-essentials/units/4.2-dom-manipulation/)
   - [Unit 4.2 Deck](modules/04-javascript-essentials/units/4.2-dom-manipulation/unit-4.2-deck.md)
-  - Tutorial and workbooks (structure in place)
+  - [Tutorial](modules/04-javascript-essentials/units/4.2-dom-manipulation/tutorial/unit-4.2-tutorial.md)
+  - [Student Workbook](modules/04-javascript-essentials/units/4.2-dom-manipulation/workbook/unit-4.2-student-workbook.md)
+  - [Teacher Annotated Workbook](modules/04-javascript-essentials/units/4.2-dom-manipulation/workbook/unit-4.2-teacher-annotated.md)
 
 ### Module 05: Data Visualization
 
@@ -251,4 +259,4 @@ For questions, suggestions, or feedback:
 ---
 
 **Last Updated:** 2025-11-18  
-**Version:** 0.2.0 (Modules 01–04 Structure Complete)
+**Version:** 0.3.0 (Modules 01–04 Complete with Full Content)
