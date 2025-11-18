@@ -41,10 +41,10 @@ Hands-on HTML coding: writing a complete HTML document with semantic tags.
 
 **Materials:**
 
-- Unit Deck _(to be added)_
-- Tutorial _(to be added)_
-- Student Workbook _(to be added)_
-- Teacher Workbook _(to be added)_
+- [Unit Deck](units/1.2-basic-structure/unit-1.2-deck.md)
+- [Tutorial](units/1.2-basic-structure/tutorial/unit-1.2-tutorial.md)
+- [Student Workbook](units/1.2-basic-structure/workbook/unit-1.2-student-workbook.md)
+- [Teacher Workbook](units/1.2-basic-structure/workbook/unit-1.2-teacher-annotated.md)
 
 ---
 
