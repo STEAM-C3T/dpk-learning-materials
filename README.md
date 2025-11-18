@@ -130,79 +130,78 @@ This repository is part of the Digital Proficiency Kit ecosystem:
 
 ---
 
-## Available Modules
+## Modules Overview (01–07 Complete)
 
-### Module 01: Introduction to the Web
+Below is a consolidated module table (style aligned with core DPK & Teacher Toolkit READMEs):
 
-**Status:** ✅ Complete (Pilot)
+| Module                      | Focus                                                              | Key Classroom Materials                                                      |
+| --------------------------- | ------------------------------------------------------------------ | ---------------------------------------------------------------------------- |
+| 01. Introduction to the Web | How the web works; semantic basics                                 | Overview deck; Units 1.1 & 1.2 decks, tutorials, student + teacher workbooks |
+| 02. HTML Foundations        | Structured content & accessibility semantics                       | Overview deck; Units 2.1 & 2.2 full materials (deck, tutorial, workbooks)    |
+| 03. CSS Styling & Layout    | Visual design, responsive layouts                                  | Overview deck; Units 3.1 & 3.2 full materials                                |
+| 04. JavaScript Essentials   | Variables, events, DOM & interactivity                             | Overview deck; Units 4.1 & 4.2 full materials                                |
+| 05. Data Visualization      | Canvas basics; representing & explaining data ethically            | Overview deck; Unit 5.1 deck, tutorial, student & teacher workbooks          |
+| 06. Creative Web Projects   | Generative visuals; iteration & refinement                         | Overview deck; Unit 6.1 deck, tutorial, student & teacher workbooks          |
+| 07. Green STEAM Challenge   | Sustainability mini‑app; ethical & accessible impact communication | Overview deck; Unit 7.1 deck, tutorial, student & teacher workbooks          |
+
+### Detailed Unit Links
+
+#### Module 01
 
 - [Module Overview Deck](modules/01-introduction-to-the-web/module-deck/module-01-overview-deck.md)
-- [Unit 1.1: What Is the Web?](modules/01-introduction-to-the-web/units/1.1-what-is-the-web/)
-  - [Unit 1.1 Deck](modules/01-introduction-to-the-web/units/1.1-what-is-the-web/unit-1.1-deck.md)
+- Unit 1.1: What Is the Web?
+  - [Deck](modules/01-introduction-to-the-web/units/1.1-what-is-the-web/unit-1.1-deck.md)
   - [Tutorial](modules/01-introduction-to-the-web/units/1.1-what-is-the-web/tutorial/unit-1.1-tutorial.md)
   - [Student Workbook](modules/01-introduction-to-the-web/units/1.1-what-is-the-web/workbook/unit-1.1-student-workbook.md)
-  - [Teacher Annotated Workbook](modules/01-introduction-to-the-web/units/1.1-what-is-the-web/workbook/unit-1.1-teacher-annotated.md)
-- [Unit 1.2: Basic Structure](modules/01-introduction-to-the-web/units/1.2-basic-structure/)
+  - [Teacher Workbook](modules/01-introduction-to-the-web/units/1.1-what-is-the-web/workbook/unit-1.1-teacher-annotated.md)
+- Unit 1.2: Basic Structure (deck, tutorial, student + teacher workbooks)
 
-### Module 02: HTML Foundations
-
-**Status:** ✅ Complete
+#### Module 02
 
 - [Module Overview Deck](modules/02-html-foundations/module-deck/module-02-overview-deck.md)
-- [Unit 2.1: Building Content](modules/02-html-foundations/units/2.1-building-content/)
-  - [Unit 2.1 Deck](modules/02-html-foundations/units/2.1-building-content/unit-2.1-deck.md)
-  - [Tutorial](modules/02-html-foundations/units/2.1-building-content/tutorial/unit-2.1-tutorial.md)
-  - [Student Workbook](modules/02-html-foundations/units/2.1-building-content/workbook/unit-2.1-student-workbook.md)
-  - [Teacher Annotated Workbook](modules/02-html-foundations/units/2.1-building-content/workbook/unit-2.1-teacher-annotated.md)
-- [Unit 2.2: Structuring for Access](modules/02-html-foundations/units/2.2-structuring-for-access/)
-  - [Unit 2.2 Deck](modules/02-html-foundations/units/2.2-structuring-for-access/unit-2.2-deck.md)
-  - [Tutorial](modules/02-html-foundations/units/2.2-structuring-for-access/tutorial/unit-2.2-tutorial.md)
-  - [Student Workbook](modules/02-html-foundations/units/2.2-structuring-for-access/workbook/unit-2.2-student-workbook.md)
-  - [Teacher Annotated Workbook](modules/02-html-foundations/units/2.2-structuring-for-access/workbook/unit-2.2-teacher-annotated.md)
+- Unit 2.1: Building Content (deck, tutorial, student + teacher workbooks)
+- Unit 2.2: Structuring for Access (deck, tutorial, student + teacher workbooks)
 
-### Module 03: CSS Styling & Layout
-
-**Status:** ✅ Complete
+#### Module 03
 
 - [Module Overview Deck](modules/03-css-styling-layout/module-deck/module-03-overview-deck.md)
-- [Unit 3.1: CSS Fundamentals](modules/03-css-styling-layout/units/3.1-css-fundamentals/)
-  - [Unit 3.1 Deck](modules/03-css-styling-layout/units/3.1-css-fundamentals/unit-3.1-deck.md)
-  - [Tutorial](modules/03-css-styling-layout/units/3.1-css-fundamentals/tutorial/unit-3.1-tutorial.md)
-  - [Student Workbook](modules/03-css-styling-layout/units/3.1-css-fundamentals/workbook/unit-3.1-student-workbook.md)
-  - [Teacher Annotated Workbook](modules/03-css-styling-layout/units/3.1-css-fundamentals/workbook/unit-3.1-teacher-annotated.md)
-- [Unit 3.2: Responsive Layouts](modules/03-css-styling-layout/units/3.2-responsive-layouts/)
-  - [Unit 3.2 Deck](modules/03-css-styling-layout/units/3.2-responsive-layouts/unit-3.2-deck.md)
-  - [Tutorial](modules/03-css-styling-layout/units/3.2-responsive-layouts/tutorial/unit-3.2-tutorial.md)
-  - [Student Workbook](modules/03-css-styling-layout/units/3.2-responsive-layouts/workbook/unit-3.2-student-workbook.md)
-  - [Teacher Annotated Workbook](modules/03-css-styling-layout/units/3.2-responsive-layouts/workbook/unit-3.2-teacher-annotated.md)
+- Unit 3.1: CSS Fundamentals (deck, tutorial, student + teacher workbooks)
+- Unit 3.2: Responsive Layouts (deck, tutorial, student + teacher workbooks)
 
-### Module 04: JavaScript Essentials
-
-**Status:** ✅ Complete
+#### Module 04
 
 - [Module Overview Deck](modules/04-javascript-essentials/module-deck/module-04-overview-deck.md)
-- [Unit 4.1: JavaScript Basics](modules/04-javascript-essentials/units/4.1-javascript-basics/)
-  - [Unit 4.1 Deck](modules/04-javascript-essentials/units/4.1-javascript-basics/unit-4.1-deck.md)
-  - [Tutorial](modules/04-javascript-essentials/units/4.1-javascript-basics/tutorial/unit-4.1-tutorial.md)
-  - [Student Workbook](modules/04-javascript-essentials/units/4.1-javascript-basics/workbook/unit-4.1-student-workbook.md)
-  - [Teacher Annotated Workbook](modules/04-javascript-essentials/units/4.1-javascript-basics/workbook/unit-4.1-teacher-annotated.md)
-- [Unit 4.2: DOM Manipulation](modules/04-javascript-essentials/units/4.2-dom-manipulation/)
-  - [Unit 4.2 Deck](modules/04-javascript-essentials/units/4.2-dom-manipulation/unit-4.2-deck.md)
-  - [Tutorial](modules/04-javascript-essentials/units/4.2-dom-manipulation/tutorial/unit-4.2-tutorial.md)
-  - [Student Workbook](modules/04-javascript-essentials/units/4.2-dom-manipulation/workbook/unit-4.2-student-workbook.md)
-  - [Teacher Annotated Workbook](modules/04-javascript-essentials/units/4.2-dom-manipulation/workbook/unit-4.2-teacher-annotated.md)
+- Unit 4.1: JavaScript Basics (deck, tutorial, student + teacher workbooks)
+- Unit 4.2: DOM Manipulation (deck, tutorial, student + teacher workbooks)
 
-### Module 05: Data Visualization
+#### Module 05
 
-**Status:** 📋 Planned
+- [Module Overview Deck](modules/05-data-visualization/module-deck/module-05-deck.md)
+- Unit 5.1: Canvas Basics
+  - [Deck](modules/05-data-visualization/units/5.1-canvas-basics/deck/unit-5.1-deck.md)
+  - [Tutorial](modules/05-data-visualization/units/5.1-canvas-basics/tutorial/unit-5.1-tutorial.md)
+  - [Student Workbook](modules/05-data-visualization/units/5.1-canvas-basics/workbook/unit-5.1-student-workbook.md)
+  - [Teacher Workbook](modules/05-data-visualization/units/5.1-canvas-basics/workbook/unit-5.1-teacher-annotated.md)
 
-### Module 06: Creative Web Projects
+#### Module 06
 
-**Status:** 📋 Planned
+- [Module Overview Deck](modules/06-creative-web-projects/module-deck/module-06-deck.md)
+- Unit 6.1: Generative Art
+  - [Deck](modules/06-creative-web-projects/units/6.1-generative-art/deck/unit-6.1-deck.md)
+  - [Tutorial](modules/06-creative-web-projects/units/6.1-generative-art/tutorial/unit-6.1-tutorial.md)
+  - [Student Workbook](modules/06-creative-web-projects/units/6.1-generative-art/workbook/unit-6.1-student-workbook.md)
+  - [Teacher Workbook](modules/06-creative-web-projects/units/6.1-generative-art/workbook/unit-6.1-teacher-annotated.md)
 
-### Module 07: Green STEAM Challenge
+#### Module 07
 
-**Status:** 📋 Planned
+- [Module Overview Deck](modules/07-green-steam-challenge/module-deck/module-07-deck.md)
+- Unit 7.1: Sustainability Mini‑App
+  - [Deck](modules/07-green-steam-challenge/units/7.1-green-mini-app/deck/unit-7.1-deck.md)
+  - [Tutorial](modules/07-green-steam-challenge/units/7.1-green-mini-app/tutorial/unit-7.1-tutorial.md)
+  - [Student Workbook](modules/07-green-steam-challenge/units/7.1-green-mini-app/workbook/unit-7.1-student-workbook.md)
+  - [Teacher Workbook](modules/07-green-steam-challenge/units/7.1-green-mini-app/workbook/unit-7.1-teacher-annotated.md)
+
+> All seven modules now have complete instructional sets (overview deck, unit deck(s), tutorial, student workbook, teacher annotated workbook) following the shared template structure.
 
 ---
 
@@ -259,4 +258,4 @@ For questions, suggestions, or feedback:
 ---
 
 **Last Updated:** 2025-11-18  
-**Version:** 0.3.0 (Modules 01–04 Complete with Full Content)
+**Version:** 1.0.0 (Modules 01–07 Complete)
