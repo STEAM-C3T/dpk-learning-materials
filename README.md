@@ -1,23 +1,32 @@
 # Digital Proficiency Kit — Learning Materials
 
+### _STEAM: From Campus to Classroom, Crafting Tomorrow (STEAM-C3T)_
+
+**Erasmus+ Cooperation Partnerships in School Education (KA220-SCH)**
+
+Developed by **Tallinn University, Haapsalu College**
+
+---
+
 ## Overview
 
 This repository contains **comprehensive instructional learning materials** for the Digital Proficiency Kit (DPK), specifically designed to support **novice teachers** with little or no programming experience and their students learning HTML, CSS, and JavaScript in STEAM education contexts.
 
-**Audience:**
-
-- **Teachers:** Novice to intermediate educators seeking ready-to-use lesson decks, step-by-step tutorials, and scaffolded teaching materials.
-- **Students:** Secondary learners working through browser-based web development modules.
-
-**Purpose:**
-
-- Provide Marp slide decks for module overviews and individual units.
-- Offer detailed tutorials with incremental code-along steps, common pitfalls, and debugging guidance.
-- Supply printable student workbooks and teacher-annotated versions with timing, differentiation, and assessment notes.
+The materials follow the principles of **learning by making** and align with the **EU DigComp 2.2** competence framework.
+All resources are classroom-ready and require only a modern web browser—no installation or external software needed.
 
 ---
 
-## Repository Structure
+## Objectives
+
+- Provide ready-to-use slide decks, tutorials, and workbooks for classroom delivery of DPK modules.
+- Support novice teachers with step-by-step guidance, common pitfalls, and differentiation strategies.
+- Enable students to build practical digital skills through scaffolded practice and self-assessment.
+- Offer materials that integrate coding, design, and STEAM themes with accessibility and ethical considerations.
+
+---
+
+## Learning Materials Structure
 
 ```
 dpk-learning-materials/
@@ -61,72 +70,133 @@ dpk-learning-materials/
 
 ---
 
-## How to Use These Materials
+## Folder Structure
 
-### For Teachers
-
-1. **Module Overview Deck:** Start with `module-XX-overview-deck.md` to understand learning outcomes, big ideas, and module sequence.
-2. **Unit Decks:** Use `unit-X.Y-deck.md` for classroom presentations. Slides include:
-   - Concept explanations
-   - Code-along steps
-   - Guided practice prompts
-   - Formative checks
-   - Speaker notes with timing and differentiation tips
-3. **Tutorials:** Assign or work through `unit-X.Y-tutorial.md` with students. Tutorials provide:
-   - Prerequisites
-   - Step-by-step code implementation
-   - "Why it matters" explanations
-   - Common pitfall warnings
-   - Quick self-checks
-4. **Student Workbooks:** Print or share `unit-X.Y-student-workbook.md` for guided practice, notes, and self-assessment.
-5. **Teacher Annotated Workbooks:** Use `unit-X.Y-teacher-annotated.md` for timing, answer keys, and differentiation strategies.
-
-### For Students
-
-- Follow unit decks during class presentations.
-- Work through tutorials step-by-step, testing code in the browser.
-- Complete student workbooks to reinforce concepts and reflect on learning.
-
-### Exporting Slides
-
-All decks are written in [Marp](https://marp.app/) Markdown format. To export to HTML, PDF, or PPTX:
-
-**Using Marp CLI:**
-
-```bash
-npm install -g @marp-team/marp-cli
-marp modules/01-introduction-to-the-web/module-deck/module-01-overview-deck.md --html --output module-01.html
-marp modules/01-introduction-to-the-web/units/1.1-what-is-the-web/unit-1.1-deck.md --pdf --output unit-1.1.pdf
+```
+dpk-learning-materials/
+├── modules/
+│   ├── 01-introduction-to-the-web/
+│   ├── 02-html-foundations/
+│   ├── 03-css-styling-layout/
+│   ├── 04-javascript-essentials/
+│   ├── 05-data-visualization/
+│   ├── 06-creative-web-projects/
+│   ├── 07-green-steam-challenge/
+│   └── README.md
+├── templates/
+│   ├── marp/
+│   ├── tutorials/
+│   └── workbooks/
+├── CHANGELOG.md
+└── README.md
 ```
 
-**Using VS Code with Marp extension:**
+Example module folder layout:
 
-1. Install the [Marp for VS Code](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) extension.
-2. Open any `.md` deck file.
-3. Click the Marp icon in the editor toolbar.
-4. Export to HTML, PDF, or PPTX.
-
-**Quick Open (macOS):**
-
-```bash
-open modules/01-introduction-to-the-web/module-deck/module-01-overview-deck.md
+```
+modules/05-data-visualization/
+├── module-deck/          # Module overview deck
+├── units/
+│   └── 5.1-canvas-basics/
+│       ├── deck/         # Unit presentation slides
+│       ├── tutorial/     # Step-by-step guide
+│       └── workbook/     # Student + teacher versions
+└── assets/               # Images, code snippets (if needed)
 ```
 
 ---
 
-## Relationship to Other Repositories
+## Get Started
 
-This repository is part of the Digital Proficiency Kit ecosystem:
+- Browse the [Learning Materials Structure](#learning-materials-structure) table below to find modules.
+- Start with a module overview deck to understand learning outcomes and sequence.
+- Use unit decks for classroom presentations, tutorials for code-along sessions, and workbooks for practice.
 
-- **[digital-proficiency-kit](https://github.com/STEAM-C3T/digital-proficiency-kit):** Runnable code examples, tasks, and student-facing module READMEs.
-- **[teacher-toolkit](https://github.com/STEAM-C3T/teacher-toolkit):** Lesson plans, assessment rubrics, module overviews, and professional development resources.
-- **dpk-learning-materials** (this repo): Marp slide decks, tutorials, and workbooks for classroom instruction.
+---
+
+### Quick Open Tips (macOS)
+
+Open any deck directly in your default Markdown viewer or browser:
+
+```zsh
+# Replace the path with any deck file you want to open
+open modules/01-introduction-to-the-web/module-deck/module-01-overview-deck.md
+open modules/05-data-visualization/units/5.1-canvas-basics/deck/unit-5.1-deck.md
+open modules/07-green-steam-challenge/module-deck/module-07-deck.md
+```
+
+**Exporting Slides to PDF/HTML/PPTX:**
+
+All decks use [Marp](https://marp.app/) Markdown format.
+
+```bash
+npm install -g @marp-team/marp-cli
+marp modules/05-data-visualization/module-deck/module-05-deck.md --pdf --output module-05.pdf
+```
+
+Or use the [Marp for VS Code](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) extension for one-click export.
+
+---
+
+## Pedagogical Approach
+
+The materials are built upon three principles:
+
+1. **Create to learn** – digital skills grow through making, testing, and sharing artefacts.
+2. **Integrate to understand** – web coding links naturally with mathematics, art, and science.
+3. **Reflect to improve** – teachers and learners assess their progress through authentic outcomes rather than abstract tests.
+
+---
+
+## Technical Requirements
+
+- Modern web browser (Chrome, Firefox, Edge, or Safari).
+- Optional: [Marp CLI](https://github.com/marp-team/marp-cli) or [Marp for VS Code](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) for exporting slides.
+- All materials are plain Markdown—no build tools or dependencies required.
+
+---
+
+## Related Repositories
+
+The Learning Materials repository is part of a three-repository ecosystem:
+
+### **1. [Digital Proficiency Kit](https://github.com/STEAM-C3T/digital-proficiency-kit)**
+
+Runnable code examples, tasks, and student-facing module guides.
+
+### **2. [Teacher Toolkit](https://github.com/STEAM-C3T/teacher-toolkit)**
+
+Lesson plans, assessment rubrics, module overviews, and professional development resources.
+
+### **3. Learning Materials** (this repository)
+
+Comprehensive instructional materials specifically designed for **novice teachers with little or no programming experience**, including:
+
+- **Marp slide decks** for module overviews and unit lessons (ready to present in class)
+- **Step-by-step tutorials** with code-along examples, common pitfalls, and debugging guidance
+- **Student workbooks** with scaffolded practice, note-taking areas, and self-assessment
+- **Teacher-annotated workbooks** with timing estimates, differentiation strategies, misconception alerts, and answer keys
 
 **Navigation:**
 
-- From DPK module READMEs → link to tutorials and decks here.
-- From Teacher Toolkit module overviews → link to decks and annotated workbooks here.
-- From here → link to DPK for code examples and Teacher Toolkit for rubrics.
+- From DPK module READMEs → links to Learning Materials decks and tutorials
+- From Teacher Toolkit lesson plans → links to Learning Materials for classroom-ready presentations
+- From Learning Materials → links back to DPK for code examples and Teacher Toolkit for assessment rubrics
+
+---
+
+## Accessibility & Inclusion
+
+All materials are designed with accessibility in mind:
+
+- Marp slides use high-contrast themes and clear fonts.
+- Tutorials include text descriptions of visual diagrams.
+- Student workbooks provide scaffolded note-taking areas.
+- Teacher annotated versions highlight differentiation strategies for mixed-ability classrooms.
+
+---
+
+## Contribution and Collaboration
 
 ---
 
@@ -211,55 +281,20 @@ Each module includes:
 
 ---
 
-## Templates
+Educators and partners are encouraged to adapt, translate, and extend the materials.
+Feedback, new lesson ideas, and content improvements can be shared through Issues or Pull Requests in this repository.
 
-Reusable templates for creating new materials are in `templates/`:
+**Guidelines:**
 
-- **Marp Decks:** `module-deck-template.md`, `unit-deck-template.md`
-- **Tutorials:** `tutorial-template.md`
-- **Workbooks:** `student-workbook-template.md`, `teacher-annotated-template.md`
-
-Use these as starting points for consistent formatting and structure across all modules.
-
----
-
-## Accessibility & Inclusion
-
-All materials are designed with accessibility in mind:
-
-- Marp slides use high-contrast themes and clear fonts.
-- Tutorials include text descriptions of visual diagrams.
-- Student workbooks provide scaffolded note-taking areas.
-- Teacher annotated versions highlight differentiation strategies for mixed-ability classrooms.
-
----
-
-## Contributing
-
-Contributions are welcome! To add or improve materials:
-
-1. Fork this repository.
-2. Use templates from `templates/` for consistency.
-3. Follow naming conventions: lowercase, hyphen-separated filenames.
-4. Update `CHANGELOG.md` with your changes.
-5. Submit a pull request with a clear description.
-
-For detailed contribution guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md) (to be added).
+- Use templates from `templates/` for consistency.
+- Follow naming conventions: lowercase, hyphen-separated filenames.
+- Update `CHANGELOG.md` with your changes.
 
 ---
 
 ## License
 
 This repository is licensed under the same open-source license as the Digital Proficiency Kit. See [LICENSE](LICENSE) for details.
-
----
-
-## Contact & Support
-
-For questions, suggestions, or feedback:
-
-- Open an issue in this repository.
-- Contact the STEAM-C3T team via the main Digital Proficiency Kit repository.
 
 ---
 
