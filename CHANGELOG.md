@@ -51,6 +51,37 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+# Changelog
+
+All notable changes to the Digital Proficiency Kit Learning Materials repository will be documented in this file.
+
+---
+
+## [0.2.0] - 2025-11-18
+
+### Added
+
+- **Module 02: HTML Foundations** — Complete structure
+  - Module overview deck with concise slides
+  - Unit 2.1: Building Content (deck, README, placeholders for tutorial and workbooks)
+  - Unit 2.2: Structuring for Access (deck, README, placeholders for tutorial and workbooks)
+- **Module 03: CSS Styling & Layout** — Complete structure
+  - Module overview deck with concise slides
+  - Unit 3.1: CSS Fundamentals (deck, README, placeholders for tutorial and workbooks)
+  - Unit 3.2: Responsive Layouts (deck, README, placeholders for tutorial and workbooks)
+- **Module 04: JavaScript Essentials** — Complete structure
+  - Module overview deck with concise slides
+  - Unit 4.1: JavaScript Basics (deck, README, placeholders for tutorial and workbooks)
+  - Unit 4.2: DOM Manipulation (deck, README, placeholders for tutorial and workbooks)
+
+### Changed
+
+- Updated main README with links to all Modules 02–04 materials
+- Updated version to 0.2.0 to reflect expanded module coverage
+- All new slide decks follow concise, slide-appropriate format (key points only, details in tutorials)
+
+---
+
 ## [0.1.0] - 2025-11-18
 
 ### Initial Release

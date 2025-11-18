@@ -146,21 +146,43 @@ This repository is part of the Digital Proficiency Kit ecosystem:
 
 ### Module 02: HTML Foundations
 
-**Status:** 🔧 In Progress
+**Status:** ✅ Structure Complete
 
-- Templates available; content development underway
+- [Module Overview Deck](modules/02-html-foundations/module-deck/module-02-overview-deck.md)
+- [Unit 2.1: Building Content](modules/02-html-foundations/units/2.1-building-content/)
+  - [Unit 2.1 Deck](modules/02-html-foundations/units/2.1-building-content/unit-2.1-deck.md)
+  - [Tutorial](modules/02-html-foundations/units/2.1-building-content/tutorial/unit-2.1-tutorial.md)
+  - [Student Workbook](modules/02-html-foundations/units/2.1-building-content/workbook/unit-2.1-student-workbook.md)
+  - [Teacher Annotated Workbook](modules/02-html-foundations/units/2.1-building-content/workbook/unit-2.1-teacher-annotated.md)
+- [Unit 2.2: Structuring for Access](modules/02-html-foundations/units/2.2-structuring-for-access/)
+  - [Unit 2.2 Deck](modules/02-html-foundations/units/2.2-structuring-for-access/unit-2.2-deck.md)
+  - [Tutorial](modules/02-html-foundations/units/2.2-structuring-for-access/tutorial/unit-2.2-tutorial.md)
+  - [Student Workbook](modules/02-html-foundations/units/2.2-structuring-for-access/workbook/unit-2.2-student-workbook.md)
+  - [Teacher Annotated Workbook](modules/02-html-foundations/units/2.2-structuring-for-access/workbook/unit-2.2-teacher-annotated.md)
 
 ### Module 03: CSS Styling & Layout
 
-**Status:** 🔧 In Progress
+**Status:** ✅ Structure Complete
 
-- Templates available; content development underway
+- [Module Overview Deck](modules/03-css-styling-layout/module-deck/module-03-overview-deck.md)
+- [Unit 3.1: CSS Fundamentals](modules/03-css-styling-layout/units/3.1-css-fundamentals/)
+  - [Unit 3.1 Deck](modules/03-css-styling-layout/units/3.1-css-fundamentals/unit-3.1-deck.md)
+  - Tutorial and workbooks (structure in place)
+- [Unit 3.2: Responsive Layouts](modules/03-css-styling-layout/units/3.2-responsive-layouts/)
+  - [Unit 3.2 Deck](modules/03-css-styling-layout/units/3.2-responsive-layouts/unit-3.2-deck.md)
+  - Tutorial and workbooks (structure in place)
 
 ### Module 04: JavaScript Essentials
 
-**Status:** 🔧 In Progress
+**Status:** ✅ Structure Complete
 
-- Templates available; content development underway
+- [Module Overview Deck](modules/04-javascript-essentials/module-deck/module-04-overview-deck.md)
+- [Unit 4.1: JavaScript Basics](modules/04-javascript-essentials/units/4.1-javascript-basics/)
+  - [Unit 4.1 Deck](modules/04-javascript-essentials/units/4.1-javascript-basics/unit-4.1-deck.md)
+  - Tutorial and workbooks (structure in place)
+- [Unit 4.2: DOM Manipulation](modules/04-javascript-essentials/units/4.2-dom-manipulation/)
+  - [Unit 4.2 Deck](modules/04-javascript-essentials/units/4.2-dom-manipulation/unit-4.2-deck.md)
+  - Tutorial and workbooks (structure in place)
 
 ### Module 05: Data Visualization
 
@@ -229,4 +251,4 @@ For questions, suggestions, or feedback:
 ---
 
 **Last Updated:** 2025-11-18  
-**Version:** 0.1.0 (Pilot — Module 01)
+**Version:** 0.2.0 (Modules 01–04 Structure Complete)
