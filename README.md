@@ -130,21 +130,49 @@ This repository is part of the Digital Proficiency Kit ecosystem:
 
 ---
 
-## Current Status
+## Available Modules
 
-**Phase 1 (Pilot):** Module 01 — Introduction to the Web
+### Module 01: Introduction to the Web
 
-- ✅ Module overview deck
-- ✅ Unit 1.1 deck, tutorial, student workbook, teacher annotated
-- ✅ Unit 1.2 deck, tutorial, student workbook, teacher annotated
+**Status:** ✅ Complete (Pilot)
 
-**Phase 2 (In Progress):** Modules 02–04
+- [Module Overview Deck](modules/01-introduction-to-the-web/module-deck/module-01-overview-deck.md)
+- [Unit 1.1: What Is the Web?](modules/01-introduction-to-the-web/units/1.1-what-is-the-web/)
+  - [Unit 1.1 Deck](modules/01-introduction-to-the-web/units/1.1-what-is-the-web/unit-1.1-deck.md)
+  - [Tutorial](modules/01-introduction-to-the-web/units/1.1-what-is-the-web/tutorial/unit-1.1-tutorial.md)
+  - [Student Workbook](modules/01-introduction-to-the-web/units/1.1-what-is-the-web/workbook/unit-1.1-student-workbook.md)
+  - [Teacher Annotated Workbook](modules/01-introduction-to-the-web/units/1.1-what-is-the-web/workbook/unit-1.1-teacher-annotated.md)
+- [Unit 1.2: Basic Structure](modules/01-introduction-to-the-web/units/1.2-basic-structure/)
+
+### Module 02: HTML Foundations
+
+**Status:** 🔧 In Progress
 
 - Templates available; content development underway
 
-**Phase 3 (Planned):** Modules 05–07
+### Module 03: CSS Styling & Layout
 
-- Full coverage by end of development cycle
+**Status:** 🔧 In Progress
+
+- Templates available; content development underway
+
+### Module 04: JavaScript Essentials
+
+**Status:** 🔧 In Progress
+
+- Templates available; content development underway
+
+### Module 05: Data Visualization
+
+**Status:** 📋 Planned
+
+### Module 06: Creative Web Projects
+
+**Status:** 📋 Planned
+
+### Module 07: Green STEAM Challenge
+
+**Status:** 📋 Planned
 
 ---
 
