@@ -37,7 +37,7 @@ Every HTML document has the same foundation:
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Page Title</title>
   </head>
   <body>
@@ -50,12 +50,12 @@ Every HTML document has the same foundation:
 
 ## Breaking It Down
 
-| Part | Purpose |
-|------|---------|
-| `<!DOCTYPE html>` | Tells browser this is HTML5 |
-| `<html>` | Root container for entire page |
-| `<head>` | Metadata (not visible on page) |
-| `<body>` | Visible page content |
+| Part              | Purpose                        |
+| ----------------- | ------------------------------ |
+| `<!DOCTYPE html>` | Tells browser this is HTML5    |
+| `<html>`          | Root container for entire page |
+| `<head>`          | Metadata (not visible on page) |
+| `<body>`          | Visible page content           |
 
 ---
 
@@ -150,7 +150,7 @@ Browsers add default spacing between paragraphs.
 ## Images: `<img>`
 
 ```html
-<img src="photo.jpg" alt="Description of image">
+<img src="photo.jpg" alt="Description of image" />
 ```
 
 - `src` — path to image file
@@ -186,6 +186,7 @@ Let's create `index.html`:
 ## Testing in the Browser
 
 **Steps:**
+
 1. Save your `.html` file
 2. Right-click → "Open with" → Browser
 3. See your page!
@@ -196,12 +197,12 @@ Let's create `index.html`:
 
 ## Common Mistakes
 
-| Mistake | Fix |
-|---------|-----|
-| Forgot closing tag | Every `<tag>` needs `</tag>` |
-| Missing `alt` on image | Add descriptive text |
-| No `DOCTYPE` | Always start with `<!DOCTYPE html>` |
-| Skipped heading levels | Use h1, h2, h3 in order |
+| Mistake                | Fix                                 |
+| ---------------------- | ----------------------------------- |
+| Forgot closing tag     | Every `<tag>` needs `</tag>`        |
+| Missing `alt` on image | Add descriptive text                |
+| No `DOCTYPE`           | Always start with `<!DOCTYPE html>` |
+| Skipped heading levels | Use h1, h2, h3 in order             |
 
 ---
 
@@ -209,6 +210,7 @@ Let's create `index.html`:
 
 **Task:**
 Create a page about your favorite topic with:
+
 - One `<h1>` heading
 - Two paragraphs
 - A list (ordered or unordered)

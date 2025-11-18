@@ -2,8 +2,8 @@
 
 **Module:** 01 — Introduction to the Web  
 **Unit:** 1.2 — Basic HTML Structure  
-**Name:** ________________________  
-**Date:** ________________________
+**Name:** **********\_\_\_\_**********  
+**Date:** **********\_\_\_\_**********
 
 ---
 
@@ -30,16 +30,17 @@ Fill in the blanks to complete the basic HTML document structure:
 
 Match each semantic tag to its purpose:
 
-| Tag | Purpose |
-|-----|---------|
-| `<header>` | A. Primary content area |
-| `<main>` | B. Introductory content or site header |
-| `<footer>` | C. Footer content or site footer |
+| Tag        | Purpose                                |
+| ---------- | -------------------------------------- |
+| `<header>` | A. Primary content area                |
+| `<main>`   | B. Introductory content or site header |
+| `<footer>` | C. Footer content or site footer       |
 
 **Your answers:**
-- `<header>`: _____
-- `<main>`: _____
-- `<footer>`: _____
+
+- `<header>`: **\_**
+- `<main>`: **\_**
+- `<footer>`: **\_**
 
 ---
 
@@ -47,9 +48,9 @@ Match each semantic tag to its purpose:
 
 **Question:** Why should you only use one `<h1>` per page?
 
-_________________________________________________________________________
+---
 
-_________________________________________________________________________
+---
 
 **Task:** Create a heading hierarchy for a page about your school:
 
@@ -90,14 +91,14 @@ _________________________________________________________________________
 **Complete the image tag:**
 
 ```html
-<img src="__________" alt="__________">
+<img src="__________" alt="__________" />
 ```
 
 **Question:** What is the purpose of the `alt` attribute?
 
-_________________________________________________________________________
+---
 
-_________________________________________________________________________
+---
 
 ---
 
@@ -111,7 +112,7 @@ _________________________________________________________________________
 
 **Question:** What does `href` stand for and what does it do?
 
-_________________________________________________________________________
+---
 
 ---
 
@@ -120,6 +121,7 @@ _________________________________________________________________________
 **Task:** Create a simple "About Me" HTML page with the following:
 
 **Checklist:**
+
 - [ ] `<!DOCTYPE html>` declaration
 - [ ] `<html>`, `<head>`, and `<body>` tags
 - [ ] `<title>` in the head
@@ -152,43 +154,6 @@ Write the HTML code for your "About Me" page (or paste it here after coding):
 
 ```html
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ```
 
 ---
@@ -196,6 +161,7 @@ Write the HTML code for your "About Me" page (or paste it here after coding):
 ## Part 9: Testing
 
 **Checklist: Did you...**
+
 - [ ] Save your file as `.html`?
 - [ ] Open it in a browser?
 - [ ] Check that the title appears in the browser tab?
@@ -205,15 +171,15 @@ Write the HTML code for your "About Me" page (or paste it here after coding):
 
 **Errors found during validation:**
 
-_________________________________________________________________________
+---
 
-_________________________________________________________________________
+---
 
 **How you fixed them:**
 
-_________________________________________________________________________
+---
 
-_________________________________________________________________________
+---
 
 ---
 
@@ -221,29 +187,29 @@ _________________________________________________________________________
 
 **1. What was the most challenging part of creating your HTML page?**
 
-_________________________________________________________________________
+---
 
-_________________________________________________________________________
+---
 
 **2. Why is semantic HTML important for accessibility?**
 
-_________________________________________________________________________
+---
 
-_________________________________________________________________________
+---
 
 **3. What would you like to add to your page next?**
 
-_________________________________________________________________________
+---
 
-_________________________________________________________________________
+---
 
 **4. One thing you learned:**
 
-_________________________________________________________________________
+---
 
 **5. One question you still have:**
 
-_________________________________________________________________________
+---
 
 ---
 
@@ -251,14 +217,14 @@ _________________________________________________________________________
 
 Rate your confidence level (1 = not confident, 5 = very confident):
 
-| Skill | Rating |
-|-------|--------|
-| I can create a basic HTML document structure | 1  2  3  4  5 |
-| I can use semantic tags (`<header>`, `<main>`, `<footer>`) | 1  2  3  4  5 |
-| I can add headings, paragraphs, and lists | 1  2  3  4  5 |
-| I can add images with `alt` text | 1  2  3  4  5 |
-| I can add links to external websites | 1  2  3  4  5 |
-| I can test my page in a browser | 1  2  3  4  5 |
+| Skill                                                      | Rating    |
+| ---------------------------------------------------------- | --------- |
+| I can create a basic HTML document structure               | 1 2 3 4 5 |
+| I can use semantic tags (`<header>`, `<main>`, `<footer>`) | 1 2 3 4 5 |
+| I can add headings, paragraphs, and lists                  | 1 2 3 4 5 |
+| I can add images with `alt` text                           | 1 2 3 4 5 |
+| I can add links to external websites                       | 1 2 3 4 5 |
+| I can test my page in a browser                            | 1 2 3 4 5 |
 
 ---
 
@@ -267,6 +233,7 @@ Rate your confidence level (1 = not confident, 5 = very confident):
 Create a second HTML page (`hobbies.html`) and link to it from your `index.html` page.
 
 **Steps:**
+
 1. Create a new file: `hobbies.html`
 2. Add the same document structure
 3. Add content about your hobbies
@@ -277,7 +244,7 @@ Create a second HTML page (`hobbies.html`) and link to it from your `index.html`
 
 **What did you learn from it?**
 
-_________________________________________________________________________
+---
 
 ---
 

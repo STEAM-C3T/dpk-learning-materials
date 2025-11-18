@@ -24,6 +24,7 @@ This tutorial walks you through creating your first HTML page from scratch. You'
 
 **What You'll Build:**
 A simple "About Me" webpage with:
+
 - Document structure (DOCTYPE, html, head, body)
 - Semantic sections
 - Heading, paragraphs, list, image, link
@@ -51,27 +52,25 @@ Type the following foundation into your `index.html` file:
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Me</title>
   </head>
-  <body>
-    
-  </body>
+  <body></body>
 </html>
 ```
 
 **What Each Part Does:**
 
-| Element | Purpose |
-|---------|---------|
-| `<!DOCTYPE html>` | Declares this is an HTML5 document |
-| `<html lang="en">` | Root element; `lang` sets language to English |
-| `<head>` | Contains metadata (title, character set, viewport settings) |
-| `<meta charset="UTF-8">` | Ensures proper text encoding |
-| `<meta name="viewport"...>` | Makes page responsive on mobile devices |
-| `<title>` | Text shown in browser tab |
-| `<body>` | All visible page content goes here |
+| Element                     | Purpose                                                     |
+| --------------------------- | ----------------------------------------------------------- |
+| `<!DOCTYPE html>`           | Declares this is an HTML5 document                          |
+| `<html lang="en">`          | Root element; `lang` sets language to English               |
+| `<head>`                    | Contains metadata (title, character set, viewport settings) |
+| `<meta charset="UTF-8">`    | Ensures proper text encoding                                |
+| `<meta name="viewport"...>` | Makes page responsive on mobile devices                     |
+| `<title>`                   | Text shown in browser tab                                   |
+| `<body>`                    | All visible page content goes here                          |
 
 **Save your file** (Cmd+S / Ctrl+S).
 
@@ -102,6 +101,7 @@ Inside the `<body>` tags, add:
 ```
 
 **Explanation:**
+
 - `<header>`: Semantic container for introductory content
 - `<h1>`: The main heading (only one per page)
 
@@ -119,6 +119,7 @@ Below the `<header>`, add:
 ```
 
 **Explanation:**
+
 - `<main>`: Contains the primary content of the page
 - `<h2>`: Second-level heading
 - `<p>`: Paragraph of text
@@ -136,6 +137,7 @@ Below the `<main>`, add:
 ```
 
 **Explanation:**
+
 - `<footer>`: Semantic container for footer content
 - `&copy;`: HTML entity for copyright symbol ©
 
@@ -146,12 +148,12 @@ Below the `<main>`, add:
   <header>
     <h1>Welcome to My Page</h1>
   </header>
-  
+
   <main>
     <h2>About Me</h2>
     <p>Hello! I'm a student learning web development.</p>
   </main>
-  
+
   <footer>
     <p>&copy; 2025 My First Webpage</p>
   </footer>
@@ -190,6 +192,7 @@ Add a list of your favorite hobbies:
 ```
 
 **Explanation:**
+
 - `<h3>`: Third-level heading
 - `<ul>`: Unordered (bulleted) list
 - `<li>`: List item
@@ -204,14 +207,16 @@ Add an image after your list:
 
 ```html
 <h3>A Photo I Like</h3>
-<img src="photo.jpg" alt="A beautiful landscape">
+<img src="photo.jpg" alt="A beautiful landscape" />
 ```
 
 **Important:**
+
 - Replace `photo.jpg` with the path to an actual image file in your folder.
 - The `alt` attribute describes the image for screen readers (accessibility).
 
 **Common Issue:** If the image doesn't show, check:
+
 - Is the image file in the same folder as `index.html`?
 - Is the filename spelled correctly (including extension)?
 
@@ -222,11 +227,14 @@ Add an image after your list:
 Add a link to an external website:
 
 ```html
-<p>Learn more about web development at 
-<a href="https://developer.mozilla.org">MDN Web Docs</a>.</p>
+<p>
+  Learn more about web development at
+  <a href="https://developer.mozilla.org">MDN Web Docs</a>.
+</p>
 ```
 
 **Explanation:**
+
 - `<a>`: Anchor (link) element
 - `href`: Hypertext reference (destination URL)
 - Text between `<a>` and `</a>` is clickable
@@ -243,34 +251,36 @@ Your complete `index.html` should look like this:
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Me</title>
   </head>
   <body>
     <header>
       <h1>Welcome to My Page</h1>
     </header>
-    
+
     <main>
       <h2>About Me</h2>
       <p>Hello! I'm a student learning web development.</p>
       <p>I enjoy coding, reading, and exploring new technologies.</p>
-      
+
       <h3>My Hobbies</h3>
       <ul>
         <li>Coding</li>
         <li>Reading</li>
         <li>Hiking</li>
       </ul>
-      
+
       <h3>A Photo I Like</h3>
-      <img src="photo.jpg" alt="A beautiful landscape">
-      
-      <p>Learn more about web development at 
-      <a href="https://developer.mozilla.org">MDN Web Docs</a>.</p>
+      <img src="photo.jpg" alt="A beautiful landscape" />
+
+      <p>
+        Learn more about web development at
+        <a href="https://developer.mozilla.org">MDN Web Docs</a>.
+      </p>
     </main>
-    
+
     <footer>
       <p>&copy; 2025 My First Webpage</p>
     </footer>
@@ -295,6 +305,7 @@ Open your page in multiple browsers (Chrome, Firefox, Safari) to ensure consiste
 3. Fix any errors or warnings
 
 **Common errors:**
+
 - Missing closing tags
 - Misspelled tag names
 - Missing `alt` attribute on images
@@ -303,12 +314,12 @@ Open your page in multiple browsers (Chrome, Firefox, Safari) to ensure consiste
 
 ## Part 6: Common Pitfalls
 
-| Problem | Solution |
-|---------|----------|
-| Image doesn't display | Check file path and spelling; ensure image is in correct folder |
-| Tags not working | Verify opening and closing tags match |
-| Page looks different in different browsers | Use semantic HTML and avoid deprecated tags |
-| Forgot `alt` on image | Always include descriptive `alt` text for accessibility |
+| Problem                                    | Solution                                                        |
+| ------------------------------------------ | --------------------------------------------------------------- |
+| Image doesn't display                      | Check file path and spelling; ensure image is in correct folder |
+| Tags not working                           | Verify opening and closing tags match                           |
+| Page looks different in different browsers | Use semantic HTML and avoid deprecated tags                     |
+| Forgot `alt` on image                      | Always include descriptive `alt` text for accessibility         |
 
 ---
 
