@@ -130,19 +130,25 @@ This repository is part of the Digital Proficiency Kit ecosystem:
 
 ---
 
-## Modules Overview (01–07 Complete)
+## Learning Materials Structure
 
-Below is a consolidated module table (style aligned with core DPK & Teacher Toolkit READMEs):
+| Module                                                                                        | Focus                                      | Example Outcome                                |
+| --------------------------------------------------------------------------------------------- | ------------------------------------------ | ---------------------------------------------- |
+| [1. Introduction to the Web](./modules/01-introduction-to-the-web/)                           | How websites work, file structure          | Simple webpage using semantic HTML             |
+| [2. HTML Foundations](./modules/02-html-foundations/)                                         | Content hierarchy, accessibility           | Student topic/portfolio page                   |
+| [3. CSS Styling & Layout](./modules/03-css-styling-layout/)                                   | Typography, colours, responsive design     | Styled and responsive site                     |
+| [4. JavaScript Essentials](./modules/04-javascript-essentials/)                               | Variables, events, DOM manipulation        | Interactive UI component                       |
+| [5. Data Visualization](./modules/05-data-visualization/)                                     | Displaying data with charts/canvas         | Small data chart/visual with accessible table  |
+| [6. Creative Web Projects](./modules/06-creative-web-projects/)                               | Art and computation                        | Digital poster or generative piece             |
+| [7. Green STEAM Challenge](./modules/07-green-steam-challenge/)                               | Sustainable innovation with code           | Small SDG‑themed mini‑app                      |
 
-| Module                      | Focus                                                              | Key Classroom Materials                                                      |
-| --------------------------- | ------------------------------------------------------------------ | ---------------------------------------------------------------------------- |
-| 01. Introduction to the Web | How the web works; semantic basics                                 | Overview deck; Units 1.1 & 1.2 decks, tutorials, student + teacher workbooks |
-| 02. HTML Foundations        | Structured content & accessibility semantics                       | Overview deck; Units 2.1 & 2.2 full materials (deck, tutorial, workbooks)    |
-| 03. CSS Styling & Layout    | Visual design, responsive layouts                                  | Overview deck; Units 3.1 & 3.2 full materials                                |
-| 04. JavaScript Essentials   | Variables, events, DOM & interactivity                             | Overview deck; Units 4.1 & 4.2 full materials                                |
-| 05. Data Visualization      | Canvas basics; representing & explaining data ethically            | Overview deck; Unit 5.1 deck, tutorial, student & teacher workbooks          |
-| 06. Creative Web Projects   | Generative visuals; iteration & refinement                         | Overview deck; Unit 6.1 deck, tutorial, student & teacher workbooks          |
-| 07. Green STEAM Challenge   | Sustainability mini‑app; ethical & accessible impact communication | Overview deck; Unit 7.1 deck, tutorial, student & teacher workbooks          |
+Each module includes:
+
+- **Module Overview Deck:** Learning outcomes, big ideas, and module sequence
+- **Unit Decks:** Classroom presentation slides with concept explanations, code-along steps, and formative checks
+- **Tutorials:** Step-by-step code implementation with common pitfalls and debugging guidance
+- **Student Workbooks:** Guided practice, note-taking areas, and self-assessment
+- **Teacher Annotated Workbooks:** Answer keys, timing estimates, differentiation strategies, and assessment notes
 
 ### Detailed Unit Links
 
