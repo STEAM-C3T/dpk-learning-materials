@@ -46,7 +46,7 @@ Match each semantic tag to its purpose:
 
 ## Part 3: Heading Hierarchy
 
-**Question:** Why should you only use one `<h1>` per page?
+**Question:** How do headings show the structure of a page? How can you make their order clear?
 
 ---
 
@@ -125,7 +125,7 @@ Match each semantic tag to its purpose:
 - [ ] `<!DOCTYPE html>` declaration
 - [ ] `<html>`, `<head>`, and `<body>` tags
 - [ ] `<title>` in the head
-- [ ] One `<h1>` heading
+- [ ] Headings describe sections and follow a clear, logical hierarchy
 - [ ] At least two `<p>` paragraphs
 - [ ] One list (ordered or unordered)
 - [ ] One image with `alt` text

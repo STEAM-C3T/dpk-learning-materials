@@ -103,7 +103,7 @@ Inside the `<body>` tags, add:
 **Explanation:**
 
 - `<header>`: Semantic container for introductory content
-- `<h1>`: The main heading (only one per page)
+- `<h1>`: A top-level heading. For a simple page in this activity, use one `<h1>` for the main title as a practical convention; this is not a technical accessibility requirement.
 
 ---
 
@@ -347,7 +347,7 @@ Ready for more? Try these challenges:
 
 - Every HTML document needs `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>`.
 - Semantic tags (`<header>`, `<main>`, `<footer>`) improve structure and accessibility.
-- Headings create hierarchy; use only one `<h1>` per page.
+- Headings describe the structure of the content. Choose levels that reflect sections and subsections, and keep the hierarchy logical. One `<h1>` for this simple page is a practical convention, not a technical accessibility requirement.
 - Always include `alt` text on images for screen readers.
 - Test your page in a browser frequently to catch errors early.
 

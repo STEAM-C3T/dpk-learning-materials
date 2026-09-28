@@ -211,7 +211,7 @@ Let's create `index.html`:
 **Task:**
 Create a page about your favorite topic with:
 
-- One `<h1>` heading
+- Clear heading hierarchy that describes the page sections
 - Two paragraphs
 - A list (ordered or unordered)
 - One image with `alt` text

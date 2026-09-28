@@ -55,7 +55,7 @@ This unit transitions students from conceptual understanding (Unit 1.1) to hands
 
 ### Part 3: Heading Hierarchy
 
-**Expected answer:** "Using one `<h1>` creates clear document hierarchy and improves accessibility for screen readers. It signals the main topic of the page."
+**Expected answer:** "Headings describe the topic and subsections of a page. Choose them for their place in the content structure and keep the hierarchy logical. For a simple page in this activity, one `<h1>` for the main title is a useful convention, not a technical accessibility requirement."
 
 **Sample hierarchy:**
 
@@ -133,7 +133,7 @@ This unit transitions students from conceptual understanding (Unit 1.1) to hands
 
 | Misconception                      | Response                                                                            |
 | ---------------------------------- | ----------------------------------------------------------------------------------- |
-| "More `<h1>` tags = more emphasis" | Explain hierarchy; only one `<h1>` per page establishes clear main topic            |
+| "More `<h1>` tags = more emphasis" | Explain that heading levels express structure, not visual emphasis; choose levels that reflect the sections and keep the hierarchy understandable |
 | "Alt text is optional"             | Stress accessibility; screen readers rely on alt text for image context             |
 | "Spacing in code affects display"  | Clarify browser ignores extra whitespace; formatting aids readability for humans    |
 | "DOCTYPE isn't necessary"          | Explain modern browsers assume HTML5, but explicit declaration prevents quirks mode |
@@ -158,7 +158,7 @@ This unit transitions students from conceptual understanding (Unit 1.1) to hands
 | ------------------ | ----------------------------- | --------------------------------- | -------------------------------- | ------------------------------------------------ |
 | Document Structure | Missing major elements        | Has structure but errors          | Complete & valid structure       | Includes metadata (viewport, description)        |
 | Semantic Tags      | No semantic tags used         | One or two present                | Header, main, footer all used    | Additional semantic tags (article, section, nav) |
-| Headings           | No headings or all same level | Multiple `<h1>` or skipped levels | Proper hierarchy with one `<h1>` | Clear, descriptive headings with logical flow    |
+| Headings           | No headings or all same level | Headings do not describe sections or hierarchy is confusing | Headings describe sections with a logical hierarchy | Clear, descriptive headings with logical flow    |
 | Images             | Missing or no `alt` text      | `alt` text generic or missing     | Descriptive `alt` text           | Multiple images with captions                    |
 | Links              | Non-functional or missing     | Works but generic text            | Descriptive link text            | Internal and external links                      |
 | Validation         | Many errors                   | Some warnings                     | Passes W3C validation            | Zero errors, optimized markup                    |
