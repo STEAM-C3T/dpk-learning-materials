@@ -102,7 +102,7 @@ Valid examples: Weekly goal progress bar, category filtering, simple trend visua
 | Kickoff            | 10–15 min | Scope & SDG selection        | Prompt specificity; review examples                   |
 | Planning           | 15–25 min | User story + wireframe       | Circulate; challenge vague goals                      |
 | Build I            | 30–40 min | HTML structure + base JS     | Conduct accessibility pre‑check early                 |
-| Build II           | 30–40 min | Persistence + refining UI    | Code review small groups; emphasize data transparency |
+| Build II           | 30–40 min | Interaction, state, and refining UI; optional persistence | Keep the core usable for the session; persistence is opt-in, with clear disclosure and failure handling |
 | Testing & Ethics   | 15–20 min | Checklist + impact messaging | Pair testing; analyze language                        |
 | Reflection & Share | 10–20 min | Demo + feedback              | Facilitate constructive critique                      |
 
@@ -115,7 +115,7 @@ Adapt durations based on class pacing and engagement.
 | Learner Profile                   | Support                                                    | Extension                                       |
 | --------------------------------- | ---------------------------------------------------------- | ----------------------------------------------- |
 | Emerging                          | Provide starter template with stub functions               | Add live filtering or sorting                   |
-| On Track                          | Offer action array; student writes persistence & rendering | Integrate simple chart (bar of daily points)    |
+| On Track                          | Offer action array; student implements state and rendering | Add opt-in persistence with graceful failure handling or integrate a simple chart |
 | Advanced                          | Allow designing own data model + modular architecture      | Implement preset goals + progress notifications |
 | ELL                               | Vocabulary mini‑glossary; sentence stems for disclaimers   | Multi‑language UI toggle                        |
 | Neurodivergent / Motion Sensitive | Emphasize stable, non‑flashing UI; quick break schedule    | Research minimalist UI comparisons              |
@@ -142,16 +142,13 @@ Early embed: Introduce privacy explanation before building interactions. Student
 
 ## Assessment Rubric (Teacher Version)
 
-| Criterion            | Beginning (1)       | Developing (2)             | Proficient (3)                           | Advanced (4)                                                     |
-| -------------------- | ------------------- | -------------------------- | ---------------------------------------- | ---------------------------------------------------------------- |
-| Scope Definition     | Broad / unfocused   | Narrow but missing clarity | Clear single goal & limited interactions | Goal + explicit constraints & rationale                          |
-| User Flow            | Disconnected steps  | Partial coherence          | Logical sequence, minimal friction       | Streamlined with UX refinements (confirmation, focus management) |
-| Data Persistence     | If used: fails without feedback | If used: handles common cases | If used: persists and resets reliably; core app still works without it | Adds export + optional versioning / migration handling           |
-| Accessibility        | Largely missing     | Some headings or labels    | Full checklist met                       | Proactive enhancements (skip link, ARIA details)                 |
-| Ethical Transparency | Absent              | Generic message            | Specific stored data + reset             | Detailed limitations + responsible scoring rationale             |
-| Code Quality         | Disorganized        | Some duplication removed   | Modular, readable functions              | Highly maintainable, comments explain design decisions           |
-| Impact Communication | Exaggerated / vague | Basic explanation          | Honest, clear narrative                  | Thoughtful reflections on future scaling risks                   |
-| Reflection           | Minimal             | Surface observations       | Specific improvements & learning points  | Deep analysis + plan for adaptation                              |
+| Criterion | Emerging (1) | Developing (2) | Proficient (3) | Advanced (4) | Evidence to collect |
+| --- | --- | --- | --- | --- | --- |
+| Scope and user flow | User, purpose, or sequence is unclear. | Identifies a user and goal, but scope or steps need clarification. | Defines a focused goal and a logical, small set of interactions. | Explains constraints and improves the flow based on user feedback. | User story, wireframe, and peer-test note. |
+| State and optional persistence | Core interaction or state is missing or unreliable. | Core interaction partly works; state or feedback has gaps. | Core interaction works for the session; persistence is optional. | If persistence is offered, it is opt-in, handles unavailable storage, and explains reset behavior. | Working prototype and interaction/storage check. |
+| Accessibility | Controls or content are difficult to understand or operate. | Some accessible features are present, with notable gaps. | Uses semantic structure, labels, visible focus, and perceivable feedback. | Tests with keyboard or peer feedback and makes a specific improvement. | Keyboard check and peer-test observation. |
+| Ethical transparency and impact communication | Data use or impact claims are missing or misleading. | Gives a general explanation but leaves important limits unclear. | Discloses optional data storage and reset limits; describes counts as activity indicators, not measured impact. | Explains trade-offs and supports claims with relevant evidence. | Disclosure text and a reviewed impact statement. |
+| Code quality and reflection | Code or reflection is incomplete; no useful next step is identified. | Describes the work but gives a broad or unclear improvement. | Uses understandable functions and identifies a specific improvement. | Justifies design choices and proposes a realistic next iteration. | Source review and short reflection. |
 
 Use rubric mid‑way for formative self‑correction.
 
@@ -163,7 +160,7 @@ Use rubric mid‑way for formative self‑correction.
 | -------------- | ------------------------------- | ------------------------------ |
 | Scope Draft    | “List your user flow steps”     | ≤3 clear steps                 |
 | Prototype HTML | “Show headings & landmark tags” | Semantic structure present     |
-| Persistence    | “If you opted in, refresh after adding action” | Data intact; without opt-in, session behavior is clear |
+| Storage (optional) | “If you opted in, refresh after adding an action; what happens if storage is unavailable?” | Persistence works when available, failure is handled, or the app clearly remains session-only |
 | Accessibility  | “Tab through interface”         | All focusable; visible outline |
 | Ethics         | “Explain what data you store”   | Clear, specific disclosure     |
 
@@ -185,7 +182,7 @@ Use rubric mid‑way for formative self‑correction.
 | Symptom          | Likely Cause                            | Fix                                                             |
 | ---------------- | --------------------------------------- | --------------------------------------------------------------- |
 | Totals incorrect | Points parsed as string                 | Use `Number()` or unary `+` when adding                         |
-| Data lost        | Wrong storage key or missing save       | Confirm consistent `STORAGE_KEY` and call after mutations       |
+| Saved choices missing | Persistence is off, browser storage was cleared or unavailable, or a save failed | Keep the session usable; explain the storage status and do not treat persistence as required |
 | Delete fails     | ID mismatch                             | Log IDs; ensure using unique generation technique               |
 | Export empty     | Export triggered before load            | Call `loadState()` before rendering; guard null state           |
 | Keyboard trap    | Custom component missing focus handling | Replace with native elements / ensure `tabindex` & ARIA correct |
@@ -248,9 +245,9 @@ Encourage inclusive metric choices (avoid culturally biased actions—e.g., assu
 | Purpose | Template                                                   |
 | ------- | ---------------------------------------------------------- |
 | Intro   | “This tool helps track small daily sustainability habits.” |
-| Impact  | “Point totals visualize consistency, not exact emissions.” |
-| Privacy | “Data remains ONLY in your browser (localStorage).”        |
-| Reset   | “Reset removes all stored actions immediately.”            |
+| Impact  | “Point totals are motivational only; they are not emissions estimates or measurements of environmental impact.” |
+| Privacy | “If enabled, choices are stored in this browser’s localStorage and this example does not upload them. Browser storage is accessible to scripts on the same site; do not store sensitive data.” |
+| Reset   | “Reset clears this session and attempts to remove saved choices; browser restrictions may prevent saved data from being removed.” |
 
 ---
 

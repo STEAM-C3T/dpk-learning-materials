@@ -622,14 +622,15 @@ Optional: Provide _context multipliers_ (e.g., show weekly totals = `points * 7`
 
 1. Add each quick action; totals increment correctly.
 2. Add custom action with boundary values (min points 1, max points 100). Reject invalid.
-3. Refresh page; data persists.
+3. If you opted in to persistence, refresh the page and check whether data is available; if not, confirm the app explains that choices last only for the current session.
 4. Delete an action; totals recalculate.
 5. Export JSON; contains actions array.
-6. Reset; storage cleared, UI resets.
+6. Reset; the UI resets and the app reports whether saved data could be removed.
 
 **Edge Cases:**
 
 - Empty export area after reset.
+- If browser storage is unavailable, the app still works for the current session and explains that choices will not persist.
 - Large number of actions (performance still fine).
 - Non-numeric input (should be prevented by input `type='number'`).
 

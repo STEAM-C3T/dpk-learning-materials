@@ -464,13 +464,13 @@ function resetData() {
 
 **Disclaimers Should:**
 
-- Clarify data scope (local only, no server)
-- Avoid greenwashing ("approximate" not "exact")
+- Explain that persistence is optional; if enabled, disclose localStorage use and storage limits
+- Avoid greenwashing: counts and points are not environmental impact measurements
 - State limitations (not a real carbon calculator)
 
 **Example:**
 
-> "Data stays in your browser; points motivate habits, not exact emissions."
+> "If enabled, this example saves choices in this browser and does not upload them to a server. Other scripts on this site may access browser storage. Counts and points are motivational, not impact measurements."
 
 **Why This Matters:**
 

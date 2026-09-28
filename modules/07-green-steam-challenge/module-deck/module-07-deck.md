@@ -14,7 +14,7 @@ Students will:
 
 - Define a narrow sustainability scope & user story (3.1, 5.2)
 - Implement semantic, accessible UI (3.1, 4.2)
-- Use JavaScript for state, persistence & rendering (3.4)
+- Use JavaScript for state and rendering; persistence is an optional extension (3.4)
 - Communicate ethical & privacy considerations transparently (4.2)
 - Reflect on impact limits & improvement paths (5.2)
 
@@ -49,7 +49,7 @@ Layers:
 - Semantic HTML (header, main, sections)
 - CSS for focus visibility & readability
 - JS state object { actions[], totals{} }
-- Persistence via localStorage single key
+- In-session state works by default; optional persistence requires clear opt-in and graceful storage-failure handling
 - Rendering functions (log, quick actions, totals)
   Principle: Single responsibility per function.
 
@@ -83,7 +83,7 @@ Checklist Mid‑Build:
 | Dimension         | Proficient Signal                       |
 | ----------------- | --------------------------------------- |
 | Scope             | Focused goal + constrained interactions |
-| Data Persistence  | Reliable save/load/reset                |
+| State & Storage   | Core interactions work in-session; optional storage is disclosed and reset is handled clearly |
 | Accessibility     | All required elements validated         |
 | Ethical Messaging | Honest, specific, non-exaggerated       |
 | Code Quality      | Modular, readable, minimal duplication  |
@@ -97,7 +97,7 @@ Use rubric formatively at midpoint.
 
 1. Scope & user story
 2. Semantic skeleton + disclaimer
-3. State & persistence functions
+3. State and rendering; optional persistence with failure handling
 4. Rendering & interactivity
 5. Accessibility + ethics validation
 6. Testing & reflection
@@ -112,7 +112,7 @@ Use rubric formatively at midpoint.
 | Feature creep       | Revisit written scope; defer extras      |
 | Overstated impact   | Peer review disclaimer language          |
 | Poor accessibility  | Early keyboard testing; adjust structure |
-| Fragile persistence | Centralize save in one helper function   |
+| Storage unavailable or unclear | Keep session use working; disclose opt-in storage and reset limits |
 
 ---
 
@@ -174,9 +174,9 @@ Highlights shift from local-only to potential data governance concerns.
 
 ### 17. Sample Disclaimer Library (For Review)
 
-1. “Data stays only in your browser (localStorage).”
-2. “Point totals motivate habits; they are not exact carbon calculations.”
-3. “Reset permanently removes saved actions.”
+1. “If you opt in, this browser stores your choices in localStorage. This example does not upload them to a server; other scripts on this site may be able to access browser storage.”
+2. “The action count and points are motivational activity indicators, not measurements of environmental impact.”
+3. “Reset clears this session and attempts to remove saved choices. Browser restrictions may prevent saved data from being removed.”
    Encourage personalization without exaggeration.
 
 ---
