@@ -1,5 +1,9 @@
 # Digital Proficiency Kit — Learning Materials
 
+**Browse the published site:** <https://steam-c3t.github.io/dpk-learning-materials/>. Original Markdown source files, including Marp decks, remain available in this repository.
+
+**Browse the published site:** <https://steam-c3t.github.io/dpk-learning-materials/>. Original Markdown source files, including Marp decks, remain available in this repository.
+
 ### _STEAM: From Campus to Classroom, Crafting Tomorrow (STEAM-C3T)_
 
 **Erasmus+ Cooperation Partnerships in School Education (KA220-SCH)**

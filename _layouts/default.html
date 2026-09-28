@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <nav aria-label="Main navigation">
+      <a href="{{ '/modules/01-introduction-to-the-web/README.html' | relative_url }}">Modules</a>
+      <a href="https://steam-c3t.github.io/digital-proficiency-kit/">Student Kit</a>
+      <a href="https://steam-c3t.github.io/teacher-toolkit/">Teacher Toolkit</a>
+      <a href="https://github.com/STEAM-C3T/dpk-learning-materials">GitHub source</a>
+    </nav>
+  </header>
+  <main id="main" class="content">{{ content }}</main>
+  <footer class="site-footer">Open learning resources · <a href="https://github.com/STEAM-C3T/dpk-learning-materials">View source on GitHub</a></footer>
+</body>
+</html>

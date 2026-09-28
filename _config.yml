@@ -1,0 +1,24 @@
+title: DPK Learning Materials
+description: Presentation decks, tutorials, and student and teacher workbooks for the Digital Proficiency Kit.
+url: https://steam-c3t.github.io
+baseurl: /dpk-learning-materials
+markdown: kramdown
+plugins:
+  - jekyll-relative-links
+  - jekyll-seo-tag
+relative_links:
+  enabled: true
+  collections: true
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+include:
+  - modules
+  - templates
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CHANGELOG.md
