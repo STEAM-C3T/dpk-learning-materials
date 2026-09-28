@@ -12,6 +12,7 @@ This unit includes:
 - [**tutorial/unit-6.1-tutorial.md**](tutorial/unit-6.1-tutorial.md): Step-by-step guide to generative art with Canvas
 - [**workbook/unit-6.1-student-workbook.md**](workbook/unit-6.1-student-workbook.md): Student workbook with scaffolds and reflection prompts
 - [**workbook/unit-6.1-teacher-annotated.md**](workbook/unit-6.1-teacher-annotated.md): Teacher version with timing, answer keys, and differentiation strategies
+- [Runnable generative grid example](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/06-creative-web-projects/examples/generative-art.html): Canvas animation with a keyboard-operable pause/play control and reduced-motion support
 
 ---
 
@@ -36,6 +37,8 @@ Unit 6.1 explores generative art—visuals created through code and algorithmic 
 - Implement particles with position, velocity, and lifecycle
 - Connect HTML range inputs to visual parameters
 - Ensure animations can be paused for accessibility
+
+When exploring the runnable example, test the Pause/Play button with the keyboard. The animation starts paused when the device requests reduced motion; learners can choose to play it.
 
 **Estimated Time:** 90–120 minutes
 
