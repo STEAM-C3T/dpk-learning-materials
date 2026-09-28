@@ -18,7 +18,7 @@ paginate: true
 
 By the end of this unit, you will be able to:
 
-- Build a purpose-driven web application with localStorage
+- Build a purpose-driven web application; persistence is an optional extension
 - Implement ethical transparency in UI and data handling
 - Create accessible forms and interactive controls
 - Design modular JavaScript for state management
@@ -94,7 +94,7 @@ By the end of this unit, you will be able to:
 <details>
   <summary>About This Tracker</summary>
   <p>
-    <strong>Privacy:</strong> All data stays in your browser (localStorage).
+    <strong>Privacy:</strong> If the user opts in, choices are stored in this browser (localStorage); storage may be unavailable.
     Nothing is sent to a server.
   </p>
   <p>

@@ -21,7 +21,7 @@ By the end of this unit, students will be able to:
 
 1. **Define** a narrow, achievable scope for a sustainability-focused web application.
 2. **Implement** semantic HTML structure with accessibility features (ARIA, landmarks).
-3. **Use** JavaScript to manage application state and localStorage persistence.
+3. **Use** JavaScript to manage application state; persistence with `localStorage` is optional.
 4. **Communicate** ethical considerations transparently (privacy, impact limitations).
 5. **Test** for accessibility using keyboard navigation and basic screen reader simulation.
 
@@ -34,7 +34,7 @@ Unit 7.1 challenges students to create a small, purpose-driven mini‑app aligne
 - Choose a focused sustainability theme (e.g., habit tracking, awareness tool)
 - Write a user story and wireframe the interface
 - Build a semantic HTML skeleton with privacy disclosures
-- Implement JavaScript state management and localStorage persistence
+- Implement JavaScript state management; optionally add resilient, opt-in localStorage persistence
 - Ensure ethical transparency (honest impact claims, no greenwashing)
 - Test for accessibility and reflect on design decisions
 

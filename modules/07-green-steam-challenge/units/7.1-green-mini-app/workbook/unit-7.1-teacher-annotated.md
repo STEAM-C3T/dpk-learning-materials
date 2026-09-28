@@ -128,7 +128,7 @@ Early embed: Introduce privacy explanation before building interactions. Student
 
 ### Sample Disclaimer
 
-"Actions and point values are approximate motivational labels. Data stays in your browser only (localStorage). No identity or location data is stored. Reset deletes all stored actions."
+"The action count tracks selected activities; it does not measure environmental impact. If you opt in to remembering choices, they are saved in this browser only. No identity or location data is stored. Reset removes saved choices when browser storage allows it."
 
 ### Greenwashing Avoidance Language
 
@@ -146,7 +146,7 @@ Early embed: Introduce privacy explanation before building interactions. Student
 | -------------------- | ------------------- | -------------------------- | ---------------------------------------- | ---------------------------------------------------------------- |
 | Scope Definition     | Broad / unfocused   | Narrow but missing clarity | Clear single goal & limited interactions | Goal + explicit constraints & rationale                          |
 | User Flow            | Disconnected steps  | Partial coherence          | Logical sequence, minimal friction       | Streamlined with UX refinements (confirmation, focus management) |
-| Data Persistence     | None / broken       | Works sporadically         | Consistently persists & resets           | Adds export + optional versioning / migration handling           |
+| Data Persistence     | If used: fails without feedback | If used: handles common cases | If used: persists and resets reliably; core app still works without it | Adds export + optional versioning / migration handling           |
 | Accessibility        | Largely missing     | Some headings or labels    | Full checklist met                       | Proactive enhancements (skip link, ARIA details)                 |
 | Ethical Transparency | Absent              | Generic message            | Specific stored data + reset             | Detailed limitations + responsible scoring rationale             |
 | Code Quality         | Disorganized        | Some duplication removed   | Modular, readable functions              | Highly maintainable, comments explain design decisions           |
@@ -163,7 +163,7 @@ Use rubric mid‑way for formative self‑correction.
 | -------------- | ------------------------------- | ------------------------------ |
 | Scope Draft    | “List your user flow steps”     | ≤3 clear steps                 |
 | Prototype HTML | “Show headings & landmark tags” | Semantic structure present     |
-| Persistence    | “Refresh after adding action”   | Data intact                    |
+| Persistence    | “If you opted in, refresh after adding action” | Data intact; without opt-in, session behavior is clear |
 | Accessibility  | “Tab through interface”         | All focusable; visible outline |
 | Ethics         | “Explain what data you store”   | Clear, specific disclosure     |
 

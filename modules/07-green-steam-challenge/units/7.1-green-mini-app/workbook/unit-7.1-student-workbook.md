@@ -14,7 +14,7 @@ By the end I can:
 - [ ] Define a narrow sustainability focus and SDG alignment
 - [ ] Map a clear user flow (≤ 3 primary interactions)
 - [ ] Implement semantic HTML structure
-- [ ] Persist data responsibly with `localStorage`
+- [ ] Keep the app usable for this session; optionally add opt-in `localStorage` persistence
 - [ ] Explain what data is stored and how to reset/export it
 - [ ] Provide accessible interactions (keyboard + clear labels)
 - [ ] Communicate impact honestly (no exaggerated claims)
@@ -63,7 +63,7 @@ Draw or describe your interface layout.
 +---------------------------------------------+
 | Title                                       |
 | Intro text                                  |
-| Metrics (points / count)                    |
+| Metrics (activity count / optional motivation points, not measured impact) |
 | Quick actions buttons                       |
 | Custom action form                          |
 | Logged actions list                         |
@@ -116,7 +116,7 @@ Explain each field:
 - `points`: ****************************\_\_****************************
 - `ts` (timestamp): ************************\_************************
 
-**What will you store in localStorage (key name)?**
+**Optional extension: What would you store in localStorage (key name)?**
 Key: ************\_\_************
 
 **How will you avoid storing sensitive data?**
@@ -127,15 +127,17 @@ Key: ************\_\_************
 
 ---
 
-## Part 6: localStorage Plan
+## Part 6: Optional Extension — localStorage Plan
+
+Complete this section if you choose to add persistence. Browser storage can be unavailable, so the app must still work for the current session. Do not store personal or sensitive data.
 
 Fill in pseudo code:
 
 ```
 function loadState() {
-  const raw = localStorage.getItem(KEY);
-  if (!raw) return; // No data yet
   try {
+    const raw = localStorage.getItem(KEY);
+    if (!raw) return; // No data yet
     const parsed = JSON.parse(raw);
     // Validate: ____________________________________
     // Assign: ______________________________________
@@ -145,8 +147,11 @@ function loadState() {
 }
 
 function saveState() {
-  // Convert state to string: _______________________
-  // Store: localStorage.setItem(KEY, _____________)
+  try {
+    // Convert state to string and store it: _______________________
+  } catch (e) {
+    // Keep the app usable and tell the user saving is unavailable: __________
+  }
 }
 ```
 
@@ -221,7 +226,7 @@ Record progress as you build.
 | Custom action form       |                                           |                   |
 | Actions list with delete |                                           |                   |
 | Totals update correctly  |                                           |                   |
-| Data persists on refresh |                                           |                   |
+| (If opted in) Data persists on refresh |                              |                   |
 | Export JSON button       |                                           |                   |
 | Reset data button        |                                           |                   |
 | Privacy info section     |                                           |                   |

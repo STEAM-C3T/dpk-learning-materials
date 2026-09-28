@@ -15,7 +15,7 @@ In this unit you will design and implement a _small_, _impactful_ web applicatio
 1. Define a **scope** so small it can realistically be finished (MVP mindset).
 2. Map a **clear user flow** (e.g., “Add action → View total points → Reset”).
 3. Build a semantic, accessible interface using only HTML/CSS/JS.
-4. Persist minimal state using `localStorage` (with transparency about what is stored and how to reset/export).
+4. Optionally persist minimal state using `localStorage`; the core app must still work if storage is unavailable.
 5. Communicate impact honestly with simple metrics or narrative.
 
 ---
@@ -26,7 +26,7 @@ By the end of this unit you will be able to:
 
 - Plan and implement a focused sustainability mini‑app using iterative design.
 - Translate a user story into semantic HTML structure and minimal JavaScript logic.
-- Persist simple state responsibly with `localStorage` and explain privacy trade‑offs.
+- Keep in-session state usable; optionally add opt-in `localStorage` persistence and explain privacy trade-offs.
 - Provide accessible interactions (keyboard, labels, focus styles, clear copy).
 - Communicate sustainability impact with simple metrics or explanatory text.
 - Reflect on design limitations and ethical considerations.
@@ -59,15 +59,15 @@ Write one sentence: _“This app supports SDG **\_ by helping users ****\_\_\_\_
 **User Story Template:**
 “As a [type of user], I want to [action] so that I can [goal/benefit].”
 
-**Example:** “As a student, I want to log small eco‑friendly actions so I can stay motivated and see my cumulative impact.”
+**Example:** “As a student, I want to log small eco‑friendly actions so I can stay motivated and see how many I selected.”
 
 **Acceptance Criteria Example (Green Actions Tracker):**
 
 - User can add predefined actions with a single click.
-- App displays total points and count of actions.
+- App displays an action count; any points are clearly described as motivational labels, not measured environmental impact.
 - User can add a custom action with name + points.
-- State persists on refresh via `localStorage`.
-- User can reset data (with confirmation).
+- App works for the current session even if persistence is not implemented or available.
+- If persistence is offered, users opt in and can reset saved data.
 - Plain explanation of what is stored and how to delete it.
 - Accessible: keyboard focus, aria labels, color contrast.
 
@@ -81,7 +81,7 @@ Sketch in text or paper:
 +--------------------------------------------------+
 |  Title: Green Action Tracker                      |
 |  Intro paragraph (purpose + SDG mapping)          |
-|  [Points Total: 45] [Actions Logged: 7]           |
+|  [Actions selected: 7] [Motivation points: 45]   |
 |                                                  |
 |  Quick Actions:                                   |
 |  [Reuse Bottle (+5)] [Bike Commute (+8)]          |
@@ -231,14 +231,14 @@ Create a base HTML file (e.g., `green-mini-app.html`).
     <header>
       <h1>Green Action Tracker</h1>
       <p id="intro">
-        Track small daily eco‑actions and see cumulative impact. Supports SDG 13
+            Track small daily eco‑actions. The action count and motivation points do not measure environmental impact. Supports SDG 13
         (Climate Action).
       </p>
     </header>
     <main>
       <section class="metrics" aria-label="Current totals">
         <div class="metric" id="total-points" role="status" aria-live="polite">
-          Total Points: 0
+          Motivation points (not environmental impact): 0
         </div>
         <div class="metric" id="total-actions" role="status" aria-live="polite">
           Actions Logged: 0
@@ -274,8 +274,8 @@ Create a base HTML file (e.g., `green-mini-app.html`).
           <button type="submit">Add Action</button>
         </form>
         <p id="custom-desc" style="font-size:.85rem;">
-          Add a custom action with a simple point value (approximate impact).
-          Keep values modest.
+          Add an optional motivation point value. Points do not measure
+          environmental impact; explain how your chosen values are used.
         </p>
       </section>
 
@@ -286,6 +286,10 @@ Create a base HTML file (e.g., `green-mini-app.html`).
 
       <section aria-labelledby="data-tools-heading">
         <h2 id="data-tools-heading">Data Tools & Privacy</h2>
+        <label for="remember-choices">
+          <input id="remember-choices" type="checkbox" /> Remember my choices on this device (optional)
+        </label>
+        <p id="storage-status" role="status" aria-live="polite">Choices stay on this page unless you opt in to saving them.</p>
         <div class="utilities">
           <button id="export-btn">Export JSON</button>
           <button id="reset-btn" class="danger">Reset Data</button>
@@ -298,10 +302,11 @@ Create a base HTML file (e.g., `green-mini-app.html`).
         <details>
           <summary>What data is stored?</summary>
           <p>
-            We store: actions array (name, points, timestamp) + totals. All
-            stored locally in your browser via <code>localStorage</code>; no
-            server upload. Use Reset or manually clear browser storage to
-            delete.
+            If you opt in to remembering choices, this app stores the actions
+            array (name, points, timestamp) and totals in this browser via
+            <code>localStorage</code>; no server upload. Storage may be blocked.
+            Use Reset to remove saved data. The app remains usable for this
+            session without persistence.
           </p>
         </details>
       </section>
@@ -340,19 +345,22 @@ Design a minimal state shape:
 // Application state
 const state = {
   actions: [], // { id, name, points, ts }
-  totals: { points: 0, count: 0 },
+      totals: { points: 0, count: 0 },
 };
 
 const STORAGE_KEY = "green-actions-v1";
+const rememberToggle = document.getElementById("remember-choices");
+const storageStatusEl = document.getElementById("storage-status");
+let persistenceEnabled = false;
 ```
 
 ### Loading & Saving
 
 ```javascript
 function loadState() {
-  const raw = localStorage.getItem(STORAGE_KEY);
-  if (!raw) return;
   try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return true;
     const parsed = JSON.parse(raw);
     if (parsed && Array.isArray(parsed.actions)) {
       state.actions = parsed.actions;
@@ -361,13 +369,42 @@ function loadState() {
         count: parsed.actions.length,
       };
     }
-  } catch (e) {
-    console.warn("Failed to parse saved data", e);
+    return true;
+  } catch {
+    storageStatusEl.textContent = "Saved choices could not be read. You can continue for this session.";
+    return false;
   }
 }
 
+rememberToggle.addEventListener("change", () => {
+  if (rememberToggle.checked) {
+    if (!loadState()) {
+      rememberToggle.checked = false;
+      return;
+    }
+    persistenceEnabled = true;
+    storageStatusEl.textContent = "Choices are saved in this browser on this device.";
+    updateTotals();
+    renderLog();
+  } else {
+    persistenceEnabled = false;
+    try {
+      localStorage.removeItem(STORAGE_KEY);
+      storageStatusEl.textContent = "Saved choices removed. Current choices remain until you leave or refresh.";
+    } catch {
+      storageStatusEl.textContent = "Browser storage could not be cleared; current choices remain for this session.";
+    }
+  }
+});
+
 function saveState() {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    return true;
+  } catch {
+    storageStatusEl.textContent = "Browser storage is unavailable. Your current session still works.";
+    return false;
+  }
 }
 ```
 
@@ -401,7 +438,7 @@ const exportArea = document.getElementById("export");
 function updateTotals() {
   state.totals.points = state.actions.reduce((acc, a) => acc + a.points, 0);
   state.totals.count = state.actions.length;
-  totalPointsEl.textContent = `Total Points: ${state.totals.points}`;
+  totalPointsEl.textContent = `Motivation points (not environmental impact): ${state.totals.points}`;
   totalActionsEl.textContent = `Actions Logged: ${state.totals.count}`;
 }
 
@@ -464,7 +501,10 @@ function sanitize(str) {
 
 ```javascript
 function saveAndRender() {
-  saveState();
+  if (persistenceEnabled && !saveState()) {
+    persistenceEnabled = false;
+    rememberToggle.checked = false;
+  }
   updateTotals();
   renderLog();
 }
@@ -498,9 +538,17 @@ exportBtn.addEventListener("click", () => {
 
 resetBtn.addEventListener("click", () => {
   if (confirm("Reset ALL stored data? This cannot be undone.")) {
-    localStorage.removeItem(STORAGE_KEY);
+    try {
+      localStorage.removeItem(STORAGE_KEY);
+      storageStatusEl.textContent = "Saved choices removed.";
+    } catch {
+      storageStatusEl.textContent = "Choices reset for this session, but browser storage would not allow saved data to be removed.";
+    }
+    persistenceEnabled = false;
+    rememberToggle.checked = false;
     state.actions = [];
-    saveAndRender();
+    updateTotals();
+    renderLog();
     exportArea.value = "";
   }
 });
@@ -510,7 +558,6 @@ resetBtn.addEventListener("click", () => {
 
 ```javascript
 function init() {
-  loadState();
   renderQuickActions();
   updateTotals();
   renderLog();
@@ -527,7 +574,7 @@ Even local apps collect data. You must:
 - Explain **what** is stored (list of actions, timestamps) and **where** (localStorage only).
 - Provide **Reset/Export** controls (user agency).
 - Avoid sensitive personal data (keep categories generic: “Bike Commute” not GPS trail).
-- Encourage honest scoring (points approximate impact, not exact carbon accounting).
+- Describe points as motivational labels, not environmental impact measurements.
 
 **Add an ethics section:**
 
