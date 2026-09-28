@@ -2,7 +2,7 @@
 
 **Module:** 01 — Introduction to the Web  
 **Unit:** 1.2 — Basic HTML Structure  
-**Duration:** 60–90 minutes  
+**Core lesson:** 55 minutes; optional extension and follow-up: 15–35 minutes
 **Prerequisites:** Unit 1.1 (What Is the Web?)
 
 ---
@@ -28,6 +28,8 @@ A simple "About Me" webpage with:
 - Document structure (DOCTYPE, html, head, body)
 - Semantic sections
 - Heading, paragraphs, list, image, link
+
+Use the steps through Part 4 for the 55-minute core lesson. Save a valid page containing the document skeleton, semantic sections, headings, a paragraph, and a list. Add an image with descriptive `alt` text if time allows. Parts 5 onward provide optional follow-up and extension practice.
 
 ---
 

@@ -34,7 +34,20 @@ Unit 1.2 builds on the conceptual foundation from Unit 1.1 by introducing hands-
 - Add headings, paragraphs, lists, and images
 - Test their work in a browser
 
-**Estimated Time:** 90–120 minutes
+**Total estimated time:** 70–90 minutes (55-minute core lesson plus optional 15–35-minute follow-up)
+
+### Core lesson: 55 minutes
+
+- 5 min: Review the page structure and show the finished example.
+- 10 min: Create the HTML file and document skeleton.
+- 10 min: Add semantic sections and a logical heading structure.
+- 15 min: Add a paragraph and a short list.
+- 10 min: Add an image with `alt` text and a descriptive link.
+- 5 min: Open the page in a browser and check the structure.
+
+**Core lesson stopping point:** Students have a valid HTML page with a title, semantic sections, meaningful headings, a paragraph, a list, and an image with `alt` text. Save the page here if class time ends.
+
+**Optional follow-up (15–35 minutes):** Add in-page links, improve the page content, check keyboard navigation, and complete the reflection. The full guided tutorial and workbook offer additional practice and can be split across lessons.
 
 ---
 
@@ -46,5 +59,3 @@ Unit 1.2 builds on the conceptual foundation from Unit 1.1 by introducing hands-
 - [Teacher Toolkit: Lesson Plans](https://github.com/STEAM-C3T/teacher-toolkit/tree/main/modules/01-introduction-to-the-web)
 
 ---
-
-**Note:** Full deck, tutorial, and workbook content to be populated using templates. For now, this README serves as placeholder demonstrating the unit folder structure.

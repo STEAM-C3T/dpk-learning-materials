@@ -2,7 +2,7 @@
 
 **Module:** 01 — Introduction to the Web  
 **Unit:** 1.2 — Basic HTML Structure  
-**Duration:** 60–90 minutes  
+**Core lesson:** 55 minutes; optional extension and follow-up: 15–35 minutes
 **Prerequisites:** Unit 1.1 (What Is the Web?)
 
 ---
@@ -10,6 +10,8 @@
 ## Purpose & Pedagogical Focus
 
 This unit transitions students from conceptual understanding (Unit 1.1) to hands-on HTML coding. The workbook scaffolds independent practice while building confidence with essential HTML structure and semantic tags.
+
+**Core lesson stopping point:** Students produce a valid page with a document skeleton, semantic sections, meaningful headings, a paragraph, a list, and an image with `alt` text. In a 55-minute class, defer in-page anchors, extended practice, and reflection if needed; continue those as follow-up.
 
 ### Key Teaching Aims
 
