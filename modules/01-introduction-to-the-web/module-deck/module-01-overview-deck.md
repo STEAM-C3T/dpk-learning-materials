@@ -50,7 +50,7 @@ Web Development for STEAM
 ## Teacher Focus Points
 
 - Unit 1.1: 60–90 min
-- Unit 1.2: 90–120 min
+- Unit 1.2: 55 min core lesson; optional 15–35 min follow-up
 - Projects: 60 min
 - Common misconceptions: Web ≠ Internet; HTML ≠ programming
 - Accessibility: Use semantic tags, alt text
