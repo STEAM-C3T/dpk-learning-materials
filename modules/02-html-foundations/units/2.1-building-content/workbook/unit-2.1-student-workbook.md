@@ -11,26 +11,6 @@
 
 By the end of this unit, I will be able to:
 
-- [ ] Use headings to create clear document hierarchy
-- [ ] Add paragraphs, lists, links, and images with proper markup
-- [ ] Write descriptive alt text for images
-- [ ] Structure content semantically for accessibility
-
----
-
-# Student Workbook: Unit 2.1 — Building Content
-
-**Module:** 02 — HTML Foundations  
-**Unit:** 2.1 — Building Content  
-**Name:** ****************\_\_\_****************  
-**Date:** ****************\_\_\_****************
-
----
-
-## Learning Objectives
-
-By the end of this unit, I will be able to:
-
 - [ ] Create a clear heading hierarchy using `<h1>` through `<h6>`
 - [ ] Structure text content using paragraphs and line breaks appropriately
 - [ ] Build ordered and unordered lists

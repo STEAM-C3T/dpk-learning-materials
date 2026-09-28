@@ -1,4 +1,4 @@
-# Teacher Annotated Workbook: Unit 2.1 — Building Content
+# Teacher Guide: Unit 2.1 — Building Content
 
 **Module:** 02 — HTML Foundations  
 **Unit:** 2.1 — Building Content  
@@ -6,32 +6,35 @@
 
 ---
 
-## Overview for Teachers
+## Quick Lesson Guide
 
-**Estimated Time:** 45–60 minutes
+**Outcomes:** Students structure content with headings, paragraphs, lists, and links; add images with suitable text alternatives; and explain their choices.
 
-**Learning Objectives:**
-By the end of this unit, students will be able to:
+**DigComp 2.2:** 3.1 Developing digital content; 1.2 Evaluating data, information and digital content.
 
-- Use headings to create clear document hierarchy
-- Add paragraphs, lists, links, and images with proper markup
-- Write descriptive alt text for images
-- Structure content semantically for accessibility
+**Core time:** 45–60 minutes for guided instruction. The independent content page is a separate 30–40-minute task or follow-up.
 
-**DigComp 2.2 Alignment:**
+**Before class**
 
-- 3.1 Developing digital content
-- 1.2 Evaluating data, information and digital content
+- Confirm students can edit and open an HTML file in a browser; prepare a starter file if needed.
+- Prepare two sample images and a sample page to model headings, lists, links, and image text alternatives.
+- DevTools or screen-reader access is optional for demonstrations, not required for the core task.
 
----
+**Classroom sequence**
 
-# Teacher-Annotated Workbook: Unit 2.1 — Building Content
+1. **Connect and model (5–8 min):** Revisit semantic structure and show a small page with headings, a list, a link, and an image.
+2. **Guided practice (10–12 min):** Build a heading outline, then add a list and descriptive link text.
+3. **Image alternatives (8–10 min):** Compare informative and decorative images; model descriptive `alt` text and `alt=""` for decorative images.
+4. **Build and check (15–20 min):** Students complete selected workbook practice; inspect headings, list structure, links, and image alternatives.
+5. **Exit check (3–5 min):** Ask students to identify one content structure choice and explain one image’s text alternative.
 
-**Module:** 02 — HTML Foundations  
-**Unit:** 2.1 — Building Content  
-**Teacher Guide**
+**Likely sticking points:** Students may use headings for visual size, choose the wrong list type, or write filenames as `alt` text. Reinforce that headings describe structure, list type reflects meaning, and `alt` describes the image’s relevant information.
 
----
+**Differentiation:** Support with a partly completed page skeleton and heading outline. Extend with a nested list, figure/caption, or in-page link.
+
+**Assessment evidence:** A saved HTML page with meaningful headings, paragraphs, lists, descriptive links, and image alternatives; workbook checks and the exit explanation.
+
+Use the detailed sections below for answer keys and additional teaching notes.
 
 ## Teaching Notes
 
@@ -39,10 +42,9 @@ By the end of this unit, students will be able to:
 
 **Pre-Class Preparation:**
 
-- Ensure all students have text editors installed
-- Test that browser DevTools are accessible on student machines
-- Prepare example images or have students bring their own
-- Optional: Create a sample topic page to show as exemplar
+- Confirm access to a text editor or approved browser-based editor; students do not need to install one during class.
+- Prepare example images and a sample topic page.
+- If demonstrating DevTools, check access ahead of time; the core lesson does not depend on them.
 
 **Learning Progression:**
 This unit builds on Module 01 by introducing content-focused HTML elements. Students apply basic structure knowledge to create meaningful, accessible content.
