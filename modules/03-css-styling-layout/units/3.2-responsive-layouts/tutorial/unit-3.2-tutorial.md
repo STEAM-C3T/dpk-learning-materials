@@ -133,9 +133,12 @@ Create `portfolio.html`:
       <section id="contact" class="contact-section">
         <h2>Get In Touch</h2>
         <form class="contact-form">
-          <input type="text" placeholder="Your Name" required />
-          <input type="email" placeholder="Your Email" required />
-          <textarea placeholder="Your Message" rows="5" required></textarea>
+          <label for="contact-name">Your name</label>
+          <input id="contact-name" name="name" type="text" placeholder="e.g. Alex Morgan" autocomplete="name" required />
+          <label for="contact-email">Email address</label>
+          <input id="contact-email" name="email" type="email" placeholder="e.g. alex@example.com" autocomplete="email" required />
+          <label for="contact-message">Message</label>
+          <textarea id="contact-message" name="message" placeholder="How can I help?" rows="5" required></textarea>
           <button type="submit">Send Message</button>
         </form>
       </section>
@@ -155,6 +158,8 @@ Create `portfolio.html`:
 
 **Why This Step:**
 The viewport meta tag is crucial for responsive design—without it, mobile browsers render at desktop width and zoom out.
+
+Each form control has a visible `<label>` connected through a matching `for` and `id`. Placeholder text is optional example or hint text; it can disappear during typing and does not replace a label. Keep labels visible so people can identify each field while completing the form.
 
 **Quick Self-Check:**
 

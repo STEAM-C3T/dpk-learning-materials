@@ -54,6 +54,8 @@ Help students think responsively from the start, not as an afterthought.
 
 **Teaching Strategy:**
 
+**Form accessibility check:** The tutorial’s contact form uses a visible label associated with every control (`for` matches the control `id`). Placeholders may show an example or hint, but they disappear during entry and do not replace labels.
+
 - **Physical Demo:** Line up students, rearrange to show flex-direction
 - **Visual Aid:** Draw main axis (justify) and cross axis (align)
 - **Live Code:** Change one property at a time, show immediate effect
