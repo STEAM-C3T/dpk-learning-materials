@@ -1,4 +1,4 @@
-# Tutorial: Unit 4.1 — JavaScript Basics
+# Tutorial: Unit 4.1 — JavaScript Basics and a First Interaction
 
 **Module:** 04 — JavaScript Essentials  
 **Unit:** 4.1 — JavaScript Basics  
@@ -11,19 +11,21 @@
 ## Overview
 
 **What You Will Learn:**
-In this tutorial, you will learn JavaScript fundamentals including variables, data types, operators, functions, and control structures.
+In this tutorial, you will learn the JavaScript fundamentals needed to make a first web page interaction: variables, simple values, arithmetic and comparisons, functions, and `if/else` conditions.
 
 **What You Will Build:**
-An interactive calculator and quiz application demonstrating JavaScript basics with user input, calculations, and conditional logic.
+A small, accessible calculator that reads two numbers, performs an operation, and displays a result or helpful message.
 
 **Learning Outcomes:**
 
-- Declare and use variables with `let`, `const`, and `var`
-- Work with different data types (strings, numbers, booleans, arrays, objects)
+- Declare and use variables with `let` and `const`
+- Work with strings, numbers, and booleans
+- Use arithmetic and simple comparison operators
 - Write and call functions
-- Use conditional statements (`if`, `else`, `switch`)
-- Implement loops (`for`, `while`)
-- Handle user input and output
+- Use `if`/`else` to handle different cases
+- Respond to a form submission with an event listener and display text safely
+
+Arrays, objects, loops, `switch`, and array methods are optional extensions. They are not prerequisites for the calculator or Unit 4.2.
 
 ---
 
@@ -56,7 +58,7 @@ JavaScript is a programming language that adds interactivity to websites. While 
 
 1. **External:** Separate `.js` file (recommended)
 2. **Internal:** `<script>` tag in HTML
-3. **Inline:** In HTML attributes like `onclick` (avoid)
+3. **Inline:** In HTML attributes like `onclick` (avoid; use event listeners)
 
 **JavaScript Execution:**
 JavaScript runs line-by-line, top-to-bottom. The browser's JavaScript engine interprets and executes code.
@@ -110,7 +112,7 @@ Create `javascript-basics.html`:
   </head>
   <body>
     <h1>JavaScript Basics</h1>
-    <div id="output" class="output">Output will appear here</div>
+  <div id="output" class="output" aria-live="polite">Output will appear here</div>
 
     <script src="script.js"></script>
   </body>
@@ -145,40 +147,20 @@ Add to `script.js`:
 
 ```javascript
 // Variables
-let userName = "Alex"; // String
+const userName = "Alex"; // String
 const userAge = 16; // Number
-let isStudent = true; // Boolean
-let hobbies = ["coding", "music"]; // Array
-let user = {
-  // Object
-  name: "Alex",
-  age: 16,
-  grade: 11,
-};
+const isStudent = true; // Boolean
 
 // Output to console
 console.log("Name:", userName);
 console.log("Age:", userAge);
 console.log("Is student?", isStudent);
-console.log("Hobbies:", hobbies);
-console.log("User object:", user);
-
-// Output to page
-const output = document.getElementById("output");
-output.innerHTML = `
-    <h3>User Information</h3>
-    <p><strong>Name:</strong> ${userName}</p>
-    <p><strong>Age:</strong> ${userAge}</p>
-    <p><strong>Is Student:</strong> ${isStudent}</p>
-    <p><strong>Hobbies:</strong> ${hobbies.join(", ")}</p>
-    <p><strong>Grade:</strong> ${user.grade}</p>
-`;
 ```
 
 **Expected Result:**
 
-- Information displays on page
-- Console shows variable values
+- Variable values appear in the console
+- Console shows all three variable values
 - Different data types work correctly
 
 **Why This Step:**
@@ -188,12 +170,9 @@ Variables store data. Understanding data types is fundamental to programming.
 
 - **`let`:** Variable that can change
 - **`const`:** Constant that cannot change
-- **`var`:** Old way (avoid in modern code)
 - **String:** Text in quotes ("hello" or 'hello')
 - **Number:** Integers or decimals (42, 3.14)
 - **Boolean:** true or false
-- **Array:** List of values [1, 2, 3]
-- **Object:** Key-value pairs {name: "Alex"}
 
 **Common Pitfall:**
 ⚠️ **Watch Out:** Using `const` for values that need to change.  
@@ -201,9 +180,9 @@ Variables store data. Understanding data types is fundamental to programming.
 
 **Quick Self-Check:**
 
-- [ ] Information displays on page
+- [ ] Variable values appear in the console
 - [ ] Console log shows all values
-- [ ] Can change `userName` value and see update
+- [ ] Explain when to use `const` and when a value needs `let`
 
 ---
 
@@ -323,7 +302,7 @@ console.log("Square of 6:", square(6));
 
 // Function without Return (performs action)
 function displayMessage(message) {
-  output.innerHTML += `<p>${message}</p>`;
+  console.log(message);
 }
 
 displayMessage("Functions are powerful!");
@@ -464,7 +443,9 @@ Conditionals allow programs to make decisions and respond to different situation
 
 ---
 
-### Step 6: Loops
+### Optional Extension: Arrays and Loops
+
+The following material is an extension for learners ready to explore repeated actions and collections. Skip it during the core lesson; Unit 4.2 introduces the list activity after students have built their first interaction.
 
 **Objective:** Repeat actions with `for` and `while` loops.
 
@@ -507,7 +488,7 @@ for (const hobby of myHobbies) {
   listHTML += `<li>${hobby}</li>`;
 }
 listHTML += "</ul>";
-output.innerHTML += listHTML;
+output.textContent += listHTML;
 
 // Array Methods (modern approach)
 const numbers = [1, 2, 3, 4, 5];
@@ -562,9 +543,9 @@ Loops automate repetitive tasks, essential for working with collections of data.
 
 ---
 
-### Step 7: Build Interactive Calculator
+### Step 6: Build a First Interactive Calculator
 
-**Objective:** Combine all concepts into functional calculator.
+**Objective:** Use a function, an event listener, and `if/else` conditions to respond to a form submission.
 
 **Instructions:**
 
@@ -572,29 +553,24 @@ Update `javascript-basics.html` body:
 
 ```html
 <body>
-  <h1>Interactive Calculator</h1>
+  <h1>First JavaScript Calculator</h1>
 
-  <div>
-    <input type="number" id="num1" placeholder="First number" />
+  <form id="calculator">
+    <label for="num1">First number</label>
+    <input type="number" id="num1" step="any" required />
+    <label for="operator">Operation</label>
     <select id="operator">
       <option value="+">+</option>
       <option value="-">-</option>
       <option value="*">×</option>
       <option value="/">÷</option>
     </select>
-    <input type="number" id="num2" placeholder="Second number" />
-    <button onclick="calculate()">Calculate</button>
-  </div>
+    <label for="num2">Second number</label>
+    <input type="number" id="num2" step="any" required />
+    <button type="submit">Calculate</button>
+  </form>
 
-  <div id="result" class="output"></div>
-
-  <h2>Quiz</h2>
-  <div>
-    <p>What is 5 + 3?</p>
-    <input type="number" id="quizAnswer" />
-    <button onclick="checkAnswer()">Check Answer</button>
-  </div>
-  <div id="quizResult" class="output"></div>
+  <div id="result" class="output" aria-live="polite"></div>
 
   <script src="script.js"></script>
 </body>
@@ -603,75 +579,45 @@ Update `javascript-basics.html` body:
 Update `script.js`:
 
 ```javascript
-// Calculator Function
-function calculate() {
-  // Get values from inputs
+const calculator = document.getElementById("calculator");
+const resultOutput = document.getElementById("result");
+
+function calculate(event) {
+  event.preventDefault();
   const num1 = parseFloat(document.getElementById("num1").value);
   const num2 = parseFloat(document.getElementById("num2").value);
   const operator = document.getElementById("operator").value;
 
-  // Validate inputs
   if (isNaN(num1) || isNaN(num2)) {
-    document.getElementById("result").innerHTML =
-      "<p style='color: red;'>Please enter valid numbers!</p>";
+    resultOutput.textContent = "Please enter two numbers.";
     return;
   }
 
-  // Perform calculation
-  let result;
-  switch (operator) {
-    case "+":
-      result = num1 + num2;
-      break;
-    case "-":
-      result = num1 - num2;
-      break;
-    case "*":
-      result = num1 * num2;
-      break;
-    case "/":
-      if (num2 === 0) {
-        document.getElementById("result").innerHTML =
-          "<p style='color: red;'>Cannot divide by zero!</p>";
-        return;
-      }
-      result = num1 / num2;
-      break;
-    default:
-      result = "Invalid operator";
+  let calculation;
+  if (operator === "+") {
+    calculation = num1 + num2;
+  } else if (operator === "-") {
+    calculation = num1 - num2;
+  } else if (operator === "*") {
+    calculation = num1 * num2;
+  } else if (operator === "/") {
+    if (num2 === 0) {
+      resultOutput.textContent = "Cannot divide by zero.";
+      return;
+    }
+    calculation = num1 / num2;
   }
 
-  // Display result
-  document.getElementById(
-    "result"
-  ).innerHTML = `<p><strong>${num1} ${operator} ${num2} = ${result}</strong></p>`;
+  resultOutput.textContent = `${num1} ${operator} ${num2} = ${calculation}`;
 }
 
-// Quiz Function
-function checkAnswer() {
-  const userAnswer = parseInt(document.getElementById("quizAnswer").value);
-  const correctAnswer = 8;
-  const resultDiv = document.getElementById("quizResult");
-
-  if (isNaN(userAnswer)) {
-    resultDiv.innerHTML =
-      "<p style='color: orange;'>Please enter a number!</p>";
-    return;
-  }
-
-  if (userAnswer === correctAnswer) {
-    resultDiv.innerHTML = "<p style='color: green;'>✓ Correct! Well done!</p>";
-  } else {
-    resultDiv.innerHTML = `<p style='color: red;'>✗ Incorrect. The answer is ${correctAnswer}.</p>`;
-  }
-}
+calculator.addEventListener("submit", calculate);
 ```
 
 **Expected Result:**
 
 - Calculator performs operations correctly
 - Input validation works
-- Quiz checks answers
 - Error messages display appropriately
 
 **Why This Step:**
@@ -685,22 +631,21 @@ Brings together variables, functions, conditionals, and DOM manipulation into a 
 
 - [ ] Calculator computes correctly
 - [ ] Division by zero handled
-- [ ] Quiz validates answers
 - [ ] Error messages display
 
 ---
 
 ## Debugging Section
 
-**Scenario 1: Nothing happens when clicking button**
+**Scenario 1: Nothing happens when submitting the form**
 
 - **Possible Causes:**
-  - Function name misspelled in `onclick`
+  - The submit listener is missing or attached to the wrong form
   - JavaScript file not loaded
   - Function not defined yet (order matters)
 - **Solution:**
   - Check console for errors
-  - Verify function names match
+  - Verify the form ID and event listener match
   - Ensure script loads after HTML
 
 **Scenario 2: "undefined" or "NaN" in output**

@@ -7,7 +7,7 @@
 
 ## Module Overview
 
-This module introduces JavaScript for adding interactivity to web pages. Students learn variables, functions, events, and DOM manipulation to create dynamic, user-responsive interfaces.
+This module moves from JavaScript fundamentals to interactive, stateful interfaces. Students first use values, operators, functions, and conditions in a small calculator, then apply those ideas to DOM events and list state.
 
 **Prerequisites:** Modules 01–03 (HTML & CSS foundations)  
 **Estimated Total Time:** 3–4 hours (across 2 units)
@@ -22,9 +22,9 @@ This module introduces JavaScript for adding interactivity to web pages. Student
 
 ## Units
 
-### [Unit 4.1: JavaScript Basics](units/4.1-javascript-basics/)
+### [Unit 4.1: JavaScript Basics and a First Interaction](units/4.1-javascript-basics/)
 
-Variables, data types, functions, and control flow.
+Variables, simple values, arithmetic, functions, conditions, and a small event-driven calculator. Arrays, objects, and loops are optional extensions.
 
 **Materials:**
 
@@ -35,9 +35,9 @@ Variables, data types, functions, and control flow.
 
 ---
 
-### [Unit 4.2: DOM Manipulation](units/4.2-dom-manipulation/)
+### [Unit 4.2: DOM Events and Dynamic UI](units/4.2-dom-manipulation/)
 
-Selecting elements, event listeners, updating content dynamically.
+Forms, DOM events, array-backed list state, and rendering the interface from that state.
 
 **Materials:**
 

@@ -21,14 +21,15 @@
 
 **Learning Progression:**
 
-1. **Introduction (10 min):** What is JavaScript? Demo interactive website
-2. **Variables & Types (12-15 min):** Declare variables, explore data types
-3. **Operators (8-10 min):** Arithmetic, comparison, logical operations
-4. **Functions (12-15 min):** Write reusable code blocks
-5. **Conditionals (10-12 min):** Make decisions with if/else, switch
-6. **Loops (10-12 min):** Repeat actions, process arrays
-7. **Calculator Project (15-20 min):** Apply all concepts
-8. **Reflection (5 min):** Self-assessment and discussion
+1. **Introduction (5 min):** What JavaScript adds to a web page
+2. **Variables & Values (8-10 min):** Use `const` and `let` with simple values
+3. **Operators (5-8 min):** Arithmetic and simple comparisons
+4. **Functions (8-10 min):** Write and call a function that returns a value
+5. **Conditions (5-8 min):** Handle cases with `if/else`
+6. **First interaction (15-20 min):** Build an accessible calculator using a form event, a function, and conditions
+7. **Reflection (5 min):** Self-assessment and discussion
+
+Arrays, objects, `switch`, and loops are optional extensions. Keep them out of the core sequence if students need more time with functions, conditions, or event handling.
 
 **Key Teaching Points:**
 
@@ -67,9 +68,9 @@
 **Control Flow**
 
 14. if (or if/else)
-15. switch
-16. for
-17. for...of (or forEach)
+15. `switch` (optional extension)
+16. `for` (optional extension)
+17. `for...of` (or `forEach`; optional extension)
 
 **Teaching Tip:** Have students create a "cheat sheet" with these syntax patterns for reference during coding.
 
@@ -522,7 +523,7 @@ const result = number + 3; // 8 (correct!)
 | `Uncaught ReferenceError` | Variable/function doesn't exist | Check name spelling, scope | Declare before use |
 | `Unexpected token` | Syntax error (missing bracket, quote) | Check matching pairs | Use editor with syntax highlighting |
 | `Cannot read property of undefined` | Accessing property of non-existent object | Check if object exists first | Use optional chaining (?.) |
-| Nothing happens on click | Function name mismatch or not defined | Check onclick matches function name | Use addEventListener instead |
+| Form submission has no effect | Listener missing or form ID mismatch | Check the form ID and submit listener | Attach the function with `addEventListener` |
 
 **Teaching Moment:** When error occurs, **don't immediately fix it**. Ask class:
 1. "What does this error message tell us?"
@@ -650,8 +651,8 @@ const calculateAverage = scores =>
 1. **After Variables (Step 1):** "Quick check: Declare a constant for pi (3.14159)"
 2. **After Operators (Step 2):** "Calculate: What is 17 % 5?"
 3. **After Functions (Step 3):** "Write a function that doubles a number"
-4. **After Conditionals (Step 4):** "What does this code output: `console.log(5 > 3 ? 'yes' : 'no')`?"
-5. **After Loops (Step 5):** "Write a loop that counts down from 10 to 1"
+4. **After Conditionals (Step 4):** "What does this code output: `console.log(5 > 3)`?"
+5. **After the first interaction:** "Which event runs the calculator function, and where does the result appear?"
 
 **Expected Results:**
 
@@ -815,8 +816,8 @@ let resultCorrect = addCorrect(5, 3); // result is 8
 
 **"Nothing happens when I click button"**
 
-- Check function name matches onclick attribute
-- Verify function is defined before being called
+- Check the form ID matches the JavaScript selector
+- Verify the submit event listener is attached
 - Look for JavaScript errors in console
 
 **"Calculator shows NaN"**

@@ -21,17 +21,17 @@ Web Development for STEAM
 
 **Key Artefacts:**
 
-- Interactive counter/toggle
-- Dynamic to-do list or similar UI
+- Unit 4.1: a small calculator using functions, conditions, and a form event
+- Unit 4.2: a list interface that updates from state
 
 ---
 
 ## Learning Outcomes
 
-- Write basic JavaScript for DOM manipulation
-- Handle events and update content
-- Manage simple UI state
-- Apply progressive enhancement
+- Use variables, values, operators, functions, and conditions to solve a small problem
+- Connect a form event to a calculation function
+- Manage simple list state and render the interface from that state
+- Apply accessible interactions and progressive enhancement
 
 ---
 
@@ -75,13 +75,13 @@ Glossary: See module README
 
 ## Demonstration
 
-See tutorial for step-by-step: Build an interactive counter with accessible updates
+Unit 4.1: predict a calculation, write a function, then connect it to a labeled form.
 
 ---
 
 ## Guided Practice
 
-Add event listeners to create interactive elements (see tutorial for details)
+Trace values through a function and explain how a form event produces feedback.
 
 ---
 

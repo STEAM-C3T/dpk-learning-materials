@@ -12,13 +12,15 @@
 By the end of this unit, I will be able to:
 
 - [ ] Declare variables using `let`, `const`, and understand when to use each
-- [ ] Work with different data types (strings, numbers, booleans, arrays, objects)
+- [ ] Work with strings, numbers, and booleans
 - [ ] Use arithmetic, comparison, and logical operators
 - [ ] Write and call functions with parameters and return values
-- [ ] Implement conditional statements (`if/else`, `switch`)
-- [ ] Create loops to repeat actions (`for`, `while`, array methods)
-- [ ] Build an interactive calculator combining all concepts
+- [ ] Use conditional statements (`if/else`) to handle different cases
+- [ ] Connect a form submission to a function with an event listener
+- [ ] Build an accessible interactive calculator and display its result as text
 - [ ] Debug JavaScript using console.log and browser DevTools
+
+Arrays, objects, `switch`, and loops are optional extensions in this unit. The calculator task does not require them.
 
 ---
 
@@ -56,15 +58,15 @@ By the end of this unit, I will be able to:
 
 13. Modern arrow function syntax: `const add = (a, b) => ____________;`
 
-**Control Flow**
+**Core Control Flow**
 
 14. To make decisions in code, use an ____________ statement
 
-15. For multiple exact value checks, use a ____________ statement
+15. For multiple exact value checks, use a ____________ statement (optional extension)
 
-16. A loop with a known number of iterations uses: ____________ loop
+16. A loop with a known number of iterations uses: ____________ loop (optional extension)
 
-17. To loop through array items, use: ____________ loop
+17. To loop through array items, use: ____________ loop (optional extension)
 
 ---
 
@@ -215,7 +217,9 @@ getLetterGrade(85); // Result: ____________
 _____________________________________________________________________
 _____________________________________________________________________
 
-### Step 5: Loops Practice
+### Optional Extension: Arrays and Loops
+
+Complete this section only if time allows or as an extension. Loops and array methods are not needed for the calculator task.
 
 **For loop counting:**
 
@@ -290,7 +294,7 @@ if (isNaN(value)) {
 
 **4. Display output to page:**
 ```javascript
-document.getElementById("outputId").innerHTML = "Your message";
+    document.getElementById("outputId").textContent = "Your message";
 ```
 
 **5. Template literal with variables:**
@@ -314,22 +318,23 @@ _____________________________________________________________________
 
 ## Part 4: Independent Task Checklist
 
-**Task: Build Interactive Calculator**
+**Task: Build a First Interactive Calculator**
 
 - [ ] Create HTML file with two number inputs
 - [ ] Add operator selector (dropdown)
-- [ ] Add "Calculate" button
+- [ ] Add labels for both number inputs and the operation selector
+- [ ] Add a "Calculate" submit button inside a form
 - [ ] Create output div for result
 - [ ] Write `calculate()` function
 - [ ] Get values from inputs using `getElementById`
 - [ ] Convert input strings to numbers using `parseFloat`
 - [ ] Validate inputs (check if numbers)
-- [ ] Use switch statement for operation selection
+- [ ] Use `if/else` to select the operation
+- [ ] Attach the function with `addEventListener("submit", ...)`
 - [ ] Handle division by zero error
-- [ ] Display result in output div
+- [ ] Display result and error messages with `textContent`
 - [ ] Test all operations (+, -, *, /)
 - [ ] Add styling to make it look good
-- [ ] Add quiz section with answer checking
 
 **Bonus Challenges:**
 - [ ] Add more operations (power, square root)
@@ -361,8 +366,8 @@ Rate yourself on each criterion (1 = Beginning, 2 = Developing, 3 = Proficient, 
 | **Variables & Data Types:** I can declare variables with appropriate keywords and work with different data types | ☐ | ☐ | ☐ | ☐ | |
 | **Operators:** I can use arithmetic, comparison, and logical operators correctly | ☐ | ☐ | ☐ | ☐ | |
 | **Functions:** I can write functions with parameters and return values | ☐ | ☐ | ☐ | ☐ | |
-| **Conditionals:** I can use if/else and switch statements to control flow | ☐ | ☐ | ☐ | ☐ | |
-| **Loops:** I can create loops and use array methods to repeat actions | ☐ | ☐ | ☐ | ☐ | |
+| **Conditionals:** I can use if/else statements to handle different cases | ☐ | ☐ | ☐ | ☐ | |
+| **Form interaction:** I can connect a form submission to a function and display a result | ☐ | ☐ | ☐ | ☐ | |
 | **Input Validation:** I check user input and handle errors appropriately | ☐ | ☐ | ☐ | ☐ | |
 | **Debugging:** I use console.log and DevTools to find and fix errors | ☐ | ☐ | ☐ | ☐ | |
 | **Code Organization:** My code is well-structured with clear function names | ☐ | ☐ | ☐ | ☐ | |
