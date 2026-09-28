@@ -7,7 +7,7 @@ title: DPK Learning Materials
 
 Classroom-ready presentations, step-by-step tutorials, and workbooks for students and teachers.
 
-Choose a module, then open a unit to find its deck, tutorial, and workbook versions.
+Choose from the [full module directory](modules/) to find a module, then open a unit for its deck, tutorial, and workbook versions.
 
 1. [Introduction to the Web](modules/01-introduction-to-the-web/README.md)
 2. [HTML Foundations](modules/02-html-foundations/README.md)
