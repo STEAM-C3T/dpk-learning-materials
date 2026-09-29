@@ -193,5 +193,5 @@ Celebrate thoughtful disclaimers & inclusive design decisions as much as technic
 
 ---
 
-Prepared: 2025-11-18  
+Prepared: 2026-09-29
 Version: 1.0

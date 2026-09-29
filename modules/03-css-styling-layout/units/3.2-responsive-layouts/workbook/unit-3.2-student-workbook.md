@@ -380,7 +380,7 @@ Rate yourself (1 = Beginning, 2 = Developing, 3 = Proficient, 4 = Exemplary):
 **Module:** 03 — CSS Styling & Layout  
 **Unit:** 3.2 — Responsive Layouts  
 **Version:** 1.0  
-**Last Updated:** 2025-11-18  
+**Last Updated:** 2026-09-29
 **License:** CC BY-SA 4.0
 
 ---

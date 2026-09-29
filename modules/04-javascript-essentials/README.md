@@ -59,4 +59,4 @@ Forms, DOM events, array-backed list state, and rendering the interface from tha
 
 ---
 
-**Last Updated:** 2025-11-18
+**Last Updated:** 2026-09-29

@@ -46,4 +46,4 @@ HTML5 Canvas setup, drawing primitives, scaling data, building accessible bar ch
 
 ---
 
-**Last Updated:** 2025-11-18
+**Last Updated:** 2026-09-29

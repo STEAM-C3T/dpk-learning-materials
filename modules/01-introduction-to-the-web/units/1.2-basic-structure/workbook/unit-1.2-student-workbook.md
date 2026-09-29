@@ -252,7 +252,7 @@ Create a second HTML page (`hobbies.html`) and link to it from your `index.html`
 
 ---
 
-**Version 1.0 — 2025-11-18**  
+**Version 1.0 — last updated 2026-09-29**
 Prepared by assistant (review for classroom adaptation)
 
 <!-- End Student Workbook: Unit 1.2 -->

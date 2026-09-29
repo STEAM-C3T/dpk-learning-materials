@@ -4,7 +4,7 @@
 **Unit:** 4.2 — DOM Manipulation  
 **Core Time:** 45–60 minutes; optional DOM techniques may take another 20–45 minutes.
 **Author:** Digital Proficiency Kit Team  
-**Last Updated:** 2025-11-18
+**Last Updated:** 2026-09-29
 
 ---
 

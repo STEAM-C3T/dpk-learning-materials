@@ -4,7 +4,7 @@
 **Unit:** 3.1 — CSS Fundamentals  
 **Estimated Time:** 50–65 minutes  
 **Author:** Digital Proficiency Kit Team  
-**Last Updated:** 2025-11-18
+**Last Updated:** 2026-09-29
 
 ---
 

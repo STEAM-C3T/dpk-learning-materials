@@ -4,7 +4,7 @@
 **Unit:** 1.1 — What Is the Web?  
 **Estimated Time:** 45 minutes  
 **Author:** Digital Proficiency Kit Team  
-**Last Updated:** 2025-11-18
+**Last Updated:** 2026-09-29
 
 ---
 

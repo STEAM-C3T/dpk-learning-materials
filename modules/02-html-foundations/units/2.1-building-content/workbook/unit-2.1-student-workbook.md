@@ -317,7 +317,7 @@ Rate yourself on each criterion (1 = Beginning, 2 = Developing, 3 = Proficient, 
 **Module:** 02 — HTML Foundations  
 **Unit:** 2.1 — Building Content  
 **Version:** 1.0  
-**Last Updated:** 2025-11-18  
+**Last Updated:** 2026-09-29
 **License:** CC BY-SA 4.0
 
 ---

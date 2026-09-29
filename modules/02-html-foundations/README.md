@@ -59,4 +59,4 @@ Semantic HTML for accessibility: landmarks, ARIA basics, and meaningful structur
 
 ---
 
-**Last Updated:** 2025-11-18
+**Last Updated:** 2026-09-29

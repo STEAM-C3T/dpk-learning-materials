@@ -46,4 +46,4 @@ Scope definition, semantic HTML with accessibility, in-session state, optional `
 
 ---
 
-**Last Updated:** 2025-11-18
+**Last Updated:** 2026-09-29

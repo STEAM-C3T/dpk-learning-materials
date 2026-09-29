@@ -4,7 +4,7 @@
 **Unit:** 3.2 — Responsive Layouts  
 **Estimated Time:** 55–70 minutes  
 **Author:** Digital Proficiency Kit Team  
-**Last Updated:** 2025-11-18
+**Last Updated:** 2026-09-29
 
 ---
 

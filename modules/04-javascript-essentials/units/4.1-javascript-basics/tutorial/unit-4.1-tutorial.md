@@ -4,7 +4,7 @@
 **Unit:** 4.1 — JavaScript Basics  
 **Estimated Time:** 60–75 minutes  
 **Author:** Digital Proficiency Kit Team  
-**Last Updated:** 2025-11-18
+**Last Updated:** 2026-09-29
 
 ---
 

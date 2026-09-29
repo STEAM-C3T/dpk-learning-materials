@@ -65,4 +65,4 @@ Hands-on HTML coding: writing a complete HTML document with semantic tags.
 
 ---
 
-**Last Updated:** 2025-11-18
+**Last Updated:** 2026-09-29
