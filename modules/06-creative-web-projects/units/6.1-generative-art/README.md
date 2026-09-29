@@ -22,7 +22,7 @@ By the end of this unit, students will be able to:
 
 1. **Use** `requestAnimationFrame` to animate a simple pattern.
 2. **Vary** the pattern with repetition or random values.
-3. **Connect** one or two labelled controls to visual parameters.
+3. **Connect** one labelled control to a visual parameter; a second control is optional.
 4. **Pause** animation with a keyboard-operable control.
 
 Particle systems and Canvas transformations (translate, rotate, scale) are optional extensions; they are not required for the core interactive poster.
@@ -35,7 +35,7 @@ Unit 6.1 explores generative art—visuals created through code and algorithmic 
 
 - Set up continuous animation loops
 - Use randomness to create varied visual outcomes
-- Connect one or two HTML range inputs to visual parameters
+- Connect one HTML range input to a visual parameter; a second is optional
 - Ensure animations can be paused for accessibility
 
 Particle systems and transformations are optional extensions.

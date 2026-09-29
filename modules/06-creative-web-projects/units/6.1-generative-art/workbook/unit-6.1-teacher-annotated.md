@@ -275,7 +275,7 @@ Encourage early performance measurement using `performance.now()`.
 | Level    | Scaffold                            | Goal                                             |
 | -------- | ----------------------------------- | ------------------------------------------------ |
 | Emerging | Provide starter skeleton & 1 slider | Achieve working loop + single parameter          |
-| On Track | Build ring pattern + 2 sliders      | Demonstrate controlled variation                 |
+| On Track | Build a pattern + one labeled slider | Demonstrate controlled variation                 |
 | Advanced | Multi‑system composition + presets  | Integrate UI + algorithm layering + optimization |
 
 ---

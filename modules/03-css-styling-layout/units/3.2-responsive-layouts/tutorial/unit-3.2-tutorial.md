@@ -67,6 +67,8 @@ Design for small screens first, then enhance for larger screens. This ensures co
 
 ## Step-by-Step Guide
 
+**Core route:** Complete Steps 1–2 and the project-grid part of Step 4, using one breakpoint to change from one to two columns. Check it by resizing a normal browser window in Step 7. Step 3 (Flexbox navigation), Step 5 (responsive typography), Step 6 (responsive images), and extra breakpoints are optional extensions for this task.
+
 ### Step 1: Create HTML Structure
 
 **Objective:** Set up semantic HTML for a responsive portfolio.
@@ -256,8 +258,8 @@ h2 {
 
 /* Project Grid (starts as single column on mobile) */
 .project-grid {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 1.5rem;
 }
 
@@ -394,21 +396,21 @@ Flexbox makes navigation flexible and easy to rearrange without changing HTML.
 Update project grid styles:
 
 ```css
-/* Responsive Project Grid */
+/* Core: one breakpoint changes the grid from one to two columns */
 @media (min-width: 768px) {
   .project-grid {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
   }
 }
 
+/* Optional extension: add a second breakpoint for three columns */
 @media (min-width: 1024px) {
   .project-grid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
+/* Optional extension: add a third breakpoint for four columns */
 @media (min-width: 1400px) {
   .project-grid {
     grid-template-columns: repeat(4, 1fr);
@@ -420,10 +422,9 @@ Update project grid styles:
 
 **Expected Result:**
 
-- Mobile: 1 column
-- Tablet: 2 columns
-- Desktop: 3 columns
-- Large desktop: 4 columns, centered
+- Core: 1 column on narrow screens and 2 columns at the first breakpoint
+- Optional: 3 columns at a second breakpoint
+- Optional: 4 columns at a third breakpoint
 
 **Why This Step:**
 CSS Grid is perfect for two-dimensional layouts. `1fr` (fractional unit) creates equal-width columns.

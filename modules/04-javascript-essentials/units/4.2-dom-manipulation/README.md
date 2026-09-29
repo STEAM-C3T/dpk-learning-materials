@@ -35,11 +35,11 @@ This unit includes:
 
 ## Student Route
 
-1. Read tutorial Steps 1–5 and use workbook Parts 1–2 for selection, content, and event practice. **Checkpoint:** identify the form, input, list, and submit event in the starter page.
-2. Work through tutorial Step 6 and workbook Part 2, Step 5, to create and append one list item. **Checkpoint:** explain why a newly created element is not visible until it is appended.
-3. Follow tutorial Step 7’s core route and workbook Part 4 to store text in an array and render the list. Skip completion, deletion, counts, filters, and storage until the core works.
-4. Explore the [todo-list example](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/04-javascript-essentials/examples/todo-list.html). **Checkpoint:** trace one item from form submission, to array update, to rendered list.
-5. Complete the core of [Build a Small Dynamic UI](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/04-javascript-essentials/tasks/task-2-dom-events.md): add non-empty items and render them from state. Test one item, several items, and blank input.
+1. Use the tutorial Step 1 starter page, then focus on Step 2’s core selection example and the **Core Practice** in workbook Part 2. **Checkpoint:** identify the form, input, and list elements by their IDs.
+2. In tutorial Step 5, focus on `addEventListener` and form submission; skip double-click, alert, and keyboard-event examples. Continue the workbook Part 2 **Core Practice**. **Checkpoint:** explain what `preventDefault()` stops when the form is submitted.
+3. Work through tutorial Step 6’s create-and-append example (skip the remove example) and finish the workbook Part 2 **Core Practice**. **Checkpoint:** explain why a new element is not visible until it is appended.
+4. Follow tutorial Step 7’s core route and workbook Part 4 to store text in an array and render the list. **Checkpoint:** trace one item from form submission, to array update, to rendered list.
+5. Explore the [todo-list example](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/04-javascript-essentials/examples/todo-list.html), then complete the core of [Build a Small Dynamic UI](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/04-javascript-essentials/tasks/task-2-dom-events.md). Test one item, several items, and blank input.
 
 Completion toggles, deletion, statistics, filters, and persistence are optional extensions.
 

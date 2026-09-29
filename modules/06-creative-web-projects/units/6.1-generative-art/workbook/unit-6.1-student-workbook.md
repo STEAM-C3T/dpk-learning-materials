@@ -14,7 +14,7 @@ By the end of this unit, I will be able to:
 - [ ] Use `requestAnimationFrame()` for smooth animation loops
 - [ ] Generate random values within ranges for visual variety
 - [ ] Parameterize visual properties (size, color, position, rotation)
-- [ ] Create UI controls (sliders, buttons) linked to visual parameters
+- [ ] Create one labeled UI control linked to a visual parameter; extra controls are optional
 - [ ] Add one labeled control and a working pause button to my artwork
 - [ ] (Optional) Apply Canvas transformations (translate, rotate, scale)
 - [ ] Combine repetition, randomness, and rules to create patterns

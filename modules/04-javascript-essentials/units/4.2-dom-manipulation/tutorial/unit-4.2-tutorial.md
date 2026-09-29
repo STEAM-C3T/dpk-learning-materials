@@ -2,7 +2,7 @@
 
 **Module:** 04 — JavaScript Essentials  
 **Unit:** 4.2 — DOM Manipulation  
-**Estimated Time:** 60–75 minutes  
+**Core Time:** 45–60 minutes; optional DOM techniques may take another 20–45 minutes.
 **Author:** Digital Proficiency Kit Team  
 **Last Updated:** 2025-11-18
 
@@ -14,7 +14,7 @@
 In this tutorial, you will learn to select HTML elements, respond to user events, and dynamically modify webpage content and styles using JavaScript.
 
 **What You Will Build:**
-An interactive to-do list application with add, complete, and delete functionality—demonstrating practical DOM manipulation techniques.
+A small list that accepts non-empty text, stores it in an array, and renders that array on the page. Completion, deletion, and other list features are optional extensions.
 
 **Learning Outcomes:**
 
@@ -78,6 +78,8 @@ Modern web applications feel responsive because JavaScript updates the page dyna
 ---
 
 ## Step-by-Step Guide
+
+**Core route:** Complete Step 1, then focus on the core snippets in Steps 2, 5, and 6 before building the list in Step 7. Skip the unrelated style and content demos in Steps 3–4, the double-click/alert/keyboard examples in Step 5, and element removal in Step 6. Those are optional practice, not prerequisites for the core task.
 
 ### Step 1: Set Up DOM Project
 
@@ -146,6 +148,13 @@ Create `dom-manipulation.html`:
       <h1 id="main-heading">DOM Manipulation Practice</h1>
       <p id="intro">Learn to control webpages with JavaScript!</p>
 
+      <form id="item-form">
+        <label for="item-input">New item</label>
+        <input type="text" id="item-input" />
+        <button type="submit">Add item</button>
+      </form>
+      <ul id="item-list"></ul>
+
       <div id="output"></div>
 
       <h2>Element Selection</h2>
@@ -200,7 +209,7 @@ Structured HTML provides targets for DOM manipulation practice.
 
 - [ ] Page loads without errors
 - [ ] All buttons visible
-- [ ] Console shows no 404 errors
+- [ ] If DevTools are available, the console shows no 404 errors (optional check)
 
 ---
 
@@ -209,6 +218,16 @@ Structured HTML provides targets for DOM manipulation practice.
 **Objective:** Learn different methods to select HTML elements.
 
 **Instructions:**
+
+For the core task, begin with these three elements from the form in Step 1:
+
+```javascript
+const form = document.getElementById("item-form");
+const input = document.getElementById("item-input");
+const list = document.getElementById("item-list");
+```
+
+Check that the IDs in the HTML and JavaScript match. The larger selection demonstration below is optional practice.
 
 Add to `dom-script.js`:
 
@@ -456,6 +475,20 @@ element.classList.contains("class-name"); // Check if class exists
 
 **Instructions:**
 
+For the core task, use the form's `submit` event. This short example prevents a page reload and shows that the handler ran:
+
+```javascript
+const form = document.getElementById("item-form");
+const input = document.getElementById("item-input");
+
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
+  document.getElementById("output").textContent = input.value;
+});
+```
+
+**Checkpoint:** submit the form and confirm the page stays open while the output changes. Continue to the list example in Step 7 to replace this temporary output with state and rendering. The event demonstrations below are optional.
+
 Add to `dom-script.js`:
 
 ```javascript
@@ -547,6 +580,16 @@ element.addEventListener("click", function (event) {
 **Objective:** Dynamically add and remove HTML elements.
 
 **Instructions:**
+
+For the core list, create a list item with text and append it to the visible list:
+
+```javascript
+const listItem = document.createElement("li");
+listItem.textContent = input.value;
+list.appendChild(listItem);
+```
+
+**Checkpoint:** confirm that the item appears only after `appendChild()` runs. The add-and-remove button demonstration below is optional practice.
 
 Add to `dom-script.js`:
 

@@ -19,7 +19,7 @@ By the end of this unit, I will be able to:
 
 ## Start Here: Core Route
 
-For the core activity, work through Parts 1–2, then complete the core checklist in Part 4: submit non-empty text, store it in an array, and render that array. Part 3 and extra list features are useful practice but optional. Use the tutorial checkpoints to test each small step before continuing.
+For the core activity, complete Part 1 and the **Core Practice** in Part 2, then complete the core checklist in Part 4: submit non-empty text, store it in an array, and render that array. The other Part 2 examples, Part 3, and extra list features are optional. Use the tutorial checkpoints to test each small step before continuing.
 
 ---
 
@@ -72,6 +72,31 @@ For the core activity, work through Parts 1–2, then complete the core checklis
 ---
 
 ## Part 2: Guided Practice Notes
+
+### Core Practice: Select, Submit, and Append
+
+Use the form in the tutorial starter page. Match each ID exactly:
+
+```javascript
+const form = document.getElementById("item-form");
+const input = document.getElementById("item-input");
+const list = document.getElementById("item-list");
+```
+
+**Checkpoint:** write down which HTML element each variable refers to.
+
+Handle the form submission and prevent a page reload:
+
+```javascript
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
+  const item = document.createElement("li");
+  item.textContent = input.value;
+  list.appendChild(item);
+});
+```
+
+**Checkpoint:** submit one item. It should appear in the list and the page should stay open. In Part 4, you will add an array so the list can be rendered from state.
 
 ### Step 1: Element Selection Practice
 
