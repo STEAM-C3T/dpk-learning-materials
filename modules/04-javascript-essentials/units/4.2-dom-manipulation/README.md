@@ -22,7 +22,7 @@ This unit includes:
 3. **Build** dynamic lists or forms
 4. **Render** UI from state
 
-**Estimated Time:** 45–75 minutes
+**Core Time:** 45–60 minutes for a list that adds and renders items; optional features may take another 20–45 minutes.
 
 ---
 
@@ -35,8 +35,12 @@ This unit includes:
 
 ## Student Route
 
-1. Follow the [tutorial](tutorial/unit-4.2-tutorial.md) and use the [student workbook](workbook/unit-4.2-student-workbook.md) to practise events, arrays, DOM updates, and rendering from state.
-2. Explore the [todo-list example](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/04-javascript-essentials/examples/todo-list.html). **Checkpoint:** describe what changes in the stored list and what the render step updates on the page.
-3. Complete [Build a Small Dynamic UI](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/04-javascript-essentials/tasks/task-2-dom-events.md). Test empty input and keyboard operation before you finish.
+1. Read tutorial Steps 1–5 and use workbook Parts 1–2 for selection, content, and event practice. **Checkpoint:** identify the form, input, list, and submit event in the starter page.
+2. Work through tutorial Step 6 and workbook Part 2, Step 5, to create and append one list item. **Checkpoint:** explain why a newly created element is not visible until it is appended.
+3. Follow tutorial Step 7’s core route and workbook Part 4 to store text in an array and render the list. Skip completion, deletion, counts, filters, and storage until the core works.
+4. Explore the [todo-list example](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/04-javascript-essentials/examples/todo-list.html). **Checkpoint:** trace one item from form submission, to array update, to rendered list.
+5. Complete the core of [Build a Small Dynamic UI](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/04-javascript-essentials/tasks/task-2-dom-events.md): add non-empty items and render them from state. Test one item, several items, and blank input.
+
+Completion toggles, deletion, statistics, filters, and persistence are optional extensions.
 
 ---

@@ -33,12 +33,14 @@ Before starting this tutorial, you should:
 
 - [ ] Have completed Unit 4.1 (JavaScript Basics) or be comfortable with functions, variables, and conditionals
 - [ ] Understand HTML structure and CSS basics
-- [ ] Know how to use browser DevTools
+- [ ] (Optional) Know how to use browser DevTools for debugging
 
 **Tools Required:**
 
 - Text editor
-- Modern web browser with DevTools
+- Modern web browser
+
+DevTools can help when something goes wrong, but they are optional. You can check this activity by entering items in the page and comparing them with the visible list.
 
 ---
 
@@ -647,11 +649,13 @@ element.remove(); // Modern way
 
 ### Step 7: Build Interactive To-Do List
 
-**Objective:** Combine all DOM concepts into functional application.
+**Core objective:** Store list items in an array and render the array as a list. Complete the core steps first. Marking items complete, deleting them, counting them, and handling Enter as a shortcut are optional extensions.
+
+**Core sequence:** Select the form, input, and list; create an empty array; write a `renderItems()` function; handle form submission; ignore blank text; add valid text to the array; call the render function. The code below shows the completed core. Add optional features only after you can explain the flow from event to state to rendered list.
 
 **Instructions:**
 
-Create new file `todo.html`:
+Create `todo.html` with a labeled form and an empty list. You can use the structure below, or start with the provided [todo-list example](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/04-javascript-essentials/examples/todo-list.html) and simplify it to the core.
 
 ```html
 <!DOCTYPE html>
@@ -755,20 +759,12 @@ Create new file `todo.html`:
     <div class="container">
       <h1>📝 My To-Do List</h1>
 
-      <div class="input-section">
-        <input type="text" id="task-input" placeholder="Enter a new task..." />
-        <button id="add-btn">Add Task</button>
-      </div>
-
-      <ul id="task-list"></ul>
-
-      <div class="stats">
-        <p>
-          <strong>Total:</strong> <span id="total-count">0</span> |
-          <strong>Completed:</strong> <span id="completed-count">0</span> |
-          <strong>Remaining:</strong> <span id="remaining-count">0</span>
-        </p>
-      </div>
+      <form id="item-form">
+        <label for="item-input">New item</label>
+        <input type="text" id="item-input" />
+        <button type="submit">Add item</button>
+      </form>
+      <ul id="item-list"></ul>
     </div>
 
     <script src="todo.js"></script>
@@ -776,117 +772,48 @@ Create new file `todo.html`:
 </html>
 ```
 
-Create `todo.js`:
+Add this script before `</body>`:
 
 ```javascript
-// Select elements
-const taskInput = document.getElementById("task-input");
-const addBtn = document.getElementById("add-btn");
-const taskList = document.getElementById("task-list");
+const form = document.getElementById("item-form");
+const input = document.getElementById("item-input");
+const list = document.getElementById("item-list");
+const items = []; // The array is the source of truth for the list.
 
-// Counters
-let totalCount = 0;
-let completedCount = 0;
-
-// Add task function
-function addTask() {
-  const taskText = taskInput.value.trim();
-
-  // Validate input
-  if (taskText === "") {
-    alert("Please enter a task!");
-    return;
+function renderItems() {
+  list.replaceChildren(); // Remove the old view before drawing it again.
+  for (const item of items) {
+    const listItem = document.createElement("li");
+    listItem.textContent = item;
+    list.appendChild(listItem);
   }
-
-  // Create task item
-  const taskItem = document.createElement("li");
-  taskItem.className = "task-item";
-
-  // Create task text span
-  const taskSpan = document.createElement("span");
-  taskSpan.className = "task-text";
-  taskSpan.textContent = taskText;
-
-  // Toggle complete on click
-  taskSpan.addEventListener("click", function () {
-    taskItem.classList.toggle("completed");
-    updateStats();
-  });
-
-  // Create delete button
-  const deleteBtn = document.createElement("button");
-  deleteBtn.className = "delete-btn";
-  deleteBtn.textContent = "Delete";
-
-  // Delete task on click
-  deleteBtn.addEventListener("click", function () {
-    taskItem.remove();
-    updateStats();
-  });
-
-  // Assemble task item
-  taskItem.appendChild(taskSpan);
-  taskItem.appendChild(deleteBtn);
-
-  // Add to list
-  taskList.appendChild(taskItem);
-
-  // Clear input
-  taskInput.value = "";
-  taskInput.focus();
-
-  // Update statistics
-  updateStats();
 }
 
-// Update statistics
-function updateStats() {
-  const allTasks = document.querySelectorAll(".task-item");
-  const completedTasks = document.querySelectorAll(".task-item.completed");
+form.addEventListener("submit", (event) => {
+  event.preventDefault(); // Keep the page from reloading.
+  const text = input.value.trim();
+  if (text === "") return; // Do not add a blank item.
 
-  totalCount = allTasks.length;
-  completedCount = completedTasks.length;
-  const remainingCount = totalCount - completedCount;
-
-  document.getElementById("total-count").textContent = totalCount;
-  document.getElementById("completed-count").textContent = completedCount;
-  document.getElementById("remaining-count").textContent = remainingCount;
-}
-
-// Event Listeners
-addBtn.addEventListener("click", addTask);
-
-// Add task with Enter key
-taskInput.addEventListener("keydown", function (event) {
-  if (event.key === "Enter") {
-    addTask();
-  }
+  items.push(text); // First update the state.
+  input.value = "";
+  renderItems(); // Then update what the user sees.
 });
 
-// Initial focus
-taskInput.focus();
+renderItems(); // Show the initial (empty) array.
 ```
 
-**Expected Result:**
-
-- Enter task and click "Add Task" (or press Enter)
-- Task appears in list
-- Click task text to mark complete
-- Click "Delete" to remove task
-- Statistics update automatically
+**Expected core result:** Submit a non-empty item and it appears in the list without reloading the page. Blank input adds nothing. The browser submits the form when you click the button or press Enter.
 
 **Why This Step:**
-To-do list demonstrates real-world application combining element selection, creation, events, and styling.
+This small list demonstrates the core flow: user event → array update → render. Add optional behaviors only after that flow works.
 
 **Key Features:**
 
-- ✅ Add tasks
-- ✅ Mark complete (click task text)
-- ✅ Delete tasks
-- ✅ Live statistics
-- ✅ Keyboard support (Enter to add)
-- ✅ Input validation
-- ✅ Smooth animations
+- ✅ Add non-empty items
+- ✅ Store items in an array
+- ✅ Render the array after each submission
+- ✅ Prevent a page reload
+- Optional: completion toggles, deletion, statistics, filters, and persistence
 
 **Common Pitfall:**
 ⚠️ **Watch Out:** Event listeners on dynamically created elements must be added when element is created.  
@@ -894,11 +821,10 @@ To-do list demonstrates real-world application combining element selection, crea
 
 **Quick Self-Check:**
 
-- [ ] Can add tasks
-- [ ] Can complete tasks
-- [ ] Can delete tasks
-- [ ] Statistics update correctly
-- [ ] Enter key works
+- [ ] A non-empty item appears after submission
+- [ ] Blank input does not add an item
+- [ ] The page does not reload on submission
+- [ ] I can explain how the array and rendered list relate
 
 ---
 

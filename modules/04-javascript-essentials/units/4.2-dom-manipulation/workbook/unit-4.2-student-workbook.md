@@ -12,13 +12,14 @@
 By the end of this unit, I will be able to:
 
 - [ ] Explain what the DOM (Document Object Model) is
-- [ ] Select HTML elements using getElementById, querySelector, querySelectorAll
-- [ ] Add event listeners to respond to clicks, typing, and other user actions
-- [ ] Modify element content using textContent and innerHTML
-- [ ] Change element styles and CSS classes dynamically
-- [ ] Create new HTML elements with JavaScript
-- [ ] Remove elements from the page
-- [ ] Build an interactive to-do list application
+- [ ] Select the form, input, and list elements needed for the core task
+- [ ] Handle form submission and prevent a page reload
+- [ ] Store non-empty item text in an array and render that array on the page
+- [ ] (Optional) Mark items complete, delete items, filter, or save them between visits
+
+## Start Here: Core Route
+
+For the core activity, work through Parts 1–2, then complete the core checklist in Part 4: submit non-empty text, store it in an array, and render that array. Part 3 and extra list features are useful practice but optional. Use the tutorial checkpoints to test each small step before continuing.
 
 ---
 
@@ -299,36 +300,23 @@ _____________________________________________________________________
 
 ## Part 4: Independent Task Checklist
 
-**Task: Build Interactive To-Do List**
+**Core task: Build a Small Dynamic List**
 
-**HTML Setup:**
-- [ ] Create input field for task text
-- [ ] Create "Add Task" button
-- [ ] Create empty `<ul>` for task list
-- [ ] Create stats section (total, completed, remaining)
-- [ ] Add CSS styling
+- [ ] Create or use a labeled form, text input, and empty list
+- [ ] Select the form, input, and list in JavaScript
+- [ ] Create an array to store item text
+- [ ] Write a `renderItems()` function that clears and redraws the list from the array
+- [ ] On form submission, prevent the page reload
+- [ ] Ignore blank input; add valid text to the array
+- [ ] Clear the input and call `renderItems()`
+- [ ] Check that one item, several items, and blank input behave as expected
+- [ ] Explain how the array and visible list stay in sync
 
-**JavaScript Functionality:**
-- [ ] Select all necessary elements
-- [ ] Create `addTask()` function
-- [ ] Validate input (check not empty)
-- [ ] Create new `<li>` element for task
-- [ ] Add task text to element
-- [ ] Create delete button for task
-- [ ] Add click event to mark task complete
-- [ ] Add click event to delete button
-- [ ] Append task to list
-- [ ] Clear input field after adding
-- [ ] Create `updateStats()` function
-- [ ] Count total, completed, remaining tasks
-- [ ] Update stats display
-- [ ] Add Enter key support
-
-**Bonus Challenges:**
-- [ ] Add task editing (double-click to edit)
-- [ ] Add "Clear All" button
-- [ ] Add task priority (high/medium/low) with colors
-- [ ] Save tasks to localStorage
+**Optional extensions — choose after the core works:**
+- [ ] Mark items complete or delete items
+- [ ] Add counts or filters
+- [ ] Add task editing, priorities, or a "Clear All" button
+- [ ] Save tasks between visits
 
 **My Progress Notes:**
 _____________________________________________________________________
@@ -358,7 +346,7 @@ Rate yourself on each criterion (1 = Beginning, 2 = Developing, 3 = Proficient, 
 | **Element Creation:** I can create new elements and add to DOM | ☐ | ☐ | ☐ | ☐ | |
 | **Element Removal:** I can remove elements from the page | ☐ | ☐ | ☐ | ☐ | |
 | **Application Building:** I combined all concepts into working to-do list | ☐ | ☐ | ☐ | ☐ | |
-| **Debugging:** I can use DevTools to inspect and debug DOM issues | ☐ | ☐ | ☐ | ☐ | |
+| **Debugging (optional):** I can use DevTools to inspect DOM issues | ☐ | ☐ | ☐ | ☐ | |
 
 **Overall Self-Assessment:**
 
@@ -459,7 +447,7 @@ _____________________________________________________________________
 | | | |
 | | | |
 
-**DevTools Practice:**
+**Optional: DevTools Practice**
 
 **Elements Tab:** Shows live DOM, applied styles, event listeners  
 **Console Tab:** Shows errors, logs, warnings  
