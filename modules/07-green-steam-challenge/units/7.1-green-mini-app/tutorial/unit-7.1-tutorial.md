@@ -18,6 +18,12 @@ In this unit you will design and implement a _small_, _impactful_ web applicatio
 4. Optionally persist minimal state using `localStorage`; the core app must still work if storage is unavailable.
 5. Communicate impact honestly with simple metrics or narrative.
 
+### Start with this core route
+
+This tutorial contains several extension ideas. For the first working version, follow Sections 3–6 to choose a small user need, plan one screen, and create its accessible HTML. Then use Section 18's **session-only starter** to add one interaction and a visible result. Do not add browser storage yet. **Checkpoint:** a classmate can use the core interaction, see the result, and explain that choices last only for the current session.
+
+After the core works, use Sections 8–11 to review privacy, accessibility, impact claims, and testing. Saving choices with `localStorage` is optional; if you add it, follow the opt-in and reset guidance in Section 7. Treat the remaining enhancements as optional.
+
 ---
 
 ## 2. Learning Outcomes
@@ -337,7 +343,9 @@ Add a visually-hidden class if needed:
 
 ---
 
-## 7. JavaScript: State Model & Persistence (app.js)
+## 7. JavaScript: State Model & Optional Persistence (app.js)
+
+Build and test in-session state and rendering before adding any storage. The `localStorage` examples below are optional extensions; skip the storage key, loading/saving code, and storage event handler for the core activity. The session-only starter in Section 18 shows the minimum interaction without storage.
 
 Design a minimal state shape:
 
@@ -709,44 +717,45 @@ Before final submission:
 
 ---
 
-## 18. Minimal Index Variant (Optional Start)
+## 18. Session-Only Starter (Core First Interaction)
 
-If starting from scratch quickly:
+Start here if the full app feels too large. Add this markup inside the page body and place the script before `</body>`. It keeps choices only while the page is open and does not use browser storage.
 
 ```html
-<section>
-  <h2>Add</h2>
-  <button data-a="Reuse Bottle" data-p="5">Reuse Bottle</button>
+<section aria-labelledby="actions-heading">
+  <h2 id="actions-heading">Choose a green action</h2>
+  <button type="button" data-action="Walked or cycled">Walked or cycled</button>
+  <button type="button" data-action="Used a reusable bottle">Used a reusable bottle</button>
 </section>
-<ul id="list"></ul>
+<p id="summary" role="status" aria-live="polite">Actions selected: 0</p>
+<ul id="list" aria-label="Selected actions"></ul>
 <script>
   const list = document.getElementById("list");
-  const key = "mini-app";
-  let actions = JSON.parse(localStorage.getItem(key) || "[]");
+  const summary = document.getElementById("summary");
+  const actions = [];
+
   function render() {
-    list.innerHTML = "";
-    actions.forEach((a) => {
+    summary.textContent = `Actions selected: ${actions.length}`;
+    list.replaceChildren();
+    actions.forEach((action) => {
       const li = document.createElement("li");
-      li.textContent = `${a.name} (${a.points})`;
+      li.textContent = action;
       list.appendChild(li);
     });
   }
-  document.body.addEventListener("click", (e) => {
-    if (e.target.matches("button[data-a]")) {
-      actions.push({
-        name: e.target.dataset.a,
-        points: +e.target.dataset.p,
-        ts: Date.now(),
-      });
-      localStorage.setItem(key, JSON.stringify(actions));
+
+  document.querySelectorAll("button[data-action]").forEach((button) => {
+    button.addEventListener("click", () => {
+      actions.push(button.dataset.action);
       render();
-    }
+    });
   });
+
   render();
 </script>
 ```
 
-Then progressively enhance to full version.
+**Checkpoint:** activate either button with the mouse and keyboard. The selected action appears in the list and the announced count increases. Once this works, you can extend the app or add opt-in persistence using Section 7.
 
 ---
 

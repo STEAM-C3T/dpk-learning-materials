@@ -31,14 +31,16 @@ An interactive bar chart visualizing CO₂ savings data with proper scaling, lab
 
 Before starting this tutorial, you should:
 
-- [ ] Have completed Module 04 (JavaScript Essentials) or be comfortable with arrays, loops, and functions
+- [ ] Be able to edit and open a basic HTML page
+- [ ] Have seen simple JavaScript values and functions; arrays and loops are introduced or scaffolded in this unit and need not be memorized
 - [ ] Understand basic HTML and CSS
-- [ ] Know how to use browser DevTools
 
 **Tools Required:**
 
 - Text editor
 - Modern web browser with Canvas support (all modern browsers)
+
+**Optional:** Browser DevTools for reading console errors. You can complete the core chart by following the code steps and comparing the visible result with the expected result.
 
 ---
 
@@ -74,6 +76,10 @@ The Canvas element provides a drawing surface for creating graphics with JavaScr
 ---
 
 ## Step-by-Step Guide
+
+### Core route and checkpoints
+
+Work through Steps 1–5 to create a static chart from a small array. Keep the values, labels, and units together and check the chart after each change. **Core checkpoint:** the bars match the data and the title, labels, and companion table make the values understandable without relying on colour. Step 6 (mouse interaction) is an extension; Step 7's accessibility and contrast checks are part of the core work.
 
 ### Step 1: Set Up Canvas Environment
 

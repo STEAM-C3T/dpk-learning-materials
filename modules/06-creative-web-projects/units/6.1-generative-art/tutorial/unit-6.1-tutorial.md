@@ -20,6 +20,12 @@ A generative art piece featuring:
 - **User controls:** Sliders and buttons to adjust parameters live
 - **Creative expression:** Your unique visual style
 
+### Start with this core route
+
+This tutorial includes more techniques than you need for your first artwork. First complete Steps 1–3 to draw and vary a simple pattern, then Step 6 to connect one or two sliders to its parameters. Reuse the Pause/Play control from the runnable example in your artwork. **Checkpoint:** changing a labelled slider changes the artwork, and you can pause it with a keyboard-operable control.
+
+Steps 4–5 (transformations and spirograph) and Step 7 (particle classes) are optional extensions. In Step 8, choose one creative variation only if you have time. You do not need to complete every code example in this tutorial to make the interactive poster.
+
 **Learning Outcomes:**
 
 By the end of this unit, you will be able to:
