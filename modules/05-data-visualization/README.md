@@ -18,6 +18,10 @@ This module introduces data visualization using the HTML5 Canvas API. Students l
 
 - [**Module Overview Deck**](module-deck/module-05-deck.md): High-level introduction to the module's goals and sequence
 
+## Student Route: Start Here
+
+Use the [Module 5 student route](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/05-data-visualization/README.md) to work through the Unit 5.1 tutorial and workbook, change the example data, and then build your own small chart. Include the companion HTML table and short explanation in your submission. External datasets are optional.
+
 ---
 
 ## Units

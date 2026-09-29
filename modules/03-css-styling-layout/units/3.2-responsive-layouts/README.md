@@ -33,4 +33,10 @@ This unit includes:
 - [DPK Module 03 README](https://github.com/STEAM-C3T/digital-proficiency-kit/tree/main/modules/03-css-styling-layout)
 - [Teacher Toolkit: Lesson Plans](https://github.com/STEAM-C3T/teacher-toolkit/tree/main/modules/03-css-styling-layout)
 
+## Student Route
+
+1. Follow the [tutorial](tutorial/unit-3.2-tutorial.md) and use the [student workbook](workbook/unit-3.2-student-workbook.md) to build a layout that changes at different viewport widths.
+2. **Checkpoint:** resize the browser and confirm the content reflows without horizontal scrolling; check that keyboard focus remains visible.
+3. Complete [Build a Responsive Grid Layout](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/03-css-styling-layout/tasks/task-2-responsive-layout.md). Record why you chose your breakpoints.
+
 ---

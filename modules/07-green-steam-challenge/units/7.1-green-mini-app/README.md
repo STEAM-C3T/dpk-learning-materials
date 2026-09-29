@@ -48,4 +48,11 @@ Unit 7.1 challenges students to create a small, purpose-driven mini‑app aligne
 - [DPK Module 07 README](https://github.com/STEAM-C3T/digital-proficiency-kit/tree/main/modules/07-green-steam-challenge)
 - [Teacher Toolkit: Lesson Plans](https://github.com/STEAM-C3T/teacher-toolkit/tree/main/modules/07-green-steam-challenge)
 
+## Student Route
+
+1. Follow the [tutorial](tutorial/unit-7.1-tutorial.md) and use the [student workbook](workbook/unit-7.1-student-workbook.md) to choose one user need and sketch one core interaction.
+2. Build the simplest version that works for the current session. **Checkpoint:** a peer can understand what to do and sees a clear response.
+3. Complete [SDG Mini-App](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/07-green-steam-challenge/tasks/task-1-sdg-mini-app.md). Persistence is optional; if you add it, explain what is saved and how to reset it.
+4. Use sample data, test with a peer, and explain what the app's count or output does and does not measure.
+
 ---

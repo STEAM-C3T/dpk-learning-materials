@@ -18,6 +18,10 @@ This module builds on Module 01 by teaching students to create well-structured, 
 
 - [**Module Overview Deck**](module-deck/module-02-overview-deck.md): High-level introduction to the module's goals and sequence
 
+## Student Route: Start Here
+
+Follow the [Module 2 student route](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/02-html-foundations/README.md) in order. First use the Unit 2.1 tutorial and workbook to build a content page; then use the Unit 2.2 tutorial and workbook to practise labels and table headers. Finish with the content-page practice and the accessible survey task. Use fictional data only; the practice form does not collect responses.
+
 ---
 
 ## Units

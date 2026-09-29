@@ -18,6 +18,10 @@ This module moves from JavaScript fundamentals to interactive, stateful interfac
 
 - [**Module Overview Deck**](module-deck/module-04-overview-deck.md): High-level introduction to the module's goals and sequence
 
+## Student Route: Start Here
+
+Follow the [Module 4 student route](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/04-javascript-essentials/README.md) in order. Work through Unit 4.1 and its calculator task before Unit 4.2 and the dynamic UI task. In Unit 4.1, arrays and loops are optional; you can complete the calculator without them. Save both files and a short explanation of how events change what the page shows.
+
 ---
 
 ## Units

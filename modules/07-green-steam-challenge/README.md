@@ -18,6 +18,10 @@ This module challenges students to build a focused sustainability mini‑app ali
 
 - [**Module Overview Deck**](module-deck/module-07-deck.md): High-level introduction to the module's goals and sequence
 
+## Student Route: Start Here
+
+Follow the [Module 7 student route](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/07-green-steam-challenge/README.md). Use the Unit 7.1 tutorial and workbook to choose a small user need, sketch the interaction, and build the core app. Test it with a peer and complete the SDG mini-app write-up. Persistence is optional; use sample data and explain what the app's output does and does not measure.
+
 ---
 
 ## Units

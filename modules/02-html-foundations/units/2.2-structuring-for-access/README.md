@@ -46,4 +46,10 @@ Unit 2.2 teaches students to build accessible forms and tables. Students will:
 - [DPK Module 02 README](https://github.com/STEAM-C3T/digital-proficiency-kit/tree/main/modules/02-html-foundations)
 - [Teacher Toolkit: Lesson Plans](https://github.com/STEAM-C3T/teacher-toolkit/tree/main/modules/02-html-foundations)
 
+## Student Route
+
+1. Follow the [tutorial](tutorial/unit-2.2-tutorial.md) and use the [student workbook](workbook/unit-2.2-student-workbook.md) to practise visible labels, label/control associations, table headers, and captions.
+2. **Checkpoint:** use Tab to move through your form; confirm the labels make each control's purpose clear, and the table headers identify their columns.
+3. Extend your content page with [Build an Accessible Survey Page](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/02-html-foundations/tasks/task-2-accessible-survey.md). Use fictional sample responses only; the static form does not collect or save data.
+
 ---

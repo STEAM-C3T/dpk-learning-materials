@@ -33,4 +33,10 @@ This unit includes:
 - [DPK Module 03 README](https://github.com/STEAM-C3T/digital-proficiency-kit/tree/main/modules/03-css-styling-layout)
 - [Teacher Toolkit: Lesson Plans](https://github.com/STEAM-C3T/teacher-toolkit/tree/main/modules/03-css-styling-layout)
 
+## Student Route
+
+1. Follow the [tutorial](tutorial/unit-3.1-tutorial.md) and use the [student workbook](workbook/unit-3.1-student-workbook.md) to try selectors, text styles, colour, spacing, and the box model one change at a time.
+2. **Checkpoint:** explain which selector changed a visible part of the page and check that your text and links remain readable.
+3. Apply the ideas in [Style a Simple Portfolio Page](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/03-css-styling-layout/tasks/task-1-style-a-portfolio.md). Save the page and stylesheet for Unit 3.2.
+
 ---

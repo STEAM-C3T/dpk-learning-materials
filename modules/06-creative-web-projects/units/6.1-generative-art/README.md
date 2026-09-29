@@ -50,4 +50,10 @@ When exploring the runnable example, test the Pause/Play button with the keyboar
 - [DPK Module 06 README](https://github.com/STEAM-C3T/digital-proficiency-kit/tree/main/modules/06-creative-web-projects)
 - [Teacher Toolkit: Lesson Plans](https://github.com/STEAM-C3T/teacher-toolkit/tree/main/modules/06-creative-web-projects)
 
+## Student Route
+
+1. Follow the [tutorial](tutorial/unit-6.1-tutorial.md) and use the [student workbook](workbook/unit-6.1-student-workbook.md) to explore how code creates a changing visual.
+2. Try the [runnable example](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/06-creative-web-projects/examples/generative-art.html). Predict how a parameter changes the result, then test it. **Checkpoint:** use the Pause/Play control with the keyboard.
+3. Create the basic visual before adding controls. Then complete [Create an Interactive Poster](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/06-creative-web-projects/tasks/task-1-creative-poster.md). Gather feedback, make one change, and save evidence of both versions.
+
 ---

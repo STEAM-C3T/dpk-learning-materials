@@ -18,6 +18,10 @@ This module introduces CSS for visual design and responsive layouts. Students le
 
 - [**Module Overview Deck**](module-deck/module-03-overview-deck.md): High-level introduction to the module's goals and sequence
 
+## Student Route: Start Here
+
+Follow the [Module 3 student route](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/03-css-styling-layout/README.md) in order. Use the Unit 3.1 tutorial and workbook to style a page, then practise those skills in the portfolio task. Continue with Unit 3.2 and its responsive-layout task; finish by checking your page at a narrow width and recording your breakpoint choice.
+
 ---
 
 ## Units

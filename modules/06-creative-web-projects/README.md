@@ -18,6 +18,10 @@ This module explores generative art and creative coding using Canvas and JavaScr
 
 - [**Module Overview Deck**](module-deck/module-06-deck.md): High-level introduction to the module's goals and sequence
 
+## Student Route: Start Here
+
+Follow the [Module 6 student route](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/06-creative-web-projects/README.md). Explore the Unit 6.1 tutorial, workbook, and runnable example; make a basic sketch before adding controls. Complete the interactive poster task, gather peer feedback, make one improvement, and keep before/after evidence. Make sure motion can be paused.
+
 ---
 
 ## Units

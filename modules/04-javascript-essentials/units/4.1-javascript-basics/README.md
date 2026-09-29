@@ -34,4 +34,10 @@ This unit includes:
 - [DPK Module 04 README](https://github.com/STEAM-C3T/digital-proficiency-kit/tree/main/modules/04-javascript-essentials)
 - [Teacher Toolkit: Lesson Plans](https://github.com/STEAM-C3T/teacher-toolkit/tree/main/modules/04-javascript-essentials)
 
+## Student Route
+
+1. Follow the [tutorial](tutorial/unit-4.1-tutorial.md) and use the [student workbook](workbook/unit-4.1-student-workbook.md) to predict and try simple expressions, functions, and conditions.
+2. Trace the [calculator example](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/04-javascript-essentials/examples/javascript-basics.html). **Checkpoint:** explain what values go into the calculation function and which form event calls it.
+3. Complete [Build a First JavaScript Calculator](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/04-javascript-essentials/tasks/task-1-interactive-elements.md). Arrays and loops are optional extensions, not prerequisites.
+
 ---

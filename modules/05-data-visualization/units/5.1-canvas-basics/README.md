@@ -47,4 +47,10 @@ Unit 5.1 introduces students to the HTML5 Canvas API for creating custom data vi
 - [DPK Module 05 README](https://github.com/STEAM-C3T/digital-proficiency-kit/tree/main/modules/05-data-visualization)
 - [Teacher Toolkit: Lesson Plans](https://github.com/STEAM-C3T/teacher-toolkit/tree/main/modules/05-data-visualization)
 
+## Student Route
+
+1. Follow the [tutorial](tutorial/unit-5.1-tutorial.md) and use the [student workbook](workbook/unit-5.1-student-workbook.md) to make a canvas, draw a bar, and connect a value to its pixel height.
+2. Change one value in the [bar-chart example](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/05-data-visualization/examples/canvas-bar-chart.html). **Checkpoint:** explain how the scale maps data values to the chart area.
+3. Complete [Visualize a Small Dataset](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/05-data-visualization/tasks/task-1-visualize-dataset.md). Include a companion HTML table and a short note about what the chart shows.
+
 ---

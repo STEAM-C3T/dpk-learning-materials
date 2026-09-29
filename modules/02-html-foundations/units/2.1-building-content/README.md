@@ -46,4 +46,10 @@ Unit 2.1 focuses on building well-structured, accessible content using semantic 
 - [DPK Module 02 README](https://github.com/STEAM-C3T/digital-proficiency-kit/tree/main/modules/02-html-foundations)
 - [Teacher Toolkit: Lesson Plans](https://github.com/STEAM-C3T/teacher-toolkit/tree/main/modules/02-html-foundations)
 
+## Student Route
+
+1. Follow the [tutorial](tutorial/unit-2.1-tutorial.md) and use the [student workbook](workbook/unit-2.1-student-workbook.md) to practise headings, paragraphs, lists, links, and images.
+2. **Checkpoint:** make a short topic page with a clear heading order, descriptive link text, and an image whose alt text fits its purpose.
+3. Practise the page in [Build a Content Page](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/02-html-foundations/tasks/task-1-content-page.md). Save it; Unit 2.2 will add a form and a results table.
+
 ---
