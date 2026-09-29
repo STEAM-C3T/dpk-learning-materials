@@ -17,6 +17,6 @@ Choose from the [full module directory](modules/) to find a module, then open a 
 6. [Creative Web Projects](modules/06-creative-web-projects/README.md)
 7. [Green STEAM Challenge](modules/07-green-steam-challenge/README.md)
 
-Student workbooks and teacher-annotated workbooks are both linked in each unit. Deck source files remain in Marp Markdown format; install Marp or use the Marp VS Code extension to present/export them. For lesson plans and assessment rubrics, visit the [Teacher Toolkit](https://steam-c3t.github.io/teacher-toolkit/). Runnable code examples and student tasks are on the [Digital Proficiency Kit site](https://steam-c3t.github.io/digital-proficiency-kit/).
+Student workbooks and public teacher-annotated workbooks are both linked in each unit. For consistent module-level summative grading, use the shared rubric in the [Teacher Toolkit](https://steam-c3t.github.io/teacher-toolkit/); scoring tables in teacher workbooks are unit-level practice and feedback aids. Deck source files remain in Marp Markdown format; install Marp or use the Marp VS Code extension to present/export them. Runnable code examples and student tasks are on the [Digital Proficiency Kit site](https://steam-c3t.github.io/digital-proficiency-kit/).
 
 Use the [GitHub repository](https://github.com/STEAM-C3T/dpk-learning-materials) to browse or download the original files.

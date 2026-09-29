@@ -5,6 +5,8 @@
 **Core Duration:** 3–4 lessons (135–180 minutes); optional persistence or dataset work may add 30–60 minutes.  
 **Prerequisites:** Semantic HTML (1–2), CSS (3), JS DOM & events (4), optional Canvas/Data Viz (5–6)
 
+**Assessment route:** For consistent module-level summative grading, use the [Module 7 assessment rubric in the Teacher Toolkit](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/07-green-steam-challenge/assessment-rubric-07.md). This unit rubric supports feedback and reflection.
+
 ---
 
 ## Purpose & Pedagogical Focus
@@ -140,7 +142,7 @@ Early embed: Introduce privacy explanation before building interactions. Student
 
 ---
 
-## Assessment Rubric (Teacher Version)
+## Unit 7.1 Feedback Rubric (Supplementary)
 
 | Criterion | Emerging (1) | Developing (2) | Proficient (3) | Advanced (4) | Evidence to collect |
 | --- | --- | --- | --- | --- | --- |
@@ -283,7 +285,7 @@ A successful submission: simple scope, clear flow, ethical transparency, accessi
 
 ---
 
-**Version 1.0 — 2025-11-18**  
+**Version 1.0 — last updated 2026-09-29**
 Prepared by assistant (review for classroom adaptation)
 
 <!-- End Teacher-Annotated Workbook: Unit 7.1 -->

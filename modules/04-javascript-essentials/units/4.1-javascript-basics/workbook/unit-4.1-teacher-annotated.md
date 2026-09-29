@@ -3,7 +3,9 @@
 **Module:** 04 — JavaScript Essentials  
 **Unit:** 4.1 — JavaScript Basics  
 **Purpose:** Teaching guide with answer keys, strategies, and assessment support  
-**Last Updated:** 2025-11-18
+**Last Updated:** 2026-09-29
+
+**Assessment route:** For consistent module-level summative grading, use the [Module 4 assessment rubric in the Teacher Toolkit](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/04-javascript-essentials/assessment-rubric-04.md). Scoring tables in this workbook are unit-level practice and feedback aids.
 
 ---
 
@@ -400,7 +402,7 @@ const result = number + 3; // 8 (correct!)
 
 ---
 
-## Part 5: Self-Assessment Rubric Grading Guide
+## Part 5: Student Self-Assessment Reflection Guide
 
 **How to Use Student Self-Assessments:**
 
@@ -720,7 +722,7 @@ let resultCorrect = addCorrect(5, 3); // result is 8
 
 ---
 
-## Assessment Rubric (Summative)
+## Calculator Task Scoring Aid (Optional)
 
 **Calculator Project Rubric:**
 

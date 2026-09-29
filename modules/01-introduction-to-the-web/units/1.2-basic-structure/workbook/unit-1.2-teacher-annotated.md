@@ -5,6 +5,8 @@
 **Core lesson:** 55 minutes; optional extension and follow-up: 15–35 minutes
 **Prerequisites:** Unit 1.1 (What Is the Web?)
 
+**Assessment route:** For consistent module-level summative grading, use the [Module 1 assessment rubric in the Teacher Toolkit](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/01-introduction-to-the-web/assessment-rubric-01.md). The formative rubric in this workbook is a unit-level practice and feedback aid.
+
 ---
 
 ## Purpose & Pedagogical Focus
@@ -282,7 +284,7 @@ Celebrate both technical correctness and creative content choices. Encourage stu
 
 ---
 
-**Version 1.0 — 2025-11-18**  
+**Version 1.0 — last updated 2026-09-29**
 Prepared by assistant (review for classroom adaptation)
 
 <!-- End Teacher-Annotated Workbook: Unit 1.2 -->

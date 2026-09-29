@@ -5,6 +5,8 @@
 **Recommended Core Time:** 90 minutes across two lessons; allow another 30–60 minutes for optional interaction or chart extensions.  
 **Prerequisites:** Modules 01–04 (HTML, CSS, JavaScript basics)
 
+**Assessment route:** For consistent module-level summative grading, use the [Module 5 assessment rubric in the Teacher Toolkit](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/05-data-visualization/assessment-rubric-05.md). Scoring tables in this workbook are unit-level practice and feedback aids.
+
 ---
 
 ## Teaching Guide Overview
@@ -896,7 +898,7 @@ This builds intuition before formula
 
 ---
 
-### Assessment Rubric (Teacher Use)
+### Unit-Task Scoring Aid (Optional)
 
 | Criterion            | Beginning (1)             | Developing (2)                 | Proficient (3)                   | Advanced (4)                                |
 | -------------------- | ------------------------- | ------------------------------ | -------------------------------- | ------------------------------------------- |
@@ -1208,7 +1210,7 @@ Add button to download chart as PNG using `canvas.toDataURL()`.
 
 ## Changelog
 
-**Version 1.0** (2025-11-18)
+**Version 1.0** (last updated 2026-09-29)
 
 - Initial teacher-annotated workbook for Unit 5.1
 - Complete answer keys for all sections

@@ -5,6 +5,8 @@
 **Recommended Core Duration:** 90–120 minutes across two or three lessons; optional advanced techniques may add 30–60 minutes.  
 **Prerequisites:** HTML/CSS basics (Modules 1–3), JavaScript fundamentals (Module 4), Canvas/Data Viz (Module 5 recommended)
 
+**Assessment route:** For consistent module-level summative grading, use the [Module 6 assessment rubric in the Teacher Toolkit](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/06-creative-web-projects/assessment-rubric-06.md). Scoring tables in this workbook are unit-level practice and feedback aids.
+
 ---
 
 ## Overview for Teachers
@@ -239,7 +241,7 @@ Parameters to expose: Count, vertical speed, hue range, size multiplier.
 
 ---
 
-## Assessment Rubric (Teacher)
+## Unit-Task Scoring Aid (Optional)
 
 | Criterion                       | Beginning (1)                | Developing (2)                        | Proficient (3)                          | Advanced (4)                                                    |
 | ------------------------------- | ---------------------------- | ------------------------------------- | --------------------------------------- | --------------------------------------------------------------- |
@@ -317,7 +319,7 @@ Students learn to treat code as an expressive medium, balancing constraint (rule
 
 ---
 
-**Version 1.0** — 2025-11-18  
+**Version 1.0** — last updated 2026-09-29
 Prepared by: Automated assistant (review manually before classroom use)
 
 <!-- End Teacher-Annotated Workbook: Unit 6.1 -->

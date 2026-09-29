@@ -4,6 +4,8 @@
 **Unit:** 2.1 — Building Content  
 **Instructor Use Only**
 
+**Assessment route:** For consistent module-level summative grading, use the [Module 2 assessment rubric in the Teacher Toolkit](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/02-html-foundations/assessment-rubric-02.md). Scoring tables in this workbook are unit-level practice and feedback aids.
+
 ---
 
 ## Quick Lesson Guide
@@ -245,7 +247,7 @@ Expected:
 
 ---
 
-## Self-Assessment Rubric — Grading Guide
+## Student Self-Assessment — Reflection Guide
 
 **Criterion Descriptions:**
 
@@ -376,7 +378,7 @@ Encourage connections to:
 
 ---
 
-## Assessment Rubric (For Teacher Grading)
+## Unit-Task Scoring Aid (Optional)
 
 | Criterion           | Weight | Exemplary (4)                                 | Proficient (3)                | Developing (2)                   | Beginning (1)               |
 | ------------------- | ------ | --------------------------------------------- | ----------------------------- | -------------------------------- | --------------------------- |
@@ -411,7 +413,7 @@ Encourage connections to:
 **Module:** 02 — HTML Foundations  
 **Unit:** 2.1 — Building Content  
 **Version:** 1.0  
-**Last Updated:** 2025-11-18  
+**Last Updated:** 2026-09-29
 **License:** CC BY-SA 4.0
 
 ---

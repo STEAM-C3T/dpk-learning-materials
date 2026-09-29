@@ -4,6 +4,8 @@
 **Unit:** 1.1 — What Is the Web?  
 **Instructor Use Only**
 
+**Assessment route:** For consistent module-level summative grading, use the [Module 1 assessment rubric in the Teacher Toolkit](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/01-introduction-to-the-web/assessment-rubric-01.md). Scoring tables in this workbook are unit-level practice and feedback aids.
+
 ---
 
 ## Overview for Teachers

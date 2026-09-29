@@ -4,6 +4,8 @@
 **Unit:** 3.2 — Responsive Layouts  
 **Teacher Guide**
 
+**Assessment route:** For consistent module-level summative grading, use the [Module 3 assessment rubric in the Teacher Toolkit](https://github.com/STEAM-C3T/teacher-toolkit/blob/main/modules/03-css-styling-layout/assessment-rubric-03.md). Scoring tables in this workbook are unit-level practice and feedback aids.
+
 ---
 
 ## Teaching Notes
@@ -300,7 +302,7 @@ Comprehensive test:
 
 ---
 
-## Self-Assessment Rubric — Grading Guide
+## Student Self-Assessment — Reflection Guide
 
 **Flexbox Usage (4 = Exemplary)**
 
@@ -459,7 +461,7 @@ Expected connections:
 
 ---
 
-## Assessment Rubric (For Teacher Grading)
+## Unit-Task Scoring Aid (Optional)
 
 | Criterion      | Weight | Exemplary (4)                     | Proficient (3)                     | Developing (2)                | Beginning (1)        |
 | -------------- | ------ | --------------------------------- | ---------------------------------- | ----------------------------- | -------------------- |
@@ -594,7 +596,7 @@ Expected connections:
 **Module:** 03 — CSS Styling & Layout  
 **Unit:** 3.2 — Responsive Layouts  
 **Version:** 1.0  
-**Last Updated:** 2025-11-18  
+**Last Updated:** 2026-09-29
 **License:** CC BY-SA 4.0
 
 ---
