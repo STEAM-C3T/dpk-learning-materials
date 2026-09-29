@@ -12,7 +12,7 @@
 
 **Pre-Class Preparation:**
 
-- Test that all student devices can access DevTools responsive mode
+- DevTools responsive mode is optional; confirm students can resize their browser window for the core layout check.
 - Prepare examples of responsive vs. non-responsive sites
 - Have devices at different sizes ready (phone, tablet, laptop)
 - Optional: Set up live device testing station

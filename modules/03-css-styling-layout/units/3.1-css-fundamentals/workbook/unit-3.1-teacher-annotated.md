@@ -12,7 +12,7 @@
 
 **Pre-Class Preparation:**
 
-- Ensure students can access browser DevTools (F12)
+- DevTools are optional for students; prepare a visible browser refresh-and-compare alternative.
 - Prepare example of well-designed website to analyze
 - Have color contrast checker ready (WebAIM)
 - Optional: Prepare "CSS in 5 minutes" refresher slides

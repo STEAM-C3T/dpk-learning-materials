@@ -334,7 +334,7 @@ Rate yourself (1 = Beginning, 2 = Developing, 3 = Proficient, 4 = Exemplary):
 
 ---
 
-## DevTools Practice
+## Optional: DevTools Practice
 
 **Responsive Design Mode:**
 
@@ -353,7 +353,7 @@ Rate yourself (1 = Beginning, 2 = Developing, 3 = Proficient, 4 = Exemplary):
    - At what width does navigation change? ****\_\_****
    - At what width does grid change columns? ****\_\_****
 
-4. **Network throttling:**
+4. **Optional: Network throttling:**
    - Test on "Slow 3G" — does page load reasonably?
 
 ---

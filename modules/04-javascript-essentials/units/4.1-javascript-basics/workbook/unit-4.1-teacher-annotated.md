@@ -14,7 +14,7 @@
 **Preparation:**
 
 - [ ] Ensure all students have text editors installed
-- [ ] Verify browser DevTools functionality on student computers
+- [ ] If demonstrating DevTools, check access; students can complete the core calculator without them
 - [ ] Prepare example files on shared drive or repository
 - [ ] Test code examples before class
 - [ ] Have console screenshots ready for demonstration

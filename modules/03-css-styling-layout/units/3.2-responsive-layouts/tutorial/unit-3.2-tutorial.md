@@ -37,7 +37,9 @@ Before starting this tutorial, you should:
 **Tools Required:**
 
 - Text editor (VS Code, Notepad++, or similar)
-- Modern web browser with responsive design mode (DevTools)
+- Modern web browser; resize the window to check the core layout
+
+DevTools responsive design mode is optional. A normal browser window is enough to check that the layout reflows and does not cause horizontal scrolling.
 
 ---
 
@@ -581,7 +583,7 @@ Update HTML to add images (optional):
 
 **Instructions:**
 
-**In Browser DevTools:**
+**Optional: Test in Browser DevTools**
 
 1. Open DevTools (F12)
 2. Click device toolbar icon (or Ctrl+Shift+M / Cmd+Shift+M)
@@ -648,7 +650,7 @@ Testing ensures responsive design works in practice, not just theory.
 - **Possible Cause:** No `max-width: 100%` on images
 - **Solution:** Add responsive image CSS
 
-**General Debugging Tips:**
+**Optional DevTools debugging tips:**
 
 - Use DevTools responsive mode to test
 - Temporarily add `border: 1px solid red` to see element boundaries

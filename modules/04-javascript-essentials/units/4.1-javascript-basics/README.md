@@ -36,7 +36,7 @@ This unit includes:
 
 ## Student Route
 
-1. Follow the [tutorial](tutorial/unit-4.1-tutorial.md) and use the [student workbook](workbook/unit-4.1-student-workbook.md) to predict and try simple expressions, functions, and conditions.
+1. Follow the [tutorial](tutorial/unit-4.1-tutorial.md) and use the [student workbook](workbook/unit-4.1-student-workbook.md) to predict and try simple expressions, functions, and conditions. Console-only experiments are optional; expected values are shown so you can trace them without DevTools.
 2. Trace the [calculator example](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/04-javascript-essentials/examples/javascript-basics.html). **Checkpoint:** explain what values go into the calculation function and which form event calls it.
 3. Complete [Build a First JavaScript Calculator](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/04-javascript-essentials/tasks/task-1-interactive-elements.md). Arrays and loops are optional extensions, not prerequisites.
 

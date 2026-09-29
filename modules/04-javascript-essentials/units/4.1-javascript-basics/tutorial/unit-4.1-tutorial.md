@@ -35,12 +35,14 @@ Before starting this tutorial, you should:
 
 - [ ] Have completed Modules 02-03 or be familiar with HTML and CSS
 - [ ] Understand basic programming concepts (helpful but not required)
-- [ ] Know how to use browser DevTools console
+- [ ] (Optional) Know how to use browser DevTools console for debugging
 
 **Tools Required:**
 
 - Text editor (VS Code, Notepad++, or similar)
-- Modern web browser with JavaScript console (DevTools)
+- Modern web browser
+
+DevTools are optional. You can check the core calculator by entering values in its form and reading the visible result or message.
 
 ---
 
@@ -66,6 +68,8 @@ JavaScript runs line-by-line, top-to-bottom. The browser's JavaScript engine int
 ---
 
 ## Step-by-Step Guide
+
+**Core route:** Learn the examples in Steps 2–5 by predicting the values shown in the code and expected results; opening a console to run them is optional. Then complete Step 6, the visible calculator interaction. Use the console debugging tips only if DevTools are available.
 
 ### Step 1: Set Up JavaScript Environment
 

@@ -18,7 +18,7 @@ By the end of this unit, I will be able to:
 - [ ] Use conditional statements (`if/else`) to handle different cases
 - [ ] Connect a form submission to a function with an event listener
 - [ ] Build an accessible interactive calculator and display its result as text
-- [ ] Debug JavaScript using console.log and browser DevTools
+- [ ] (Optional) Use console.log or browser DevTools to investigate an error
 
 Arrays, objects, `switch`, and loops are optional extensions in this unit. The calculator task does not require them.
 
@@ -369,7 +369,7 @@ Rate yourself on each criterion (1 = Beginning, 2 = Developing, 3 = Proficient, 
 | **Conditionals:** I can use if/else statements to handle different cases | ☐ | ☐ | ☐ | ☐ | |
 | **Form interaction:** I can connect a form submission to a function and display a result | ☐ | ☐ | ☐ | ☐ | |
 | **Input Validation:** I check user input and handle errors appropriately | ☐ | ☐ | ☐ | ☐ | |
-| **Debugging:** I use console.log and DevTools to find and fix errors | ☐ | ☐ | ☐ | ☐ | |
+| **Debugging (optional):** I can use console.log or DevTools to investigate errors | ☐ | ☐ | ☐ | ☐ | |
 | **Code Organization:** My code is well-structured with clear function names | ☐ | ☐ | ☐ | ☐ | |
 
 **Overall Self-Assessment:**

@@ -317,7 +317,7 @@ Rate yourself (1 = Beginning, 2 = Developing, 3 = Proficient, 4 = Exemplary):
 
 ---
 
-## DevTools Practice
+## Optional: DevTools Practice
 
 **Experiment with CSS in DevTools:**
 

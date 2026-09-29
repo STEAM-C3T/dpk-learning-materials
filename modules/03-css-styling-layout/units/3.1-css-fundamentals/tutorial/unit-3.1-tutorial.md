@@ -37,7 +37,9 @@ Before starting this tutorial, you should:
 **Tools Required:**
 
 - Text editor (VS Code, Notepad++, or similar)
-- Modern web browser with DevTools
+- Modern web browser
+
+DevTools are optional. You can complete the core practice by editing the stylesheet, reloading the page, and comparing the visible result. Browser inspection tips below are optional debugging support.
 
 ---
 
@@ -66,6 +68,8 @@ When multiple rules apply, specificity and source order determine which wins.
 ---
 
 ## Step-by-Step Guide
+
+**Core route:** Make each CSS change in your stylesheet, reload the page, and observe the visible result. DevTools tips in this tutorial are optional; use them only if available.
 
 ### Step 1: Create HTML Structure
 
