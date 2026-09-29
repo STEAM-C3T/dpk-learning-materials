@@ -17,7 +17,7 @@ Web Development for STEAM
 
 - Builds on: Module 03 — CSS Styling & Layout
 - Leads to: Module 05 — Data Visualization
-- Duration: 2–3 hours
+- Core lesson sequence: 90–120 min across both units. Allow 3–4 hours if completing all tutorial and workbook practice in class.
 
 **Key Artefacts:**
 

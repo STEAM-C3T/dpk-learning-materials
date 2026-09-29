@@ -10,7 +10,7 @@
 This module moves from JavaScript fundamentals to interactive, stateful interfaces. Students first use values, operators, functions, and conditions in a small calculator, then apply those ideas to DOM events and list state.
 
 **Prerequisites:** Modules 01–03 (HTML & CSS foundations)  
-**Estimated Total Time:** 3–4 hours (across 2 units)
+**Core lesson time:** 90–120 minutes across the two units (about 45–60 minutes per unit). Allow **3–4 hours** if students also complete the full tutorials and workbook activities during class; teachers can assign or select those practice sections as needed. Optional extensions take additional time.
 
 ---
 
