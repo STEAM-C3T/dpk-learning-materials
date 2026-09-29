@@ -15,9 +15,16 @@ By the end of this unit, I will be able to:
 - [ ] Generate random values within ranges for visual variety
 - [ ] Parameterize visual properties (size, color, position, rotation)
 - [ ] Create UI controls (sliders, buttons) linked to visual parameters
-- [ ] Apply Canvas transformations (translate, rotate, scale)
+- [ ] Add one labeled control and a working pause button to my artwork
+- [ ] (Optional) Apply Canvas transformations (translate, rotate, scale)
 - [ ] Combine repetition, randomness, and rules to create patterns
 - [ ] Explain generative art concepts and my creative decisions
+
+---
+
+## Start Here: Core Work and Optional Extensions
+
+For the core poster, complete Parts 1–3, 6, 8–9, and 11. Parts 4–5 and 7 are optional extensions; Part 10 is a self-assessment. Your poster needs one labeled control and a working pause button. Extra controls, transformations, and particle systems are optional.
 
 ---
 
@@ -47,7 +54,7 @@ By the end of this unit, I will be able to:
 
 10. To pause animation, set ****\_\_\_\_**** to true/false
 
-**Canvas Transformations**
+**Canvas Transformations (Optional Extension)**
 
 11. `ctx.____________()` saves the current transformation state
 
@@ -396,11 +403,13 @@ const y = randomFloat(0, canvas.height);
 
 **Task: Create Generative Art Piece**
 
+Core requirements: a clear visual idea, an animated Canvas artwork, one labeled control that changes a visual property, a working pause/resume control, and a short explanation of one design decision. Additional controls and a reset button are optional.
+
 **Planning:**
 
 - [ ] Choose theme or concept (nature, geometry, abstract)
 - [ ] Sketch algorithm on paper
-- [ ] List parameters to control (count, size, speed, color)
+- [ ] Choose one visual property to control (count, size, speed, or color)
 
 **Implementation:**
 
@@ -411,11 +420,10 @@ const y = randomFloat(0, canvas.height);
 
 **UI Controls:**
 
-- [ ] Create sliders for 2–3 key parameters
-- [ ] Link sliders to variables
-- [ ] Display current values
-- [ ] Add pause/resume button
-- [ ] Add reset button
+- [ ] Create one labeled control and link it to a visual parameter
+- [ ] Display the control's current value where useful
+- [ ] Add a working pause/resume button
+- [ ] (Optional) Add another control or a reset button
 
 **Polish:**
 
@@ -455,7 +463,7 @@ Rate yourself on each criterion (1 = Beginning, 2 = Developing, 3 = Proficient, 
 | **Animation:** I can create smooth animation loops     | ☐   | ☐   | ☐   | ☐   |          |
 | **Random Values:** I use randomness effectively        | ☐   | ☐   | ☐   | ☐   |          |
 | **Parameters:** I expose controls for key variables    | ☐   | ☐   | ☐   | ☐   |          |
-| **Transformations:** I can rotate/translate shapes     | ☐   | ☐   | ☐   | ☐   |          |
+| **Transformations (optional):** I can rotate/translate shapes | ☐   | ☐   | ☐   | ☐   |          |
 | **Creativity:** My art has a clear concept/theme       | ☐   | ☐   | ☐   | ☐   |          |
 | **UI Controls:** Sliders/buttons work correctly        | ☐   | ☐   | ☐   | ☐   |          |
 | **Code Quality:** Code is organized and commented      | ☐   | ☐   | ☐   | ☐   |          |

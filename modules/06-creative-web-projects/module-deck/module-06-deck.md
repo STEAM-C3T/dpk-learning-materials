@@ -24,9 +24,9 @@ Harness HTML5 Canvas + JavaScript to create _expressive_, _parameter-driven_ vis
 
 - Generative art concepts (rules, randomness, emergence)
 - Animation loops (`requestAnimationFrame`)
-- Parameterization & UI controls (sliders, buttons)
-- Canvas transformations (translate, rotate, save/restore)
-- Particle systems & pattern algorithms
+- Parameterization with one UI control and a pause button
+- Pattern algorithms using repetition, randomness, and rules
+- Optional extensions: Canvas transformations, particle systems, and extra controls
 - Iterative creative process documentation
 
 ---
@@ -48,8 +48,8 @@ Single Unit: **6.1 Generative Art**
 
 1. Foundations: Canvas + Animation
 2. Random & Parametric Patterns
-3. Transformations & Particle Systems
-4. UI Integration & Control Exposure
+3. Add one UI control and a pause button
+4. Optional transformations & particle systems
 5. Iteration, Refinement, Reflection
 
 ---
@@ -60,7 +60,7 @@ By completion students can:
 
 - Build animated code-based artworks
 - Expose parameters for interactive exploration
-- Optimize performance (object reuse, efficient loops)
+- Explain how one parameter changes the visual outcome
 - Reflect critically on aesthetics & algorithmic choices
 - Prepare for purpose-driven app creation (Module 07)
 

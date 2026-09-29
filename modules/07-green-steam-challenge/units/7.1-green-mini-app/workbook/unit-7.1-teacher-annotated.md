@@ -2,7 +2,7 @@
 
 **Module:** 07 — Green STEAM Challenge  
 **Unit:** 7.1 — Build a Sustainability Mini‑App  
-**Duration:** 2–4 lessons (90–180 minutes)  
+**Core Duration:** 3–4 lessons (135–180 minutes); optional persistence or dataset work may add 30–60 minutes.  
 **Prerequisites:** Semantic HTML (1–2), CSS (3), JS DOM & events (4), optional Canvas/Data Viz (5–6)
 
 ---

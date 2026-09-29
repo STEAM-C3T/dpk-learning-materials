@@ -10,7 +10,7 @@
 This module introduces data visualization using the HTML5 Canvas API. Students learn to map datasets to visual representations (bar charts), implement scaling formulas, and ensure accessibility through companion tables and text descriptions.
 
 **Prerequisites:** Modules 01–04 (HTML, CSS, JavaScript)  
-**Estimated Total Time:** 2–3 hours
+**Core Time:** 90 minutes across two lessons for a Canvas bar chart, companion table, and reflection. Allow an additional 30–60 minutes for optional chart interaction or alternative chart forms.
 
 ---
 

@@ -29,7 +29,7 @@ A simple "About Me" webpage with:
 - Semantic sections
 - Heading, paragraphs, list, image, link
 
-Use the steps through Part 4 for the 55-minute core lesson. Save a valid page containing the document skeleton, semantic sections, headings, a paragraph, and a list. Add an image with descriptive `alt` text if time allows. Parts 5 onward provide optional follow-up and extension practice.
+Use Parts 1–4 and Step 5.1 for the 55-minute core lesson. The core page includes the document skeleton, semantic sections, headings, a paragraph, a list, an image with appropriate `alt` text, and a descriptive link. Save when those parts are complete. Step 5.2 (online validation) and Parts 6–7 are optional follow-up and extension practice.
 
 ---
 
@@ -296,13 +296,13 @@ Your complete `index.html` should look like this:
 
 ### Step 5.1: Visual Check
 
-Open your page in multiple browsers (Chrome, Firefox, Safari) to ensure consistent display.
+Open your page in a browser. Confirm the title appears in the browser tab, the image displays, and the link opens its intended destination. Use Tab to check that the link receives visible focus.
 
 ---
 
 ### Step 5.2: Validate Your HTML
 
-1. Go to [W3C HTML Validator](https://validator.w3.org/#validate_by_upload)
+1. For an optional extra check, go to [W3C HTML Validator](https://validator.w3.org/#validate_by_upload)
 2. Upload your `index.html` file
 3. Fix any errors or warnings
 

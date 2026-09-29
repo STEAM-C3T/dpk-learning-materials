@@ -20,10 +20,12 @@ By end of unit you can:
 
 - Animate with `requestAnimationFrame()`
 - Use randomness + rules for patterns
-- Parameterize visuals (size, count, speed)
-- Apply transformations (translate, rotate)
-- Build UI sliders & buttons
+- Parameterize visuals through at least one adjustable property
+- Build one labeled UI control and a pause button
+- (Optional) Apply transformations (translate, rotate)
 - Reflect on creative + algorithmic choices
+
+Transformations, particle systems, extra controls, and reset buttons are optional extensions.
 
 ---
 

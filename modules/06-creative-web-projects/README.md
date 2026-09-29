@@ -9,8 +9,8 @@
 
 This module explores generative art and creative coding using Canvas and JavaScript. Students create algorithmic visuals with animation loops, randomness, transformations, and user-controllable parameters.
 
-**Prerequisites:** Modules 01–05 (HTML, CSS, JavaScript, Canvas basics)  
-**Estimated Total Time:** 2–3 hours
+**Prerequisites:** Modules 01–04 (HTML, CSS, JavaScript); Module 05 is recommended for Canvas background  
+**Core Time:** 90–120 minutes across two or three lessons for the basic generative artwork, controls, accessibility check, and iteration. Optional advanced techniques may add 30–60 minutes.
 
 ---
 

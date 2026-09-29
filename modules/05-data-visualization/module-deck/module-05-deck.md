@@ -17,7 +17,7 @@ STEAM Education Series
 
 ## Module Overview
 
-**Duration:** ~2 lessons (90 minutes)
+**Core Duration:** 2 lessons (90 minutes); optional interaction or chart extensions may add 30–60 minutes.
 
 **Prerequisites:**
 
@@ -40,7 +40,7 @@ By the end of this module, you will be able to:
 - Implement scaling functions for accurate representation
 - Create accessible charts with companion data tables
 - Explain design choices and identify misleading visualizations
-- Build interactive data-driven web graphics
+- Add interaction to a chart as an optional extension
 
 ---
 
@@ -122,7 +122,7 @@ By the end of this module, you will be able to:
 - Axes, labels, and legends
 - Accessibility with data tables
 
-**Estimated Time:** 90–120 minutes
+**Core Time:** 90 minutes; optional interaction or chart extensions may add 30–60 minutes.
 
 ---
 

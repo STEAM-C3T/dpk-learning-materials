@@ -2,7 +2,7 @@
 
 **Module:** 06 — Creative Web Projects  
 **Unit:** 6.1 — Generative Art  
-**Recommended Duration:** 90–120 minutes  
+**Recommended Core Duration:** 90–120 minutes across two or three lessons; optional advanced techniques may add 30–60 minutes.  
 **Prerequisites:** HTML/CSS basics (Modules 1–3), JavaScript fundamentals (Module 4), Canvas/Data Viz (Module 5 recommended)
 
 ---
@@ -151,7 +151,7 @@ Encourage students to annotate reasons personally—metacognition enhances trans
 
 ## Part 9 Independent Task Guidance
 
-Minimum expected features: Smooth animation, at least two parameters, pause control, commentary on concept.  
+Minimum expected features: Smooth animation, one labeled control that changes a visual property, a working pause control, and a brief explanation of the concept. Additional controls, transformations, and particle systems are optional extensions.  
 Advanced: Export PNG, preset system, layered algorithms.
 
 ### Circulation Questions

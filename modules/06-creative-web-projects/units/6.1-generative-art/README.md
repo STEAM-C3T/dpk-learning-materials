@@ -20,11 +20,12 @@ This unit includes:
 
 By the end of this unit, students will be able to:
 
-1. **Use** `requestAnimationFrame` to create smooth animation loops.
-2. **Apply** randomness and transformation (translate, rotate, scale) for generative effects.
-3. **Build** a particle system with dynamic movement.
-4. **Add** UI controls (sliders) to adjust visual parameters.
-5. **Implement** pause/play controls for accessibility.
+1. **Use** `requestAnimationFrame` to animate a simple pattern.
+2. **Vary** the pattern with repetition or random values.
+3. **Connect** one or two labelled controls to visual parameters.
+4. **Pause** animation with a keyboard-operable control.
+
+Particle systems and Canvas transformations (translate, rotate, scale) are optional extensions; they are not required for the core interactive poster.
 
 ---
 
@@ -34,13 +35,14 @@ Unit 6.1 explores generative art—visuals created through code and algorithmic 
 
 - Set up continuous animation loops
 - Use randomness to create varied visual outcomes
-- Implement particles with position, velocity, and lifecycle
-- Connect HTML range inputs to visual parameters
+- Connect one or two HTML range inputs to visual parameters
 - Ensure animations can be paused for accessibility
+
+Particle systems and transformations are optional extensions.
 
 When exploring the runnable example, test the Pause/Play button with the keyboard. The animation starts paused when the device requests reduced motion; learners can choose to play it.
 
-**Estimated Time:** 90–120 minutes
+**Core Time:** 90–120 minutes across two or three lessons. Allow another 30–60 minutes for optional advanced techniques.
 
 ---
 

@@ -10,7 +10,7 @@
 This module introduces foundational web concepts and hands-on HTML coding. Students learn how the web operates (client-server model, URLs, browsers) and create their first semantic HTML pages.
 
 **Prerequisites:** None  
-**Estimated Total Time:** 2–3 hours (across 2 units)
+**Core Time:** 110–145 minutes across the two units and first webpage task. Allow another 15–35 minutes for optional Unit 1.2 follow-up practice.
 
 ---
 

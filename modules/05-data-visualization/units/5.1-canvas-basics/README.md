@@ -23,7 +23,7 @@ By the end of this unit, students will be able to:
 2. **Draw** basic shapes (rectangles, lines, text) on the canvas.
 3. **Scale** data values to fit visual dimensions.
 4. **Build** an accessible bar chart with companion table.
-5. **Add** interactivity to visualizations using mouse events.
+5. **Optionally add** a simple mouse interaction as an extension.
 
 ---
 
@@ -34,10 +34,10 @@ Unit 5.1 introduces students to the HTML5 Canvas API for creating custom data vi
 - Set up a canvas element and context
 - Learn coordinate systems and drawing methods
 - Apply scaling formulas to convert data into pixel positions
-- Render bar charts with labels and hover effects
+- Render bar charts with labels; add hover effects as an optional extension
 - Provide accessible alternatives (companion tables, text descriptions)
 
-**Estimated Time:** 90–120 minutes
+**Core Time:** 90 minutes across two lessons. Allow another 30–60 minutes for optional interaction or chart extensions.
 
 ---
 

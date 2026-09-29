@@ -38,7 +38,7 @@ Unit 7.1 challenges students to create a small, purpose-driven mini‑app aligne
 - Ensure ethical transparency (honest impact claims, no greenwashing)
 - Test for accessibility and reflect on design decisions
 
-**Estimated Time:** 120–180 minutes (can be split across 2–3 sessions)
+**Core Time:** 135–180 minutes across three or four lessons. Optional persistence or dataset work may add 30–60 minutes.
 
 ---
 

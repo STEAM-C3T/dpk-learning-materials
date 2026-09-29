@@ -2,7 +2,7 @@
 
 **Module:** 06 — Creative Web Projects  
 **Unit:** 6.1 — Generative Art  
-**Duration:** 90–120 minutes  
+**Core Duration:** 90–120 minutes across two or three lessons; optional advanced techniques may add 30–60 minutes.
 **Prerequisites:** Modules 01–04, Module 05 recommended (Canvas basics)
 
 ---
@@ -32,11 +32,11 @@ By the end of this unit, you will be able to:
 
 1. Use `requestAnimationFrame()` for smooth animation loops
 2. Generate random values within ranges for visual variety
-3. Parameterize visual properties (size, color, position, rotation)
-4. Create UI controls (sliders, inputs) linked to visual parameters
-5. Apply transformations (translate, rotate, scale) on Canvas
-6. Combine repetition, randomness, and rules to create emergent patterns
-7. Explain generative art concepts and your creative decisions
+3. Connect one or two UI controls to visual parameters
+4. Pause animation with a keyboard-operable control
+5. Explain the visual idea and one creative decision
+
+Canvas transformations (translate, rotate, scale) and particle systems are optional extensions.
 
 ---
 

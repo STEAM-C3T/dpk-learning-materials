@@ -2,7 +2,7 @@
 
 **Module:** 05 — Data Visualization  
 **Unit:** 5.1 — Canvas Basics  
-**Recommended Time:** 90–120 minutes  
+**Recommended Core Time:** 90 minutes across two lessons; allow another 30–60 minutes for optional interaction or chart extensions.  
 **Prerequisites:** Modules 01–04 (HTML, CSS, JavaScript basics)
 
 ---

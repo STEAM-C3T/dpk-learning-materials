@@ -10,7 +10,7 @@
 This module challenges students to build a focused sustainability mini‑app aligned with the UN Sustainable Development Goals (SDGs). Emphasis is placed on ethical transparency, accessibility, honest impact communication, and thoughtful design decisions.
 
 **Prerequisites:** Modules 01–04 (HTML, CSS, JavaScript); optional 05–06  
-**Estimated Total Time:** 3–4 hours (can be split across 2–3 sessions)
+**Core Time:** 135–180 minutes across three or four lessons for planning, a session-only app, peer testing, accessibility, and reflection. Optional persistence or dataset work may add 30–60 minutes.
 
 ---
 
@@ -28,7 +28,7 @@ Follow the [Module 7 student route](https://github.com/STEAM-C3T/digital-profici
 
 ### [Unit 7.1: Sustainability Mini‑App](units/7.1-green-mini-app/)
 
-Scope definition, semantic HTML with accessibility, state management with localStorage, ethical transparency, and testing.
+Scope definition, semantic HTML with accessibility, in-session state, optional `localStorage`, ethical transparency, and testing.
 
 **Materials:**
 
