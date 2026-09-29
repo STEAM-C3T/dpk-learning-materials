@@ -13,6 +13,14 @@ This unit includes:
 - [**workbook/unit-1.2-student-workbook.md**](workbook/unit-1.2-student-workbook.md): Student workbook with scaffolds and reflection prompts
 - [**workbook/unit-1.2-teacher-annotated.md**](workbook/unit-1.2-teacher-annotated.md): Teacher version with timing, answer keys, and differentiation strategies
 
+## Student Route
+
+1. Open the [tutorial](tutorial/unit-1.2-tutorial.md) and create a project folder with an `index.html` file. If you already have a Unit 1.2 starter file, continue using it.
+2. Follow the tutorial in order: document skeleton, semantic regions, headings, text, list, image and link. Save and refresh the browser after each change.
+3. Use the [student workbook](workbook/unit-1.2-student-workbook.md) to sketch the page and check your understanding. You do not need to copy every practice answer into your final webpage.
+4. **Checkpoint:** your page opens in a browser and has a title, header, main, footer, heading, paragraph, and list. Then add an image with suitable alt text and a descriptive link.
+5. Continue with [Your First Webpage task](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/01-introduction-to-the-web/tasks/task-1-first-webpage.md). Save the HTML file and a brief reflection before moving on to Module 2.
+
 ---
 
 ## Learning Objectives

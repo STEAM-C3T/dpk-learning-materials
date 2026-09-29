@@ -34,7 +34,9 @@ Before starting this tutorial, you should:
 
 **Tools Required:**
 
-- A modern web browser with developer tools (all major browsers include these)
+- A modern web browser
+
+**Optional:** Browser developer tools (Inspect/Elements and Console). If your browser does not provide them, or you are using a restricted device, skip the tool-specific steps and use the workbook diagram and a teacher demonstration instead. You can inspect the local [minimal page example](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/01-introduction-to-the-web/examples/minimal-page.html) rather than relying on an external site.
 
 ---
 
@@ -79,8 +81,8 @@ When you visit a website:
 **Instructions:**
 
 1. Open your web browser.
-2. In the address bar, type: `example.com`
-3. Press Enter.
+2. If you have internet access, type `example.com` in the address bar. Otherwise, open the provided minimal page example or follow your teacher's demonstration.
+3. Press Enter if you entered the address.
 
 **Expected Result:**
 
@@ -97,7 +99,7 @@ This is one of the simplest webpages on the internet. It's a great starting poin
 
 ---
 
-### Step 2: Open Browser Developer Tools
+### Step 2 (Optional): Open Browser Developer Tools
 
 **Objective:** Access the tools that let you inspect how webpages are built.
 
@@ -118,7 +120,7 @@ Developer tools (DevTools) let you peek "under the hood" of any webpage. You can
 
 **Common Pitfall:**
 ⚠️ **Watch Out:** If the panel doesn't open, make sure you right-clicked on the webpage itself (not the address bar or browser toolbar).  
-✅ **Tip:** Try the keyboard shortcut (F12 or Cmd+Option+I) if right-click doesn't work.
+✅ **Tip:** Try the keyboard shortcut (F12 or Cmd+Option+I) if right-click doesn't work. If DevTools are unavailable, skip to the workbook and ask your teacher to show the page structure.
 
 **Quick Self-Check:**
 
@@ -196,9 +198,9 @@ CSS separates structure (HTML) from presentation (visual style). This makes webs
 
 ---
 
-### Step 5: Run JavaScript in the Console
+### Step 5 (Optional): Run JavaScript in the Console
 
-**Objective:** See how JavaScript adds interactivity to webpages.
+**Objective:** See how JavaScript adds interactivity to webpages. This is an optional preview; you do not need it to complete the unit.
 
 **Instructions:**
 

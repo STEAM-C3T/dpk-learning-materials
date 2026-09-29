@@ -13,6 +13,14 @@ This unit includes:
 - [**workbook/unit-1.1-student-workbook.md**](workbook/unit-1.1-student-workbook.md): Student workbook with scaffolds and reflection prompts
 - [**workbook/unit-1.1-teacher-annotated.md**](workbook/unit-1.1-teacher-annotated.md): Teacher version with timing, answer keys, and differentiation strategies
 
+## Student Route
+
+1. Read the [tutorial](tutorial/unit-1.1-tutorial.md) from the overview through the client–server model.
+2. Use the [student workbook](workbook/unit-1.1-student-workbook.md) to draw the request and response, then match HTML, CSS, and JavaScript to their roles.
+3. If you have access to browser developer tools, complete the webpage inspection in the tutorial. If not, use the workbook diagram and the teacher's projected example; the tools are not needed to meet this unit's goal.
+4. **Checkpoint:** explain what the browser asks for, what the server returns, and how HTML, CSS, and JavaScript contribute to a page.
+5. Save your workbook answers. They will help you understand why you create an HTML document in Unit 1.2.
+
 ---
 
 ## Learning Objectives

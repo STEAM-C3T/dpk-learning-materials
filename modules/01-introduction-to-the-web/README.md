@@ -18,6 +18,16 @@ This module introduces foundational web concepts and hands-on HTML coding. Stude
 
 - [**Module Overview Deck**](module-deck/module-01-overview-deck.md): High-level introduction to the module's goals and sequence
 
+## Student Route: Start Here
+
+Complete the units in order. Each unit page links directly to its tutorial, student workbook, and classroom deck. Use the teacher-annotated workbook only when your teacher asks for it.
+
+1. **Unit 1.1 — Understand how the web works.** Follow the [Unit 1.1 student route](units/1.1-what-is-the-web/README.md). In your workbook, record the browser–server exchange. **Checkpoint:** explain the request and response in your own words.
+2. **Unit 1.2 — Build your first HTML page.** Follow the [Unit 1.2 student route](units/1.2-basic-structure/README.md). Save and open the page as you build it. **Checkpoint:** your page has a title, semantic regions, headings, a paragraph, and a list.
+3. **Finish the module task.** Use [Your First Webpage](https://github.com/STEAM-C3T/digital-proficiency-kit/blob/main/modules/01-introduction-to-the-web/tasks/task-1-first-webpage.md) to extend and check your page. Keep the HTML file and a short reflection.
+
+You need a modern browser and a text editor or approved browser-based editor for Unit 1.2. Developer tools in Unit 1.1 are optional; if they are unavailable, use the workbook's page-structure activity or follow a teacher demonstration.
+
 ---
 
 ## Units
